@@ -12,7 +12,7 @@
    - **Sắp xếp nổi bọt**: Luyện tập cách sắp xếp một mảng bằng cách hoán đổi các cặp phẩn tử sai vị trí liền kề
    - **Sắp xếp chọn (Selection Sort)**: Luyện tập cách sắp xếp một mảng bằng cách lựa chọn phần tử nhỏ nhất và đặt nó vào đúng vị trí.
    - **Sắp xếp chèn (Insertion Sort)**: Hiểu cách sắp xếp một mảng bằng cách chèn phần tử vào vị trí đúng trong một mảng con đã được sắp xếp.
-   - - **Sắp xếp nhanh (Quick Sort)**: Học cách sắp xếp một mảng dữ liệu bằng cách chia mảng thành các phần nhỏ hơn dựa trên phần tử pivot.
+   - **Sắp xếp nhanh (Quick Sort)**: Học cách sắp xếp một mảng dữ liệu bằng cách chia mảng thành các phần nhỏ hơn dựa trên phần tử pivot.
 
 #### Thuật toán vét cạn:
    - **Thuật toán liệt kê (Enumeration Algorithm)**: Luyện tập với việc liệt kê tất cả các phương án có thể và chọn ra phương án tốt nhất.
