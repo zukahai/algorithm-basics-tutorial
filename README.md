@@ -2,6 +2,8 @@
 
 Lịch trình học thuật toán, mỗi buổi dự kiến khoảng 3 tiếng. Những buổi này chủ yếu sẽ dạy lí thuyết hoặc hướng dẫn bài tập, còn việc làm bài tập thì có thể làm ở nhà để tránh mất thời gian. Lịch trình chỉ là ước lượng.
 
+<div align="center">
+
 |Nội dung|Số buổi|Trạng thái|
 |---|---|---|
 |Nền tảng cơ bản|1|✅|
@@ -14,6 +16,7 @@ Lịch trình học thuật toán, mỗi buổi dự kiến khoảng 3 tiếng. 
 |Thuật toán đồ thị|4||
 |Phân tích và tối ưu hóa thuật toán|5||
 
+</div>
 
 ## 1. Nền tảng cơ bản:
    - **Ngôn ngữ lập trình**: Lựa chọn một ngôn ngữ, ví dụ như Python, Java, C++ hoặc Java Script và học cú pháp cơ bản của nó.
