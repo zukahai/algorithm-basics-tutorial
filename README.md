@@ -1,5 +1,20 @@
 # Lộ trình học thuật toán từ cơ bản đến nâng cao
 
+Lịch trình học thuật toán, mỗi buổi dự kiến khoảng 3 tiếng. Những buổi này chủ yếu sẽ dạy lí thuyết hoặc hướng dẫn bài tập, còn việc làm bài tập thì có thể làm ở nhà để tránh mất thời gian. Lịch trình chỉ là ước lượng.
+
+|Nội dung|Số buổi|Trạng thái|
+|---|---|---|
+|Nền tảng cơ bản|1|✅|
+|Một số thuật toán luyện tập tư duy ban đầu|3||
+|- Đệ quy<br>- Các thuật toán tìm kiểm cơ bản<br>- Tìm kiếm nhị phân|2||
+|- Thuật toán sắp xếp cơ bản<br>- Sắp xếp nhanh|2||
+|Thuật toán vét cạn|2||
+|Quy hoạch động|4||
+|Thuật toán tham lam|2||
+|Thuật toán đồ thị|4||
+|Phân tích và tối ưu hóa thuật toán|5||
+
+
 ## 1. Nền tảng cơ bản:
    - **Ngôn ngữ lập trình**: Lựa chọn một ngôn ngữ, ví dụ như Python, Java, C++ hoặc Java Script và học cú pháp cơ bản của nó.
    - **Cấu trúc dữ liệu cơ bản**: Hiểu và luyện tập với các cấu trúc dữ liệu như mảng, danh sách liên kết, stack, queue, và cây.
@@ -18,7 +33,10 @@
    - **Sắp xếp nổi bọt**: Luyện tập cách sắp xếp một mảng bằng cách hoán đổi các cặp phẩn tử sai vị trí liền kề
    - **Sắp xếp chọn (Selection Sort)**: Luyện tập cách sắp xếp một mảng bằng cách lựa chọn phần tử nhỏ nhất và đặt nó vào đúng vị trí.
    - **Sắp xếp chèn (Insertion Sort)**: Hiểu cách sắp xếp một mảng bằng cách chèn phần tử vào vị trí đúng trong một mảng con đã được sắp xếp.
-   - **Sắp xếp nhanh (Quick Sort)**: Học cách sắp xếp một mảng dữ liệu bằng cách chia mảng thành các phần nhỏ hơn dựa trên phần tử pivot.
+   - **Sắp xếp nhanh (Quick Sort)**: Học cách sắp xếp một mảng dữ liệu bằng cách chia mảng thành các phần nhỏ hơn dựa trên phần tử pivot. (Sẽ học sau khi học đệ quy)
+
+#### Thuật toán đệ quy:
+   - **Thuật toán đệ quy**: Học cách giải quyết các bài toán bằng cách chia nhỏ thành các bài toán con nhỏ hơn và giải quyết chúng.
 
 #### Thuật toán vét cạn:
    - **Thuật toán liệt kê (Enumeration Algorithm)**: Luyện tập với việc liệt kê tất cả các phương án có thể và chọn ra phương án tốt nhất.
