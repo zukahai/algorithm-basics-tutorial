@@ -1,1 +1,2 @@
-0.000000001
+'));
+var x = parseInt(propt('Nhập X: '));

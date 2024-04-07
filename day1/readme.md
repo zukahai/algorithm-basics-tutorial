@@ -50,3 +50,11 @@ Từ 1 đến 21 có 5 số chứa chữ số 2 là 2, 12, 20, 21, 22<br><br>
 Ví dụ N = 100, X = 0, output = 12<br>
 Từ 1 đến 100 có 10 số chứa chữ số 0 là 10, 20, 30, 40, 50, 60, 70, 80, 90, 100<br><br>
 Ví dụ N = 5, X = 6, output = 0<br>
+
+## Bài 7
+Cho một mảng số nguyên A gồm N số nguyên (0 <= A[i] <= 10^6). Hãy kiểm tra xem mảng A có số nào chia hết cho 10 hay không? Trả về true / false.
+
+Ví dụ A = [1, 2, 3, 4, 5], output = false<br>
+Ví dụ A = [1, 2, 3, 4, 10], output = true<br>
+Ví dụ A = [10, 20, 30, 40, 50], output = true<br>
+Ví dụ A = [1, 2, 3, 4, 50], output = true<br>
