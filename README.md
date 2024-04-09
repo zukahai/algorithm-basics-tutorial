@@ -1,5 +1,7 @@
 # Lộ trình học thuật toán từ cơ bản đến nâng cao
 
+<p align="center"> <img src="./01_numeric_digit_extraction/images/bg.png" alt="bg" /> </p>
+
 Lịch trình học thuật toán, mỗi buổi dự kiến khoảng 3 tiếng. Những buổi này chủ yếu sẽ dạy lí thuyết hoặc hướng dẫn bài tập, còn việc làm bài tập thì có thể làm ở nhà để tránh mất thời gian. Lịch trình chỉ là ước lượng.
 
 <div align="center">
