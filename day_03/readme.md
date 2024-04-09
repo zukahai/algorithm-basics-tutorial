@@ -56,9 +56,9 @@ Nam có 2 người em rất thích những cây kẹo. Nam có 1 túi kẹo vớ
 Cho mảng **A** gồm **N** số tự nhiên, biểu diễn cho **N** loại kẹo. Mỗi phần tử trong mảng **A** biểu diễn cho số lượng kẹo loại đó. *2 phần tử giống nhau, có nghĩa là cùng 1 loại kẹo.*
 
 **Ví dụ:**
-- Với **A = [1, 1, 2, 2, 3]**, thì kết quả là **output = False**
+- Với **A = [1, 1, 2, 2, 3]**, thì kết quả là **output = False**<br>
 Loại kẹo 1 có 2 viên, loại kẹo 2 có 2 viên, loại kẹo 3 có 1 viên. Không thể chia đều mỗi loại kẹo 3 cho cả 2 người em.<br>
-- Với **A = [1, 2, 2, 1, 1, 1]**, thì kết quả là **output = True**
+- Với **A = [1, 2, 2, 1, 1, 1]**, thì kết quả là **output = True**<br>
 Loại kẹo 1 có 4 viên, loại kẹo 2 có 2 viên. Có thể chia đều mỗi loại kẹo cho cả 2 người em.<br>
 
 ## Bài 7
@@ -88,9 +88,9 @@ Cho 2 số nguyên dương **A** và **B**. Hãy kiểm tra xem **A** và **B** 
 
 **Ví dụ:**
 
-- Với **A = 1223, B = 3211**, thì kết quả là **output = True**
+- Với **A = 1223, B = 3211**, thì kết quả là **output = True**<br>
 Cả 2 số đều được tạo thành từ tập hợp các chữ số {1, 2, 3}.<br>
-- Với **A = 124, B = 1144**, thì kết quả là **output = False**
+- Với **A = 124, B = 1144**, thì kết quả là **output = False**<br>
 **A** được tạo thành từ tập hợp các chữ số {1, 2, 4} còn **B** được tạo thành từ tập hợp các chữ số {1, 4}.<br>
 
 ## Bài 10
