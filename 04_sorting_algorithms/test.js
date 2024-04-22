@@ -1,4 +1,5 @@
-import { chemicalEquationBalancer } from 'chemical-equation-balancer-haizuka';
+const { chemicalEquationBalancer } = require('chemical-equation-balancer-haizuka');
+
 
 const cbe = chemicalEquationBalancer("H2 + O2 = H2O");
 const textResult = cbe.text;
