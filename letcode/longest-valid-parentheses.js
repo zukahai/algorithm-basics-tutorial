@@ -3,17 +3,15 @@
 var longestValidParentheses = function (s) {
     let max = 0;
     let value = 0;
-    let countOpen = 0;
     for (let i = 0; i < s.length; i++) {
-        value += (s[i] == '(') ? 1 : -1;
-        countOpen += (s[i] == ')') ? 1 : 0;
-        if (value >= 0) {
-            if (max < 2 * countOpen)
-                max = 2 * countOpen;
-        } else {
-            countOpen = 0;
+        value = 0;
+        for (let j = i; j  < s.length; j++) {
+            value += (s[j] == '(') ? 1 : -1;
+            if (value < 0)
+                break;
+            if (value == 0 && max < j - i + 1)
+                max = j - i + 1;
         }
-        console.log(countOpen, value);
     }
       
     return max;
