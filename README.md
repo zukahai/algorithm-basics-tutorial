@@ -11,8 +11,8 @@ Lịch trình học thuật toán, mỗi buổi dự kiến khoảng 3 tiếng. 
 |- Nền tảng cơ bản|1|✅|
 |- Một số thuật toán luyện tập tư duy ban đầu|3|✅|
 |- Đệ quy<br>- Thuật toán sắp xếp cơ bản<br>- Sắp xếp nhanh|2|✅|
-|- Các thuật toán tìm kiểm cơ bản<br>- Tìm kiếm nhị phân|2||
-|- Thuật toán vét cạn|2||
+|- Các thuật toán tìm kiểm cơ bản<br>- Tìm kiếm nhị phân|2|✅|
+|- Thuật toán vét cạn|2|✅|
 |- Quy hoạch động|4||
 |- Thuật toán tham lam|2||
 |- Thuật toán đồ thị|4||
