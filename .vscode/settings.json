@@ -9,6 +9,7 @@
         "utility": "cpp",
         "valarray": "cpp",
         "string": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.tcc": "cpp"
     }
 }
