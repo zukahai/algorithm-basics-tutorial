@@ -3,11 +3,7 @@
 using namespace std;
 
 double area(int x1, int y1, int x2, int y2, int x3, int y3) {
-    double a = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-    double b = sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) * (y2 - y3));
-    double c = sqrt((x3 - x1) * (x3 - x1) + (y3 - y1) * (y3 - y1));
-    double p = (a + b + c) / 2;
-    return sqrt(p * (p - a) * (p - b) * (p - c));
+    return abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2.0;
 }
 
 bool checkInTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int xTest, int yTest) {
@@ -15,7 +11,7 @@ bool checkInTriangle(int x1, int y1, int x2, int y2, int x3, int y3, int xTest, 
     double area1 = area(x1, y1, x2, y2, xTest, yTest);
     double area2 = area(x2, y2, x3, y3, xTest, yTest);
     double area3 = area(x3, y3, x1, y1, xTest, yTest);
-    return abs(areaSum - (area1 + area2 + area3)) < 0.00001;
+    return areaSum = (area1 + area2 + area3);
 }
 
 int main() {
