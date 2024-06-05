@@ -13,6 +13,7 @@
         "*.tcc": "cpp",
         "ostream": "cpp",
         "random": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "iosfwd": "cpp"
     }
 }

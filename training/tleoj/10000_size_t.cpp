@@ -10,10 +10,9 @@ int main()
 {
     string s = "abc";
     int n = -1;
-    if (s.size() > n) {
-        cout << "1" << endl;
-    }
-    if (s.size() - n > 0){
-        cout << "2" << endl;
-    }
+    if (s.size() > n)
+        cout << "Hello ";
+
+    if (s.size() - n > 0)
+        cout << "Word!" << endl;
 }
