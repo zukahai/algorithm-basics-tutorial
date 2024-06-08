@@ -1,6 +1,6 @@
 .vscode
 node_modules
 *exe
-tempCodeRunnerFile.cpp
+tempCodeRunnerFile.*
 package-lock.json
 package.json
