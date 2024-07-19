@@ -99,15 +99,45 @@ In ra mảng b.
 
 | Input | Output |
 |-------|--------|
-| 5     | 2 4 6 8 |
+| 5<br>1 2 3 4 5 | 2 4 |
 
 #### Ví dụ 2:
 
 | Input | Output |
 |-------|--------|
-| 3     | 2 4 6 |
+| 3<br>10 21 30 | 10 30 |
 
+#### Ví dụ 3:
 
+| Input | Output |
+|-------|--------|
+| 4<br>1 3 5 7 | |
+
+### Bài 6: Tạo mảng a gồm các ước số của n
+
+Nhập vào một số nguyên n. Hãy tạo mảng a gồm các ước số của n.
+
+In ra mảng a.
+
+### Ví dụ:
+
+#### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| 6     | 1 2 3 6 |
+
+#### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| 8     | 1 2 4 8 |
+
+#### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| 10    | 1 2 5 10 |
 
 
 
