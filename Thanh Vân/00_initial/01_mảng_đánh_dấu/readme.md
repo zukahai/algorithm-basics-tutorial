@@ -54,4 +54,11 @@ Cho mảng a[] gồm N số tự nhiên. và một số nguyên dương S.
 |-------|--------|
 | 4<br>3 3 3 3<br>6 | 6 |
 
-// a[i]: kiểm tra b[s - a[i]]
+## Hướng dẫn
+
+Dùng mảng b để đếm số lần xuất hiện của các số trong mảng a. Sau đó duyệt qua mảng a, với mỗi phần tử a[i] ta kiểm tra xem S - a[i] có tồn tại trong mảng a không. Nếu tồn tại thì cộng vào kết quả số lần xuất hiện của S - a[i] trong mảng a.
+
+## Chú ý
+
+- Cần chú ý trường hợp a[i] = S - a[i] thì cần trừ đi 1 khỏi kết quả vì không thể chọn 2 phần tử giống nhau.
+- Kết quả sẽ bị trùng nhau, ví dụ 2 + 3 và 3 + 2 sẽ được tính là 2 cặp. Nên cần chia kết quả cho 2 để tránh trường hợp trùng lặp.
