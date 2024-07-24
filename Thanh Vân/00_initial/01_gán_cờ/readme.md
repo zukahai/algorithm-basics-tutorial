@@ -53,3 +53,5 @@ Cho mảng a[] gồm N số tự nhiên. và một số nguyên dương S.
 | Input | Output |
 |-------|--------|
 | 4<br>3 3 3 3<br>6 | 6 |
+
+// a[i]: kiểm tra b[s - a[i]]
