@@ -1,4 +1,5 @@
 from math import *
+
 def ham7(n):
     for i in range(2,isqrt(n)+1):
         if n%i==0:
