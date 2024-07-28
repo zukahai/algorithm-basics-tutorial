@@ -20,7 +20,7 @@ Nhập vào mảng số nguyên a[] gồm n phần tử và một số nguyên x
 
 | Input | Output |
 |-------|--------|
-| 5<br> 1 2 3 4 5<br> 3 | 2 |
+| 5<br> 1 2 3 4 3<br> 3 | 2 |
 
 #### Ví dụ 2
 
@@ -48,7 +48,7 @@ Nhập vào mảng số nguyên a[] gồm n phần tử và một số nguyên x
 
 | Input | Output |
 |-------|--------|
-| 5<br> 1 2 3 4 5<br> 3 | 2 |
+| 5<br> 1 2 3 4 3<br> 3 | 4 |
 
 #### Ví dụ 2
 
