@@ -147,7 +147,7 @@ tồn tại xuất ra -1.
 |-------|--------|
 | 5<br> 1 2 3 4 5<br> 6 | -1 |
 
-## Bài 5: Tìm kiếm nhị phân
+## Bài 6: Tìm kiếm nhị phân
 
 Nhập vào mảng số nguyên a[] gồm n phần tử đã sắp xếp tăng dần và một số nguyên x. Hãy viết chương trình kiểm tra xem x có tồn tại trong mảng a[] hay không. Nếu có in vị trí cuối cùng
 
