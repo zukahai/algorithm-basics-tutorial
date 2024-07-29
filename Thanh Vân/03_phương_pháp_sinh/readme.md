@@ -1,6 +1,6 @@
 # Phương pháp sinh
 
-## Bài 1: 
+## Bài 1: Số chia hết cho K
 
 Nhập và số nguyên dương n và k.<br>
 Tìm một số x nhỏ nhất lớn hoặc bằng n sao cho x chia hết cho k.
@@ -27,7 +27,7 @@ Tìm một số x nhỏ nhất lớn hoặc bằng n sao cho x chia hết cho k.
 |-------|--------|
 | 10 3  | 12     |
 
-## Bài 2:
+## Bài 2: Số siêu đối xứng
 
 Nhập vào số nguyên dương n. In ra các số siêu đối xứng nhỏ hơn hoặc bằng n.
 
