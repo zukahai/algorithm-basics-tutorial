@@ -95,6 +95,41 @@ Nhập vào số nguyên dương n. In ra các số chính phương nhỏ hơn h
 |-------|--------|
 | 1000  | 1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 529 576 625 676 729 784 841 900 961 |
 
+## Bài 4: Số chia hết cho K
+
+Nhập vào số nguyên dương N và K. In ra các số chia hết cho K trong dãy số từ 1 đến N.
+
+**Input:**
+
+- Một dòng chứa 2 số nguyên dương N và K (1 ≤ N, K ≤ 10^8).
+
+**Output:**
+
+- Các số chia hết cho K trong dãy số từ 1 đến N theo thứ tự tăng dần.
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 10 2  | 2 4 6 8 10 |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 10 3  | 3 6 9 |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 100 5 | 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 |
+
+
+
+
 
 
 
