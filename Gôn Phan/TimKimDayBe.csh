@@ -10,8 +10,9 @@ set report_config_data = "report_config_data"
 set comman = "command "
 set c = 0 #dat co 
 set data = ""
-set file_name = "gon_lu"
-set file_index = 1
+
+# Tạo file_name bằng thời gian hiện tại
+set file_name = `date +%Y%m%d%H%M%S`.log
 
 # Lặp để đọc từng dòng đến cuối tệp
 while (1)
@@ -34,13 +35,10 @@ while (1)
             if ("$data" != "") then
                 echo "luu"
                 echo "$data"
-                
-                set c = 0  # Đặt c về 0 để dừng cộng dồn
-                # Lưu $data vào tệp file_name_file_index.txt
-                echo "$data" >> ${file_name}_${file_index}.txt
+                echo "$data" > $file_name
                 set data = ""  # Xóa dữ liệu đã lưu
-                @ file_index++
-                
+                set c = 0  # Đặt c về 0 để dừng cộng dồn
+
             endif
         endif
 
@@ -50,7 +48,7 @@ while (1)
         endif
         
 	    if ($c == 1) then
-		    set data = "$data$line\n"  # Cộng dồn dữ liệu
+		    set data = `echo "$data\n$line"`
 		endif
     endif
     @ n++
