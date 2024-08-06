@@ -2,7 +2,7 @@
 
 **Số giảm dần** là số mà các chữ số trong số đó giảm dần từ trái sang phải. Ví dụ: 321, 97531, 21, 543210 là số giảm dần.
 
-Tìm số giảm dần nhỏ nhất lớn hơn hoặc bằng số nguyên dương `n` cho trước.
+Tìm số giảm dần nhỏ nhất lớn hơn hoặc bằng số nguyên dương `n` cho trước. Nếu không tồn tại số giảm dần như vậy, hãy đưa ra `-1`.
 
 **Input**:
 
@@ -37,4 +37,10 @@ Tìm số giảm dần nhỏ nhất lớn hơn hoặc bằng số nguyên dươn
 | Input | Output |
 |-------|--------|
 | 999     | 3210     |
+
+#### Ví dụ 5:
+
+| Input | Output |
+|-------|--------|
+| 1234332342432     | -1     |
 
