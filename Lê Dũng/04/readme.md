@@ -30,5 +30,11 @@ Tìm số giảm dần nhỏ nhất lớn hơn hoặc bằng số nguyên dươn
 
 | Input | Output |
 |-------|--------|
+| 65322     | 65410     |
+
+#### Ví dụ 4:
+
+| Input | Output |
+|-------|--------|
 | 999     | 3210     |
 
