@@ -64,3 +64,37 @@ n = 65322
 765
 754
 750
+
+# Bài 2: Số sinh đôi
+
+**Số sinh đôi** là số mà các chữ số liên tiếp trong số đó chỉ chênh lệch nhau đúng 1 đơn vị. Ví dụ: 123, 543210, 3434356 là số sinh đôi.
+
+Tìm số sinh đôi lớn nhất nhỏ hơn hoặc bằng số nguyên dương `n` cho trước.
+
+**Input**:
+
+- Một số nguyên `n` (1 ≤ `n` ≤ 10^16).
+
+**Output**:
+
+- Đưa ra số sinh đôi lớn nhất nhỏ hơn hoặc bằng `n`.
+
+### Ví dụ
+
+#### Ví dụ 1:
+
+| Input | Output |
+|-------|--------|
+| 33     | 34     |
+
+#### Ví dụ 2:
+
+| Input | Output |
+|-------|--------|
+| 436     | 454     |
+
+#### Ví dụ 3:
+
+| Input | Output |
+|-------|--------|
+| 566574     | 567654     |
