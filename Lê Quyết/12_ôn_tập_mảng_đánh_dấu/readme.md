@@ -154,6 +154,8 @@ Hãy tìm ra các học đổi tuyển tin nhưng không nằm trong đội tuy�
 
 # Bài 5: Điểm danh hộ
 
+Trường VKU là trường học nổi tiếng miền Trung Tây Nguyên. Với kỹ thuật điểm danh thông minh, trường VKU đã giảm thiểu được thời gian điểm danh.
+
 Trường VKU có n học sinh. Mỗi học sinh sẽ mang một giá trị là mã sinh viên từ 1 đến n.
 
 Có một số sinh viên không đi học và đã nhờ bạn điểm danh hộ. Những sinh viên điểm danh hộ cho bạn sẽ bị lưu mã sinh viên thêm một lần nữa. Nhưng sinh viên này sẽ bị kỉ luật.
