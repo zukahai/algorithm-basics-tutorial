@@ -164,7 +164,7 @@ Hãy in ra màn hình các sinh viên không đi học và những sinh viên b�
 
 - Dòng đầu tiên chứa 2 số nguyên n (1 ≤ n ≤ 10^5) là số học sinh trong lớp
 
-- Dòng thứ hai chứa m số nguyên a1, a2, ..., am (1 ≤ ai ≤ n) - mã sinh viên của học sinh
+- Dòng thứ hai chứa m số nguyên a1, a2, ..., an (1 ≤ ai ≤ n) - mã sinh viên của học sinh
 
 **Đầu ra**
 
