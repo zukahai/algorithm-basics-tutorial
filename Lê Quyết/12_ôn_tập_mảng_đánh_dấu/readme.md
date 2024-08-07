@@ -83,7 +83,7 @@ Hãy tìm ra các học đổi tuyển toán nhưng không nằm trong đội tu
 
 **Đầu ra**
 
-- In ra màn hình các mã sinh viên của học sinh vừa nằm trong đội tuyển tin vừa nằm trong đội tuyển toán. Nếu không có học sinh nào thì in ra "-1".
+- In ra màn hình các mã sinh viên của học sinh vừa nằm trong đội tuyển toán nhưng không nằm trong đội tuyển tin. Nếu không có học sinh nào thì in ra "-1".
 
 ## Ví dụ 1
 
