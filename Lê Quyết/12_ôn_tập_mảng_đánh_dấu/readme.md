@@ -152,5 +152,47 @@ Hãy tìm ra các học đổi tuyển tin nhưng không nằm trong đội tuy�
 | 5 5<br> 1 2 3 4 5<br> 1 2 3 4 5 | -1 |
 
 
+# Bài 5: Điểm danh hộ
+
+Trường VKU có n học sinh. Mỗi học sinh sẽ mang một giá trị là mã sinh viên từ 1 đến n.
+
+Có một số sinh viên không đi học và đã nhờ bạn điểm danh hộ. Những sinh viên điểm danh hộ cho bạn sẽ bị lưu mã sinh viên thêm một lần nữa. Nhưng sinh viên này sẽ bị kỉ luật.
+
+Hãy in ra màn hình các sinh viên không đi học và những sinh viên bị kỉ luật.
+
+**Đầu vào**
+
+- Dòng đầu tiên chứa 2 số nguyên n (1 ≤ n ≤ 10^5) là số học sinh trong lớp
+
+- Dòng thứ hai chứa m số nguyên a1, a2, ..., am (1 ≤ ai ≤ n) - mã sinh viên của học sinh
+
+**Đầu ra**
+
+- Dòng đầu tiên in ra danh sách các sinh viên không đi học
+- Dòng thứ hai in ra danh sách các sinh viên bị kỉ luật
+
+Nếu không có sinh viên nào nghỉ học thì in ra -1
+
+## Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 5 <br> 1 2 3 4 3 | 5 <br> 3 |
+
+## Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 5 <br> 1 1 3 2 2| 4 5 <br> 1 2 |
+
+## Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 5 <br> 1 2 3 4 5 | -1 |
+
+
+
+
 
 
