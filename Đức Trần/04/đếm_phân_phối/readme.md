@@ -251,3 +251,41 @@ Nếu không có sinh viên nào nghỉ học thì in ra -1
 |-------|--------|
 | 5 <br> 1 2 3 4 5 | -1 |
 
+# Bài 8: Tổng bằng S
+
+Cho một mảng số nguyên `a` gồm `n` phần tử. Đếm số cặp phần tử trong mảng có tổng bằng S.
+
+**Input:**
+
+- Dòng đầu tiên chứa số nguyên `n` ($1 \le n \le 10^5$),
+
+- Dòng thứ hai chứa `n` số nguyên $a_1, a_2, \dots, a_n$ ($-10^6 \le a_i \le 10^6$).
+
+- Dòng thứ ba chứa số nguyên `S` ($-10^6 \le S \le 10^6$).
+
+**Output:**
+
+- In ra số cặp phần tử trong mảng có tổng bằng S.
+
+**Ví dụ:**
+
+**Ví dụ 1:**
+
+| Input | Output |
+|-------|--------|
+| 5 <br> 1 2 3 4 5 <br> 5 | 2 |
+
+**Ví dụ 2:**
+
+| Input | Output |
+|-------|--------|
+| 5 <br> 1 1 1 1 1 <br> 2 | 10 |
+
+**Ví dụ 3:**
+
+| Input | Output |
+|-------|--------|
+| 5 <br> 1 2 3 4 5 <br> 10 | 0 |
+
+
+
