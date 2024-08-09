@@ -34,11 +34,6 @@ int main() {
         s.push(i);
     }
 
-    for (int i = 0; i < n; i++) {
-        cout << r[i] << " ";
-    }
-    cout << endl;
-
     long long count = 0;
     for (int i = 0; i < n; i++) {
         count += (i - l[i] - 1) + (r[i] - i - 1);
