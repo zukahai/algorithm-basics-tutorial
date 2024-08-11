@@ -47,9 +47,7 @@ string sum(string s, string p) {
     return res;
 }
 
-int main() {
-    string s;
-    getline(cin, s);
+string firstPalindrome(string s) {
     int n = s.length();
     string p = s.substr(0, n / 2);
     int type = 1;
@@ -60,8 +58,14 @@ int main() {
 
     string palindrome = generatePalindrome(p, type);
     if (isCompare(palindrome, s)) {
-        cout << palindrome;
+        return palindrome;
     } else {
-        cout << generatePalindrome(sum(p, "1"), type);
+        return generatePalindrome(sum(p, "1"), type);
     }
+}
+
+int main() {
+    string s;
+    getline(cin, s);
+    cout << firstPalindrome(s);
 }
