@@ -1,5 +1,5 @@
 # Đổi thư mục làm việc tới thư mục chứa repo Git của bạn
-Set-Location -Path "G:\algorithm-mastery-in-30-days\HaiZuka"
+Set-Location -Path "G:\algorithm-mastery-in-30-days"
 
 # Lấy danh sách tất cả các tệp tin chưa được theo dõi từ git status
 $untracked_files = git ls-files --others --exclude-standard
