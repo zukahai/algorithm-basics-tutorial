@@ -1,4 +1,5 @@
 
+from math import ceil
 
 def timK(t2, so):
     if (t2 % so == 0):
@@ -19,6 +20,8 @@ print("T2 = ", t2)
 print("So = ", so)
 
 k = timK(t2, so)
+print("K nếu tự viết = ", k)
+print("K nếu dùng ceil = ", ceil(t2 / so))
 x = 10**(so - 1) + k - 1
 tx = t2 - (k - 1) *so
 
