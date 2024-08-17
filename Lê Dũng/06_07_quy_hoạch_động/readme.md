@@ -193,4 +193,63 @@ Ngược lại:
 ```
     
 
+## Bài 6: Dãy con liên tiếp có tổng lớn nhất
+
+Cho một dãy số nguyên a1, a2, ..., an.<br>
+
+Xác định dãy con có tổng lớn nhất.
+
+**Input**<br>
+
+Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10^6).<br>
+
+Dòng thứ hai chứa n số nguyên a1, a2, ..., an (-10^9 ≤ ai ≤ 10^9).<br>
+
+**Output**<br>
+
+Dãy con có tổng lớn nhất.<br>
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 6<br> 1 -3 4 -1 7 -5 | 4 -1 7 |
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 5<br> 6 -4 7 2 -4 | 6 -4 7 2 |
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 5<br> -1 -2 -3 -4 -5 | -1 |
+
+f[k]: tổng lớn nhất của dãy con kết thúc tại chỉ số k
+
+```
+6
+1 -3 4 -1 7 -5
+
+f[0] = 1
+f[1] = -2
+f[2] = 4
+f[3] = 3
+f[4] = 10
+f[5] = 5
+
+f[0] = a[0]
+k từ 1 trở đi:
+
+Nếu f[k - 1] > 0:
+    f[k] = f[k - 1] + a[k]
+Ngược lại:
+    f[k] = a[k]
+
+```
+
 
