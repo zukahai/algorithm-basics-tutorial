@@ -53,3 +53,36 @@ Số tiền lương người lao động nhận được ngày thứ n
 | Input | Output |
 |-------|--------|
 | 8     | 11      |
+
+## Bài 3: Doanh số nhà hàng
+
+Một nhà hàng ghi chép doanh số bán hàng hàng ngày. Doanh số bán hàng của ngày đầu tiên là 30 đồng.
+
+Các ngày tiếp theo, doanh số bán hàng của ngày hôm trước tăng thêm 10%.
+
+Ví dụ: 30, 33, 36.3, 39.93, 43.923, 48.3153, ...
+
+
+Cho số nguyên dương n. Hãy tính doanh số bán hàng của ngày thứ n.
+
+**Input:**
+
+Số nguyên dương n (1 ≤ n ≤ 10^3)
+
+**Output:**
+
+Doanh số bán hàng của ngày thứ n
+
+**Ví dụ:**
+
+**Ví dụ 1:**
+
+| Input | Output |
+|-------|--------|
+| 3     | 36.3   |
+
+**Ví dụ 2:**
+
+| Input | Output |
+|-------|--------|
+| 7     | 48.3153| 
