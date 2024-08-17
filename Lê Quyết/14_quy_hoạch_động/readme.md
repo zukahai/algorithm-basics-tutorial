@@ -106,7 +106,7 @@ Cho số nguyên dương n. Hãy tính số tiền lương người lao động 
 
 **Input:**
 
-Số nguyên dương n (1 ≤ n ≤ 30)
+Số nguyên dương n (1 ≤ n ≤ 10^6)
 
 **Output:**
 

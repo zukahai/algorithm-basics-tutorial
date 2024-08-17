@@ -28,7 +28,7 @@ Ngày đầu tiên, người lao động được trả 1 đồng
 
 Các ngày tiếp theo, người lao động được trả số tiền bằng tiền lương của ngày trước đó cộng thêm số tiền được thưởng. Nếu ngày đang là ngày chẵn, người lao động sẽ được thưởng 1 đồng, ngược lại sẽ được thưởng 2 đồng.
 
-Ví dụ các ngày tiếp theo: 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, 19, 20, 22, 23, 25, 26, 28, 29, 31, ...
+Ví dụ các ngày từ 1 đến N: 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, 19, 20, 22, 23, 25, 26, 28, 29, 31, ...
 
 Cho số nguyên dương n. Hãy tính số tiền lương người lao động nhận được ngày thứ n.
 
