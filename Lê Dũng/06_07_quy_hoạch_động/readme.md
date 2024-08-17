@@ -109,9 +109,9 @@ Dãy con liên tiếp tăng dài nhất.<br>
 
 | Input | Output |
 |-------|--------|
-| 5<br> 6 4 7 4 50 | 4 50 |
+| 5<br> 6 4 7 4 20 | 4 7 |
 
-**Giải thích:** Dãy con tăng dài nhất là 4 50
+**Giải thích:** Dãy con tăng dài nhất là 4 7
 
 #### Ví dụ 2
 
@@ -126,3 +126,44 @@ Dãy con liên tiếp tăng dài nhất.<br>
 | Input | Output |
 |-------|--------|
 | 8<br> 1 3 2 1 3 6 7 2 | 1 3 6 7 |
+
+## Bài 5: Dãy con chẵn giảm dần liên tiếp dài nhất
+
+Cho một dãy số nguyên a1, a2, ..., an.<br>
+
+Xác định dãy con chẵn giảm dần liên tiếp dài nhất. Nếu không có dãy con chẵn giảm dần nào, in ra -1.
+
+**Input**<br>
+
+Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10^6).<br>
+
+Dòng thứ hai chứa n số nguyên a1, a2, ..., an (0 ≤ |ai| ≤ 10^9).<br>
+
+**Output**<br>
+
+Dãy con chẵn giảm dần liên tiếp dài nhất.<br>
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 6<br> 1 8 6 2 1 6| 8 6 2 |
+
+**Giải thích:** Dãy con chẵn giảm dần liên tiếp dài nhất là 8 6 2
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 5<br> 8 6 4 2 1 | 8 6 4 2 |
+
+**Giải thích:** Dãy con chẵn giảm dần liên tiếp dài nhất là 8 6 4 2
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 5<br> 1 3 5 7 9 | -1 |
+
