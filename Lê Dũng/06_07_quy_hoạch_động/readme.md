@@ -87,7 +87,7 @@ Doanh số bán hàng của ngày thứ n
 |-------|--------|
 | 6     | 48.3153| 
 
-## Bài 4: Dãy con tăng dài nhất
+## Bài 4: Dãy con liên tiếp tăng dài nhất
 
 Cho một dãy số nguyên a1, a2, ..., an.<br>
 
