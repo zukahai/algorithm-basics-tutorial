@@ -167,3 +167,30 @@ Dãy con chẵn giảm dần liên tiếp dài nhất.<br>
 |-------|--------|
 | 5<br> 1 3 5 7 9 | -1 |
 
+----------------------------
+6
+1 8 10 2 1 6
+
+f[k]: độ dài dãy con chẵn giảm dần liên tiếp dài nhất kết thúc tại chỉ số k
+
+f[0] = 0
+f[1] = 1
+f[2] = 2
+f[3] = 3
+f[4] = 0
+f[5] = 1
+
+```
+f[0] = (a[0] % 2 == 0) ? 1 : 0
+
+Nếu a[k] % 2 != 0 :
+    f[k] = 0
+Ngược lại:
+    Nếu a[k] < a[k - 1]:
+        f[k] = f[k - 1] + 1
+    Ngược lại:
+        f[k] = 1
+```
+    
+
+
