@@ -95,7 +95,7 @@ Xác định dãy con liên tiếp tăng dài nhất.
 
 **Input**<br>
 
-Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10^5).<br>
+Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10^6).<br>
 
 Dòng thứ hai chứa n số nguyên a1, a2, ..., an (0 ≤ |ai| ≤ 10^9).<br>
 
