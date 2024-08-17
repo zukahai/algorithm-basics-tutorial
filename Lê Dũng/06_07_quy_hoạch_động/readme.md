@@ -85,4 +85,44 @@ Doanh số bán hàng của ngày thứ n
 
 | Input | Output |
 |-------|--------|
-| 7     | 48.3153| 
+| 6     | 48.3153| 
+
+## Bài 4: Dãy con tăng dài nhất
+
+Cho một dãy số nguyên a1, a2, ..., an.<br>
+
+Xác định dãy con liên tiếp tăng dài nhất.
+
+**Input**<br>
+
+Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10^5).<br>
+
+Dòng thứ hai chứa n số nguyên a1, a2, ..., an (0 ≤ |ai| ≤ 10^9).<br>
+
+**Output**<br>
+
+Dãy con liên tiếp tăng dài nhất.<br>
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 5<br> 6 4 7 4 50 | 4 50 |
+
+**Giải thích:** Dãy con tăng dài nhất là 4 50
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 5<br> 7 2 8 9 5 | 2 8 9 |
+
+**Giải thích:** Dãy con tăng dài nhất là 2 8 9
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 8<br> 1 3 2 1 3 6 7 2 | 1 3 6 7 |
