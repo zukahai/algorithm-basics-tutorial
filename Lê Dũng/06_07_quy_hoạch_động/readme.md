@@ -254,8 +254,7 @@ Ngược lại:
 
 ## Bài 7: Dãy số cùng tính chất chẵn lẻ
 
-Cho một dãy số nguyên a1, a2, ..., an.<br>.
-
+Cho một dãy số nguyên a1, a2, ..., an.<br>
 Xác định dãy con liên tiếp dài nhất sao cho dãy con đó toàn số chẵn hoặc toàn số lẻ. Nếu có nhiều dãy con thỏa mãn, in ra dãy con có chỉ số bắt đầu nhỏ nhất.
 
 **Input**<br>

@@ -40,7 +40,9 @@ int main() {
         csMax--;
     }
 
-    for (int i = res.size() - 1; i >= 0; i--) {
-        cout << res[i] << " ";
+    reverse(res.begin(), res.end());
+
+    for (auto x : res) {
+        cout << x << " ";
     }
 }
