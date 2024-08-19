@@ -32,3 +32,43 @@ Dãy con liên tiếp dài nhất sao cho dãy con đó toàn số chẵn hoặc
 | Input | Output |
 |-------|--------|
 | 5<br> 1 2 4 3 5 | 2 4|
+
+
+## Bài 2: Dãy số nguyên tố
+
+Cho một dãy số nguyên a1, a2, ..., an.<br>
+
+Xác định dãy con liên tiếp dài nhất sao cho dãy con đó toàn số nguyên tố. Nếu không có dãy con nào thì in ra -1.
+
+**Input**<br>
+
+Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10^6).<br>
+
+Dòng thứ hai chứa n số nguyên a1, a2, ..., an (-10^9 ≤ ai ≤ 10^9).<br>
+
+**Output**<br>
+
+Dãy con liên tiếp dài nhất sao cho dãy con đó toàn số nguyên tố.<br>
+
+### Ví dụ
+
+#### Ví dụ 1
+
+| Input | Output |
+|-------|--------|
+| 6<br> 1 2 3 7 6 11 | 2 3 7|
+
+#### Ví dụ 2
+
+| Input | Output |
+|-------|--------|
+| 8<br> 2 4 4 4 5 5 5 5| 5 5 5 5|
+
+#### Ví dụ 3
+
+| Input | Output |
+|-------|--------|
+| 5<br> 1 6 4 9 50 | -1|
+
+
+
