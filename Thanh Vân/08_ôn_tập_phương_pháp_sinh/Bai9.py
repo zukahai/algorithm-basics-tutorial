@@ -7,30 +7,39 @@ def taoSoDoiXung(n, type):
 
 
 def danhSachSoDoiXungNhiPhan(n):
-    res = ["0"]
-    index = 1
+    res = []
+    x = 0
     while True:
-        nhiPhan = bin(index)[2:]
-        x = taoSoDoiXung(nhiPhan, 1)
-        if int (x, 2) <= n:
-            res.append(str(x))
-        x = taoSoDoiXung(nhiPhan, 2)
-        if int (x, 2) <= n:
-            res.append(str(x))
+        s = bin(x)[2:]
+        k = taoSoDoiXung(s, 1) # tạo số đối xứng từ chuỗi nhị phân s
+        if int(str(k), 2) <= n: # chuyển k về hệ 10 để so sánh
+            res.append(int(str(k), 2))
+        k = taoSoDoiXung(s, 2)
+        if int(str(k), 2) <= n:
+            res.append(int(str(k), 2))
         else:
             break
-        index += 1
-    res = list(map(lambda x: int(x, 2), res))
+        x += 1
     res.sort()
     return res
 
 m = 5
-n = 10
+n = 100
 l = danhSachSoDoiXungNhiPhan(n)
+l = list(set(l))
+l.sort()
 
-for x in l:
-    if x >= m:
-        print(str(x), str(bin(x))[2:])
+for i in range(len(l)):
+    if l[i] >= m:
+        print(l[i], ":", str(bin(l[i]))[2:], end='')
+        if i < len(l) - 1:
+            print("; ", end='')
+        else:
+            print(".")
+    
+
+# 0 -> 00
+# 0 -> 0
 
             
 
