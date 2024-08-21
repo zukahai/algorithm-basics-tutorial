@@ -14,7 +14,7 @@ int main() {
         }
     }
 
-    float h = sqrt(n);
+    double h = sqrt(n);
     if ((int)h == h)
         dem--;
 
