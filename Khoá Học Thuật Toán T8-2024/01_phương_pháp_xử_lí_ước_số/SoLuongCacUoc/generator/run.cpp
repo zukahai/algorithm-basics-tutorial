@@ -3,7 +3,7 @@
 
 int main()
 {
-    srand(24022007);
+    srand(time(NULL));
     int start = 1;
     int testnum = 50;
     string prob_name = "SoLuongCacUoc";
