@@ -12,9 +12,13 @@ for (int i = 1; i <= n; i++) {
 }
 ```
 
+**Đánh giá độ phức tạp của cách 1: O(n)**
+
 ### Cách 2: Duyệt qua tất cả các số từ 1 đến sqrt(n)
 
 Nhập thấy rằng các ước số của `n` luôn đi theo cặp, nếu `x` là ước số của `n` thì `n/x` cũng là ước số của `n`. Vì vậy chúng ta chỉ cần duyệt qua các số từ 1 đến căn bậc 2 của `n` là đủ.
+
+**Đánh giá độ phức tạp của cách 2: O(sqrt(n))**
 
 ```cpp
 
@@ -27,6 +31,34 @@ for (int i = 1; i <= sqrt(n); i++) {
 ```
 
 Ở cách 2 chúng ta chỉ cần duyệt qua các số từ 1 đến căn bậc 2 của n, vì nếu n có một ước số i thì n/i cũng là ước số của n. Lưu ý nếu n là số chính phương thì nên kiểm tra xem i có bằng n/i không, hoặc cứ làm bình thường xong xử lí trường hợp nếu n là số chính phương sau.
+
+### Ví dụ: Đếm số ước số của một số nguyên dương n
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+int main() {
+    long long n;
+    cin >> n;
+    int dem = 0;
+    for (int i = 1; i <= sqrt(n); i++) {
+        if (n % i == 0) {
+            dem += 2; // i và n/i đều là ước số của n
+        }
+    }
+    
+    double k = sqrt(n);
+    if (k == (int)k) { // nếu n là số chính phương thì giảm đi 1
+        dem--;
+    }
+
+    cout << dem;
+}
+
+```
 
 ## Kiểm tra một số có phải là số chính phương không
 
