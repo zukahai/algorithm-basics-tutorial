@@ -85,16 +85,55 @@ b[4] = 3
 b[5] = 4
 b[6] = 2
 
+t[1] = -1
+t[2] = 1
+t[3] = 2
+t[4] = 2
+t[5] = 4
+t[6] = 1
+
+max = 4
+indexEnd = 1 // indexEnd = t[indexEnd]
+res: a[5], a[4], a[2], a[1]
+
+t[k]: Vị trí phần tử trước phần tử k.
+
 for (int i = 1; i <= N; i++) {
     b[i] = 1;
+    t[i] = -1;
     for (int j = 1; j < i; j++) {
         if (a[j] < a[i]) {
             if (b[i] < b[j] + 1) {
                 b[i] = b[j] + 1;
+                t[i] = j;
             }
         }
     }
 }
+
+int max = b[0];
+int indexEnd = 0;
+
+for (int i = 1; i <= N; i++) {
+    if (max < b[i]) {
+        max = b[i];
+        indexEnd = i;
+    }
+}
+
+vector<int> res;
+
+while (indexEnd != -1) {
+    res.push_back(a[indexEnd]);
+    indexEnd = t[indexEnd];
+}
+
+reverse(res.begin(), res.end());
+
+for (int i = 0; i < res.size(); i++) {
+    cout << res[i] << " ";
+}
+
 
 ```
 
