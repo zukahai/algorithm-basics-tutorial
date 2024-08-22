@@ -20,7 +20,7 @@ Một con thỏ đang ở vị trí 0. Tại mỗi bước, nó có thể nhảy
 
 **Giải thích:**
 
-Cách nhảy:<br>Các vị trị: 0 -> 2 -> 3 -> 5 -> 6. Tổng số lớn nhất: 2 + 3 -1 + 8 + 1 = 13.
+Cách nhảy:<br>Các vị trị: 0 → 2 → 3 → 5 → 6. Tổng số lớn nhất: 2 + 3 -1 + 8 + 1 = 13.
 
 
 
