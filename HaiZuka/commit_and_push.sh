@@ -1,5 +1,5 @@
 # Đổi thư mục làm việc tới thư mục chứa repo Git của bạn
-Set-Location -Path "G:\algorithm-mastery-in-30-days/Khoá Học Thuật Toán T8-2024/01_phương_pháp_xử_lí_ước_số/"
+Set-Location -Path "G:\algorithm-mastery-in-30-days/Khoá Học Thuật Toán T8-2024/02_xử_lí_số_lớn/"
 
 # Lấy danh sách tất cả các tệp tin chưa được theo dõi từ git status
 $untracked_files = git ls-files --others --exclude-standard
