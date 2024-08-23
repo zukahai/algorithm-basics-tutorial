@@ -14,6 +14,11 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 
 - Kiến thức quan trọng: [Kiến thức buổi 1](./01_phương_pháp_xử_lí_ước_số/readme.md)
 - Code của mình trong buổi học: [Code buổi 1](./01_phương_pháp_xử_lí_ước_số/test/)
-- Bài tập trên OJ: [Bài tập buổi 1](http://oj.duong3982.com/contest/thuattoannangcao_01)
+- Bài tập trên OJ: [01. Phương pháp duyệt ước số](http://oj.duong3982.com/contest/thuattoannangcao_01)
 
+### Buổi 2: Phương pháp xử lí số lớn
+
+- Kiến thức quan trọng: [Kiến thức buổi 2](./02_xử_lí_số_lớn/readme.md)
+- Code của mình trong buổi học: [Code buổi 2](./02_xử_lí_số_lớn/test/)
+- Bài tập trên OJ: [02. Xử lí số lớn](http://oj.duong3982.com/contest/thuattoannangcao_02)
 
