@@ -8,8 +8,8 @@ void gen(int iTest, int testnum, string target_file)
     
     // Cout ra những input cần thiết
 
-    int n = (iTest * 20) + random(1, iTest * 20);
-    vector<long long> a = random_vector(n, 1ll * iTest * 20 + iTest);
+    int n = (iTest * 50) + random(1, iTest * 50);
+    vector<long long> a = random_vector(n, 1ll * iTest * 50 + iTest);
     cout << n << endl;
     print_vector(a, cout);
     cout << endl;
@@ -19,7 +19,7 @@ void gen(int iTest, int testnum, string target_file)
     int e = s + l - 1;
 
     int s2 = random(0, n - 1);
-    int l2 = random(0, n - 2);
+    int l2 = random(0, n - s2);
     int e2 = 2 + l - 1;
 
     int s3 = random(0, n - 1);

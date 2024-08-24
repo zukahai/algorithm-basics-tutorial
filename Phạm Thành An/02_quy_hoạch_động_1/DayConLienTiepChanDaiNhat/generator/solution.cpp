@@ -15,7 +15,7 @@ int main()
     }
 
     vector<long long> dp(n, 0);
-    dp[0] = 1 - (a[0] % 2);
+    dp[0] = (a[0] % 2 == 0) ? 1 : 0;
 
     for (int i = 1; i < n; i++) {
         if (a[i] % 2 == 0) {

@@ -4,6 +4,7 @@ using namespace std;
 #define m 1000000007
 
 long long solve(long long a, long long b) {
+    a %= m;
     if (b == 0) return 1;
     long long res = 1;
 
