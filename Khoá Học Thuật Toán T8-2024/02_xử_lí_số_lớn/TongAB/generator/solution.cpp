@@ -1,7 +1,31 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 #define m 1000000007
+
+long long solve(long long a, long long b)
+{
+    a %= m;
+    if (b == 0)
+        return 1;
+    long long res = 1;
+
+    while (b > 0)
+    {
+        if (b % 2 == 1)
+        {
+            res = (res * a) % m;
+            b--;
+        }
+        else
+        {
+            a = (a * a) % m;
+            b /= 2;
+        }
+    }
+
+    return res;
+}
 
 int main()
 {
@@ -14,17 +38,16 @@ int main()
     {
         long long a, b;
         cin >> a >> b;
-        if (a > b) {
+        if (a > b)
+        {
             cout << 0 << endl;
-        } else {
+        }
+        else
+        {
             long long length = b - a + 1;
             long long sum = a + b;
-            if (length % 2 == 0) {
-                length /= 2;
-            } else {
-                sum /= 2;
-            }
-            cout << (length % m) * (sum % m) % m << endl;
+            // i
+            cout << (((length % m) * (sum % m)) % m * (solve(2, m - 2) % m)) % m << endl;
         }
     }
 }
