@@ -26,3 +26,8 @@ Nhân cả 2 vế với b<sup>-1</sup>
 b<sup>m-2</sup> % m = b<sup>-1</sup> % m
 
 => (a / b) % m = (a % m) * (b<sup>m-2</sup> % m) % m
+
+Tổng quan.
+
+(1 / b) % m = b<sup>-1</sup> % m
+b<sup>-1</sup> = b<sup>m-2</sup> % m
