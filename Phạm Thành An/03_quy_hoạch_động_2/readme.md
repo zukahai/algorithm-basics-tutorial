@@ -60,7 +60,7 @@ ngược lại
 
 ```
 
-# Bài 4: Con thỏ
+# Bài 2: Con thỏ
 
 Một con thỏ đang ở vị trí 0. Tại mỗi bước, nó có thể nhảy sang phải 1, 2 đơn vị. Tại mỗi vị trí sẽ có một số nguyên mà con thỏ sẽ nhặt lên. Hãy tìm cách nhảy để con thỏ nhặt được tổng số lớn nhất. In ra tổng số lớn nhất mà con thỏ có thể nhặt được khi nhảy đến vị trí cuối cùng.
 
@@ -85,3 +85,23 @@ Một con thỏ đang ở vị trí 0. Tại mỗi bước, nó có thể nhảy
 **Giải thích:**
 
 Cách nhảy:<br>Các vị trí: 0 → 2 → 3 → 5 → 6. Tổng số lớn nhất: 2 + 3 -1 + 8 + 1 = 13.
+
+# Bài 3: Dãy con tăng dài nhất (Không nhất thiết phải liên tiếp)
+
+Cho dãy số a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>N</sub>. Hãy tìm dãy con tăng dài nhất của dãy số đó (các phần tử không nhất thiết phải liên tiếp nhau).
+
+**Đầu vào:**
+
+- Dòng đầu tiên chứa số nguyên N (1 ≤ N ≤ 10<sup>5</sup>).
+
+- Dòng thứ 2 chứa N số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>N</sub> (-10<sup>9</sup> ≤ a<sub>i</sub> ≤ 10<sup>9</sup>).
+
+**Đầu ra:**
+
+- In ra độ dài của dãy con tăng dài nhất.
+
+**Ví dụ:**
+
+| Input | Output |
+|:-------|:--------|
+| 10<br>4 6 1 3 2 3 9 7 8 3 |  1 2 3 7 8 |
