@@ -57,6 +57,11 @@ long long random(int n)
     return random() % n;
 }
 
+long long random(long long n)
+{
+    return random() % n;
+}
+
 /**
  * Generates a random long long number within the range [l, r].
  * 
