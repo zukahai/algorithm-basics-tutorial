@@ -5,7 +5,7 @@ int main()
 {
     srand(time(NULL));
     int start = 1;
-    int testnum = 50;
+    int testnum = 25;
     string prob_name = "SoXuatHienNhieuNhatMd";
 
     create_all_and_compile(prob_name, start, testnum);

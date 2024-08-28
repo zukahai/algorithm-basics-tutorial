@@ -9,8 +9,8 @@ void gen(int iTest, int testnum, string target_file)
     // Cout ra những input cần thiết
 
     int n = (iTest * 20) * (iTest * 20);
-    if (iTest == testnum) n = 1e6;
-    if (iTest < 10) n = iTest * 3;
+    n = iTest * 10;
+    if (iTest == testnum - 1) n = 1e6;
     if (n > 1e6) n = 1e6;
 
     vector<long long> a = random_vector(n, 1ll * n * n * n);
