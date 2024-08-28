@@ -1,4 +1,32 @@
-# Bài 1 Số xuất hiện nhiều nhất (bản dễ)
+# Bài 1: Đếm số lượng số 10 có trong dãy số
+
+Cho một dãy số nguyên, hãy đếm số lượng số 10 có trong dãy số đó.
+
+**Đầu vào**:
+
+- Dòng đầu tiên chứa một số nguyên n (1 ≤ n ≤ 10<sup>6</sup>),
+
+- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (1 ≤ a<sub>i</sub> ≤ 10<sup>6</sup>).
+
+**Đầu ra**:
+
+- In ra số lượng số 10 có trong dãy số đó.
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Đầu vào | Đầu ra |
+|:---|:---|
+| 6 <br> 1 2 10 3 1 10 | 2 |
+
+**Ví dụ 2**:
+
+| Đầu vào | Đầu ra |
+|:---|:---|
+| 5 <br> 1 2 2 4 4 | 0 |
+
+# Bài 2 Số xuất hiện nhiều nhất (bản dễ)
 
 Cho một dãy số nguyên, hãy tìm số xuất hiện nhiều nhất trong dãy số đó. (Số xuất hiện nhiều nhất là số có mặt nhiều nhất trong dãy số đó).
 
@@ -28,7 +56,7 @@ Nếu có nhiều số xuất hiện nhiều nhất, hãy in ra số nhỏ nhấ
 |:---|:---|
 | 5 <br> 1 2 2 4 4 | 2 |
 
-# Bài 2. Tần số xuất hiện (bản dễ)
+# Bài 3. Tần số xuất hiện (bản dễ)
 
 Cho một dãy số nguyên, hãy tìm số xuất hiện nhiều nhất trong dãy số đó. Hãy đưa ra các số xuất hiện trong dãy theo thự tự tăng dần, mỗi số đi kèm với số lần xuất hiện của nó.
 
@@ -62,7 +90,7 @@ Cho một dãy số nguyên, hãy tìm số xuất hiện nhiều nhất trong d
 |:---|:---|
 | 5 <br> 1 2 2 4 4 | 1 1 <br> 2 2 <br> 4 2 |
 
-# Bài 3 Số xuất hiện nhiều nhất (bản khó)
+# Bài 4 Số xuất hiện nhiều nhất (bản khó)
 
 Cho một dãy số nguyên, hãy tìm số xuất hiện nhiều nhất trong dãy số đó. (Số xuất hiện nhiều nhất là số có mặt nhiều nhất trong dãy số đó).
 
@@ -92,7 +120,7 @@ Nếu có nhiều số xuất hiện nhiều nhất, hãy in ra số nhỏ nhấ
 |:---|:---|
 | 5 <br> 1 2000000000000000 2000000000000000 2000000000000000 4 | 2000000000000000 |
 
-# Bài 4. Tần số xuất hiện (bản khó)
+# Bài 5. Tần số xuất hiện (bản khó)
 
 Cho một dãy số nguyên, hãy tìm số xuất hiện nhiều nhất trong dãy số đó. Hãy đưa ra các số xuất hiện trong dãy theo thự tự tăng dần, mỗi số đi kèm với số lần xuất hiện của nó.
 
