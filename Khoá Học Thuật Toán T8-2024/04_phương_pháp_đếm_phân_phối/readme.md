@@ -50,6 +50,10 @@ Nếu có nhiều số xuất hiện nhiều nhất, hãy in ra số nhỏ nhấ
 |:---|:---|
 | 6 <br> 1 2 2 3 1 2 | 2 |
 
+**Giải thích**:
+
+Số 2 xuất hiện 3 lần trong dãy số đó.
+
 **Ví dụ 2**:
 
 | Đầu vào | Đầu ra |
@@ -154,3 +158,30 @@ Cho một dãy số nguyên, hãy tìm số xuất hiện nhiều nhất trong d
 |:---|:---|
 | 5 <br> -3 2 -3 1 1000000000000000000 | -3 2 <br> 1 1 <br> 2 2 <br> 1000000000000000000 1|
 
+# Bài 6: Số chưa xuất hiện
+
+Cho một dãy số tự nhiên, hãy tìm số nhỏ nhất chưa xuất hiện trong dãy số đó.
+
+**Đầu vào**:
+
+- Dòng đầu tiên chứa một số nguyên n (1 ≤ n ≤ 10<sup>6</sup>),
+
+- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (1 ≤ a<sub>i</sub> ≤ 10<sup>6</sup>).
+
+**Đầu ra**:
+
+- In ra số nhỏ nhất chưa xuất hiện trong dãy số đó.
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Đầu vào | Đầu ra |
+|:---|:---|
+| 4 <br> 1 2 3 5 | 4 |
+
+**Ví dụ 2**:
+
+| Đầu vào | Đầu ra |
+|:---|:---|
+| 5 <br> 1 2 3 4 5 | 6 |
