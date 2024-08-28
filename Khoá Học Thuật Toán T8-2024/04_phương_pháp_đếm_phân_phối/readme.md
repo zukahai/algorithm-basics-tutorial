@@ -160,7 +160,7 @@ Cho một dãy số nguyên, hãy tìm số xuất hiện nhiều nhất trong d
 
 # Bài 6: Số chưa xuất hiện
 
-Cho một dãy số tự nhiên, hãy tìm số nhỏ nhất chưa xuất hiện trong dãy số đó.
+Cho một dãy số tự nhiên, hãy tìm số nguyên dương nhỏ nhất chưa xuất hiện trong dãy số đó.
 
 **Đầu vào**:
 
@@ -170,7 +170,7 @@ Cho một dãy số tự nhiên, hãy tìm số nhỏ nhất chưa xuất hiện
 
 **Đầu ra**:
 
-- In ra số nhỏ nhất chưa xuất hiện trong dãy số đó.
+- In ra số nguyên dương nhỏ nhất chưa xuất hiện trong dãy số đó.
 
 **Ví dụ**:
 
