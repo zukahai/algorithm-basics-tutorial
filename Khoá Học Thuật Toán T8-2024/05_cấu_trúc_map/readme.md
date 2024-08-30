@@ -58,7 +58,7 @@ Cho một mảng số nguyên **a** gồm **n** phần tử. Đếm xem có bao 
 
 | Input | Output |
 |:-------|:--------|
-| 5 6 <br> 1 2 3 4 6 | 1 |
+| 5 4 <br> 2 2 2 1 3 | 4 |
 
 **Ví dụ 3**:
 
