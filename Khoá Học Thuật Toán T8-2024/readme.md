@@ -22,3 +22,20 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 - Code của mình trong buổi học: [Code buổi 2](./02_xử_lí_số_lớn/test/)
 - Bài tập trên OJ: [02. Xử lí số lớn](http://oj.duong3982.com/contest/thuattoannangcao_02)
 
+### Buổi 3: Xử lí số lớn 2
+
+- Code của mình trong buổi học: [Code buổi 3](./03_xử_lí_số_lớn_2/test/)
+- Bài tập trên OJ: [03. Xử lí số lớn 2](http://oj.duong3982.com/contest/thuattoannangcao_03)
+
+### Buổi 4: Phương pháp đếm phân phối
+
+- Kiến thức quan trọng: [Kiến thức buổi 4](./04_phương_pháp_đếm_phân_phối/lt.md)
+- Code của mình trong buổi học: [Code buổi 4](./04_phương_pháp_đếm_phân_phối/test/)
+- Bài tập: [04. Phương pháp đếm phân phối](./04_phương_pháp_đếm_phân_phối/readme.md)
+
+### Buổi 5: Phương pháp đếm phân phối 2 (Cấu trúc map)
+
+- Kiến thức quan trọng: [Kiến thức buổi 5](./05_phương_pháp_đếm_phân_phối_2/lt.md)
+
+- Bài tập: [05. Phương pháp đếm phân phối 2](./05_cấu_trúc_map/readme.md)
+
