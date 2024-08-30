@@ -64,7 +64,7 @@ Cho một mảng số nguyên **a** gồm **n** phần tử. Đếm xem có bao 
 
 | Input | Output |
 |:-------|:--------|
-| 5 6 <br> 1 2 3 4 7 | 0 |
+| 5 10 <br> 1 2 3 4 7 | 0 |
 
 
 ## Bài 3: Số cặp chia hết cho 3
