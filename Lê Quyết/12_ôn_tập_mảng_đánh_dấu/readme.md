@@ -1,4 +1,4 @@
-# Bài 1: Số còn thiếu
+### Bài 1: Số còn thiếu
 
 Nhập vào một mảng số nguyên gồm n chữ số.
 
@@ -13,25 +13,25 @@ In ra màn hình các số từ 1 đến n mà không có trong mảng. Nếu kh
 
 - In ra màn hình các số từ 1 đến n mà không có trong mảng. Nếu không có số nào thì in ra "-1".
 
-## Ví dụ 1
+### Ví dụ 1
 
 | Input | Output |
 |-------|--------|
 | 5<br> 1 2 4 5 5 | 3 |
 
-## Ví dụ 2
+### Ví dụ 2
 
 | Input | Output |
 |-------|--------|
 | 5<br> 2 3 2 3 2 | 1 4 5 |
 
-## Ví dụ 3
+### Ví dụ 3
 
 | Input | Output |
 |-------|--------|
 | 5<br> 1 2 3 4 5 | -1 |
 
-# Bài 2: Danh sách học sinh
+### Bài 2: Danh sách học sinh
 
 Trường học VKU có 2 đội tuyển học sinh giỏi tin và giỏi toán. Đội tuyển tin có n học sinh, đội tuyển toán có m học sinh. Mỗi học sinh sẽ mang một giá trị là mã sinh viên.
 
@@ -49,25 +49,25 @@ Hãy tìm ra các học sinh vừa nằm trong đội tuyển tin vừa nằm tr
 
 - In ra màn hình các mã sinh viên của học sinh vừa nằm trong đội tuyển tin vừa nằm trong đội tuyển toán. Nếu không có học sinh nào thì in ra "-1".
 
-## Ví dụ 1
+### Ví dụ 1
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 3 4 5 6 7 | 3 4 5 |
 
-## Ví dụ 2
+### Ví dụ 2
 
 | Input | Output |
 |-------|--------|
 | 5 4<br> 1 2 3 4 5<br> 4 7 8 9 | 4 |
 
-## Ví dụ 3
+### Ví dụ 3
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 6 7 8 9 10 | -1 |
 
-# Bài 3: Danh sách học sinh
+### Bài 3: Danh sách học sinh
 
 Trường học VKU có 2 đội tuyển học sinh giỏi tin và giỏi toán. Đội tuyển tin có n học sinh, đội tuyển toán có m học sinh. Mỗi học sinh sẽ mang một giá trị là mã sinh viên.
 
@@ -85,31 +85,31 @@ Hãy tìm ra các học đổi tuyển toán nhưng không nằm trong đội tu
 
 - In ra màn hình các mã sinh viên của học sinh vừa nằm trong đội tuyển toán nhưng không nằm trong đội tuyển tin. Nếu không có học sinh nào thì in ra "-1".
 
-## Ví dụ 1
+### Ví dụ 1
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 3 4 5 6 7 | 6 7 |
 
-## Ví dụ 2
+### Ví dụ 2
 
 | Input | Output |
 |-------|--------|
 | 5 4<br> 1 2 3 4 5<br> 4 7 8 9 | 7 8 9 |
 
-## Ví dụ 3
+### Ví dụ 3
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 6 7 8 9 10 | 6 7 8 9 10 |
 
-## Ví dụ 4
+### Ví dụ 4
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 1 2 3 4 5 | -1 |
 
-# Bài 4: Danh sách học sinh toán
+### Bài 4: Danh sách học sinh toán
 
 Trường học VKU có 2 đội tuyển học sinh giỏi tin và giỏi toán. Đội tuyển tin có n học sinh, đội tuyển toán có m học sinh. Mỗi học sinh sẽ mang một giá trị là mã sinh viên.
 
@@ -127,32 +127,32 @@ Hãy tìm ra các học đổi tuyển tin nhưng không nằm trong đội tuy�
 
 - In ra màn hình các mã sinh viên của học sinh vừa nằm trong đội tuyển tin nhưng không nằm trong đội tuyển toán. Nếu không có học sinh nào thì in ra "-1".
 
-## Ví dụ 1
+### Ví dụ 1
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 3 4 5 6 7 | 1 2 |
 
-## Ví dụ 2
+### Ví dụ 2
 
 | Input | Output |
 |-------|--------|
 | 5 4<br> 1 2 3 4 5<br> 4 7 8 9 | 1 2 3 5 |
 
-## Ví dụ 3
+### Ví dụ 3
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 6 7 8 9 10 | 1 2 3 4 5 |
 
-## Ví dụ 4
+### Ví dụ 4
 
 | Input | Output |
 |-------|--------|
 | 5 5<br> 1 2 3 4 5<br> 1 2 3 4 5 | -1 |
 
 
-# Bài 5: Điểm danh hộ
+### Bài 5: Điểm danh hộ
 
 Trường VKU là trường học nổi tiếng miền Trung Tây Nguyên. Với kỹ thuật điểm danh thông minh, trường VKU đã giảm thiểu được thời gian điểm danh.
 
@@ -175,19 +175,19 @@ Hãy in ra màn hình các sinh viên không đi học và những sinh viên b�
 
 Nếu không có sinh viên nào nghỉ học thì in ra -1
 
-## Ví dụ 1
+### Ví dụ 1
 
 | Input | Output |
 |-------|--------|
 | 5 <br> 1 2 3 4 3 | 5 <br> 3 |
 
-## Ví dụ 2
+### Ví dụ 2
 
 | Input | Output |
 |-------|--------|
 | 5 <br> 1 1 3 2 2| 4 5 <br> 1 2 |
 
-## Ví dụ 3
+### Ví dụ 3
 
 | Input | Output |
 |-------|--------|
