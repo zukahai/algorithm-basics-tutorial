@@ -4,3 +4,6 @@
 
 ![alt text](image.png)
 
+## Bài 2: Quảng Bình, HSG Quốc Gia 2023-2024
+
+![alt text](image-1.png)
