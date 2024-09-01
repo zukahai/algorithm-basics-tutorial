@@ -27,7 +27,7 @@ Cho một mảng số nguyên **a** gồm **n** phần tử. Hãy kiểm tra xem
 
 | Input | Output |
 |:-------|:--------|
-| 5 8 <br> 1 2 3 4 6 | NO |
+| 5 7 <br> 1 3 5 7 9 | NO |
 
 ## Bài 2: Danh sách học sinh
 
