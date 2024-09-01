@@ -80,7 +80,7 @@ Kết quả có thể rất lớn, hãy in ra kết quả theo modulo 10<sup>9</
 
 **Input:**
 
-- Dòng đầu tiên chứa số nguyên **n** (1 ≤ **n** ≤ 10<sup>6</sup>)
+- Dòng đầu tiên chứa số nguyên **n** (1 ≤ **n** ≤ 10<sup>18</sup>)
 
 **Output:**
 
