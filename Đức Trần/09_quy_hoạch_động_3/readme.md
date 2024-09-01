@@ -98,7 +98,6 @@ Kết quả có thể rất lớn, hãy in ra kết quả theo modulo 10<sup>9</
 
 Có 3 cách xây hàng rào là:<br>
 
-<!-- <--image center width 100% --> -->
 
 <p align="center">
   <img src="./b4.png" alt="image" width="100%">
