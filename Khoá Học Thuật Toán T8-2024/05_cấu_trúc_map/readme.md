@@ -216,7 +216,7 @@ Cho một mảng số nguyên **a** gồm **n** phần tử. Đếm xem có bao 
 | 5 10 <br> 1 2 3 4 7 | 0 |
 
 
-### Bài 7: Số cặp chia hết cho 3
+## Bài 7: Số cặp chia hết cho 3
 
 Cho một mảng số nguyên **a** gồm **n** phần tử. Hãy đếm số cặp chỉ số **i, j** (i < j) sao cho **a[i] + a[j]** chia hết cho 3.
 
@@ -236,15 +236,15 @@ Cho một mảng số nguyên **a** gồm **n** phần tử. Hãy đếm số c�
 
 | Input | Output |
 |:-------|:--------|
-| 5 <br> 1 2 3 4 5 | 3 |
+| 5 <br> 1 2 3 4 5 | 4 |
 
-**Giải thích**: Có thể chọn cặp chỉ số **(1, 3)**, **(1, 5) và (2, 4)**
+**Giải thích**: Có thể chọn cặp chỉ số **(1, 2)**, **(1, 5), (2, 4) và (4, 5)**
 
 **Ví dụ 2**:
 
 | Input | Output |
 |:-------|:--------|
-| 5 <br> 1 2 3 4 6 | 2 |
+| 5 <br> 1 2 3 4 6 | 3 |
 
 **Ví dụ 3**:
 
