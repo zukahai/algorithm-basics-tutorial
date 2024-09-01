@@ -88,6 +88,8 @@ Kết quả có thể rất lớn, hãy in ra kết quả theo modulo 10<sup>9</
 
 **Ví dụ:**
 
+**Ví dụ 1:**
+
 | Input | Output |
 |:-------|:--------|
 | 3 | 3 |
@@ -100,3 +102,10 @@ Có 3 cách xây hàng rào là:<br>
 
 <p align="center">
   <img src="./b4.png" alt="image" width="100%">
+
+**Ví dụ 2:**
+
+| Input | Output |
+|:-------|:--------|
+| 4 | 5 |
+
