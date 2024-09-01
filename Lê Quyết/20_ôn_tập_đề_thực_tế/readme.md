@@ -2,7 +2,7 @@
 
 ## Đề bài 
 
-Một chuỗi X gọi là ước của chuỗi S, khi có thể tạo ra chuỗi S bằng cách lặp lại chuỗi X nhiều lần. Ví dụ:
+Một chuỗi X gọi là ước của chuỗi S, khi có thể tạo ra chuỗi S bằng cách lặp lại chuỗi X nhiều lần.<br> Ví dụ:
 
 - Chuỗi "abab" là ước của chuỗi "abababab"
 - Chuỗi "ab" là ước của chuỗi "abababab"
@@ -14,9 +14,8 @@ Cho một chuỗi S. Hãy tìm ước ngắn nhất của chuỗi S.
 
 ### Phần 1: Phân tích bài toán
 
-Để tìm ước ngắn nhất của chuỗi S, ta sẽ duyệt qua chuỗi X có thể là ước của chuỗi S.
+Để tìm ước ngắn nhất của chuỗi S, ta sẽ duyệt qua chuỗi X có thể là ước của chuỗi S.<br>
 Ví dụ S = "abaaba" Thì ta sẽ duyệt lần lượt các chuỗi X = "a", "ab", "aba", "abaa", "abaab", "abaaba" để kiểm tra X có phải là ước của S không. Nếu X là ước của S thì đưa ra X luôn. <br>
-
 Nên ta cần tìm cách kiểm tra chuỗi X có phải là ước của chuỗi S không.
 
 ### Phần 2: Kiểm tra chuỗi X có phải là ước của chuỗi S không
@@ -30,7 +29,9 @@ Nhận định rằng nếu X là ước của S thì khi cộng các chuỗi X 
 
 Nên ta sẽ thực hiện như sau:
 
-Tạo mỗi chuỗi p rỗng, cộng chuỗi p với chuỗi X cho đến khi chuỗi p có độ dài lớn hơn hoặc bằng chuỗi S. Sau đó kiểm tra chuỗi p có bằng chuỗi S không. Nếu bằng thì X là ước của S.
+Tạo mỗi chuỗi p rỗng, cộng chuỗi p với chuỗi X cho đến khi chuỗi p có độ dài lớn hơn hoặc bằng chuỗi S.<br>
+Sau đó kiểm tra chuỗi p có bằng chuỗi S không. <br>
+Nếu bằng thì X là ước của S.
 
 ### Phần 3: Cài đặt thuật toán
 
