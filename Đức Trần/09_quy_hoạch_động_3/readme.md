@@ -1,4 +1,4 @@
-# Bài 1: Phần thưởng
+## Bài 1: Phần thưởng
 
 Một công ty tổ chức một chương trình khuyến mãi. Công ty sẽ tặng phần thưởng cho những khách hàng mua hàng trong một ngày. Công ty có **n** phần quà để tặng, mỗi phần quà có giá trị là một số nguyên dương. Công ty cho phép bạn chọn bất kỳ các món quà nhưng với điều kiện không chọn hai món quà liên tiếp. Hãy tìm cách chọn các món quà sao cho tổng giá trị của các món quà chọn được là lớn nhất.
 
@@ -70,3 +70,33 @@ Có nhiều món đồ giá trị trong một cửa hàng. Các một đồ đư
 
 Tên trộm sẽ đi theo đường đi<br> 
 (2, 1) → (3, 2) → (4, 3) → (4, 4)<br>Và nhận được tổng giá trị là 36.
+
+
+## Bài 4: Xây hàng rào
+
+Một hàng rào các kích thước **2** x **n** được xây từ các viên gạch. Mỗi viên gạch có kích thước **2** x **1**. Hãy đếm số cách xây hàng rào sao cho hàng rào không có lỗ trống nào.
+
+Kết quả có thể rất lớn, hãy in ra kết quả theo modulo 10<sup>9</sup> + 7.
+
+**Input:**
+
+- Dòng đầu tiên chứa số nguyên **n** (1 ≤ **n** ≤ 10<sup>6</sup>)
+
+**Output:**
+
+- Một số nguyên duy nhất là số cách xây hàng rào theo modulo 10<sup>9</sup> + 7.
+
+**Ví dụ:**
+
+| Input | Output |
+|:-------|:--------|
+| 3 | 3 |
+
+**Giải thích:**
+
+Có 3 cách xây hàng rào là:<br>
+
+<!-- <--image center width 100% --> -->
+
+<p align="center">
+  <img src="./b4.png" alt="image" width="100%">
