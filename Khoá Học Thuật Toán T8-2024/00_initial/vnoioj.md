@@ -1,12 +1,12 @@
-# Đăng ký tài khoản trên vnoioj
+# Đăng ký tài khoản trên VNOIOJ
 
-Đăng ký tài khoản trên [vnoioj](https://oj.vnoi.info/accounts/register/) để tham gia các khóa học thuật toán và luyện tập trên hệ thống này.
+Đăng ký tài khoản trên [VNOIOJ](https://oj.vnoi.info/accounts/register/) để tham gia các khóa học thuật toán và luyện tập trên hệ thống này.
 
-## Video hướng dẫn đăng ký tài khoản trên vnoioj
+## Video hướng dẫn đăng ký tài khoản trên VNOIOJ
 
-Link video: [Xem video](https://www.youtube.com/watch?v=3Q9Q2h6zv8A)
+Link video: [Xem video](https://drive.google.com/file/d/1EhrtN05MIVu4wSYFCDXWSSDBp9HlII1b/view?usp=sharing)
 
-## Hướng dẫn đăng ký tài khoản trên vnoioj
+## Hướng dẫn đăng ký tài khoản trên VNOIOJ
 
 Đăng ký tại [(https://oj.vnoi.info/accounts/register/](https://oj.vnoi.info/accounts/register/)
 
