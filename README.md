@@ -1,71 +1,56 @@
-# Lộ trình học thuật toán từ cơ bản đến nâng cao
+# 📣 THÔNG BÁO TUYỂN SINH LỚP HỌC THUẬT TOÁN 📣
 
-<p align="center"> <img src="./Nam Tôn/01_numeric_digit_extraction/images/bg.png" alt="bg" /> </p>
+Trước hết, tôi xin gửi lời cảm ơn chân thành đến tất cả các bạn học viên đã tham gia khóa học C++ căn bản. Những đánh giá tích cực từ các bạn là động lực để tôi tiếp tục phát triển và mang đến những khóa học chất lượng hơn.
 
-Lịch trình học thuật toán, mỗi buổi dự kiến khoảng 3 tiếng. Những buổi này chủ yếu sẽ dạy lí thuyết hoặc hướng dẫn bài tập, còn việc làm bài tập thì có thể làm ở nhà để tránh mất thời gian. Lịch trình chỉ là ước lượng.
+## 💡 Đối Tượng:
 
-<div align="center">
+- Học sinh, sinh viên muốn tham gia các kỳ thi lập trình thi đấu, thi học sinh giỏi cấp tỉnh, huyện, hoặc hướng tới chuyên tin, đã nắm vững cấu trúc ngôn ngữ C++.
 
-|Nội dung|Số buổi|Trạng thái|
-|---|:-:|:-:|
-|- Nền tảng cơ bản|1|✅|
-|- Một số thuật toán luyện tập tư duy ban đầu|3|✅|
-|- Đệ quy<br>- Thuật toán sắp xếp cơ bản<br>- Sắp xếp nhanh|2|✅|
-|- Các thuật toán tìm kiểm cơ bản<br>- Tìm kiếm nhị phân|2|✅|
-|- Thuật toán vét cạn|2|✅|
-|- Quy hoạch động|4||
-|- Thuật toán tham lam|2||
-|- Thuật toán đồ thị|4||
-|- Phân tích và tối ưu hóa thuật toán|5||
+## 🎯 Mục Đích:
 
-</div>
+- Củng cố và nâng cao kỹ năng lập trình thông qua các thuật toán: Hướng dẫn học viên các thuật toán cơ bản và nâng cao, giúp họ tự tin tham gia các kỳ thi lập trình và đạt thành tích cao.
+- Phát triển tư duy thuật toán: Đào tạo học viên cách tiếp cận và giải quyết các bài toán thuật toán phức tạp, phát triển kỹ năng tư duy logic và phân tích.
+- Thực hành trên hệ thống OJ chuyên nghiệp: Cung cấp môi trường thực hành lập trình và kiểm tra kiến thức thông qua hệ thống Online Judge (OJ), giúp học viên áp dụng lý thuyết vào thực tế một cách hiệu quả.
 
-## 1. Nền tảng cơ bản:
-   - **Ngôn ngữ lập trình**: Lựa chọn một ngôn ngữ, ví dụ như Python, Java, C++ hoặc Java Script và học cú pháp cơ bản của nó.
-   - **Cấu trúc dữ liệu cơ bản**: Hiểu và luyện tập với các cấu trúc dữ liệu như mảng, danh sách liên kết, stack, queue, và cây.
+## 📚 Nội Dung Khóa Học:
 
-## 2. Khởi đầu cơ bản:
+- Các kỹ thuật xử lí nâng cao về số học
+- Phương pháp gán cờ hiệu
+- Phương pháp  đếm phân phối
+- Tìm kiếm nhị phân
+- Phương pháp hai con trỏ
+- Phương pháp quy hoạch động
+- Thuật toán đồ thị
+- Và các thuật toán khác
 
-#### Một số thuật toán luyện tập tư duy ban đầu
-   - Một số thuật toán về số nguyên tố, sàng nguyên tố
-   - Một số thuật toán về chuỗi, chuỗi đảo ngược, đối xứng
-   - Một số thuật toán về toán học, công thức
-   - Một số thuật toán về mảng, mảng 2 chiều, ... xử lí phần tử trong mảng.
+## 💰 Học Phí:
+- Trọn gói chỉ 1599K
 
-#### Thuật toán tìm kiếm và sắp xếp cơ bản:
-   - **Tìm kiếm tuần tự (Linear Search)**: Hiểu cách tìm kiếm phần tử trong một mảng dữ liệu một cách tuần tự.
-   - **Tìm kiếm nhị phân (Binary Search)**: Hiểu cách tìm kiếm phần tử trong một mảng đã được sắp xếp bằng cách chia nhỏ mảng đó ra.
-   - **Sắp xếp nổi bọt**: Luyện tập cách sắp xếp một mảng bằng cách hoán đổi các cặp phẩn tử sai vị trí liền kề
-   - **Sắp xếp chọn (Selection Sort)**: Luyện tập cách sắp xếp một mảng bằng cách lựa chọn phần tử nhỏ nhất và đặt nó vào đúng vị trí.
-   - **Sắp xếp chèn (Insertion Sort)**: Hiểu cách sắp xếp một mảng bằng cách chèn phần tử vào vị trí đúng trong một mảng con đã được sắp xếp.
-   - **Sắp xếp nhanh (Quick Sort)**: Học cách sắp xếp một mảng dữ liệu bằng cách chia mảng thành các phần nhỏ hơn dựa trên phần tử pivot. (Sẽ học sau khi học đệ quy)
+## 🖥️ Hình Thức Học:
 
-#### Thuật toán đệ quy:
-   - **Thuật toán đệ quy**: Học cách giải quyết các bài toán bằng cách chia nhỏ thành các bài toán con nhỏ hơn và giải quyết chúng.
+- Khoảng 10 người một lớp
+- Học online qua Google Meet, có ghi hình từng buổi học
 
-#### Thuật toán vét cạn:
-   - **Thuật toán liệt kê (Enumeration Algorithm)**: Luyện tập với việc liệt kê tất cả các phương án có thể và chọn ra phương án tốt nhất.
-   - **Thuật toán quay lui (Backtracking)**: Học cách giải quyết các bài toán kết hợp bằng cách thử từng giá trị cho từng phần tử một.
+## ⏰ Thời Gian Học:
 
-### 3. Thuật toán nâng cao:
+- 20 buổi, 2 giờ/buổi, mỗi tuần học 3 buổi
+- Dự kiến bắt đầu và ngày 19/08/2024
 
-#### Quy hoạch động:
-   - **Thuật toán quy hoạch động**: Tìm công thức của bài toán lớn, sau đó chia thành các bài toán nhỏ.
+## 👨‍🏫 Thông Tin Giảng Viên: Phan Đức Hải
 
-#### Thuật toán tham lam:
-   - **Thuật toán đóng băng (Freezing Algorithm)**: Học cách tối ưu hóa việc sắp xếp một tập hợp các phần tử sao cho chúng đóng băng càng sớm càng tốt.
-   - **Thuật toán kích hoạt (Activation Algorithm)**: Luyện tập với việc tìm kiếm cách kích hoạt một tập hợp các sự kiện sao cho chúng xảy ra trong thời gian ngắn nhất.
+- Gần 10 năm kinh nghiệm thuật toán
+- Tốt nghiệp loại giỏi hệ kỹ sư Công nghệ Thông tin, Đại học Công nghệ Thông tin và Truyền thông Việt Hàn
+- Giải khuyến khích tin học trẻ tỉnh Hà Tĩnh 2015
+- Giải nhì học sinh giỏi tỉnh môn tin học năm 2015
+- Giải khuyến khích học sinh giỏi tỉnh môn tin học năm 2016
+- Giải 3 tin học trẻ tỉnh Hà Tĩnh 2016
+- Giải nhất học sinh giỏi tỉnh Hà Tĩnh (20/20 điểm - thủ khoa) môn tin học năm 2018
+- Giải 3 Olympic tin học sinh viên Việt Nam khối chuyên tin năm 2021
+- Giải khuyến khích vòng loại ICPC vòng loại Châu Á Thái Bình Dương
+- Từng tạo khóa học Cấu trúc dữ liệu và Giải thuật trên Codelearn với gần 60,000 học viên đăng ký
+- Và một số giải thưởng khác
 
-#### Thuật toán đồ thị:
-   - **Duyệt đồ thị**: Học về các thuật toán duyệt đồ thị như DFS và BFS và biết cách áp dụng chúng.
-   - **Tìm đường đi ngắn nhất**: Học và luyện tập với thuật toán Dijkstra và Bellman-Ford để tìm đường đi ngắn nhất trong đồ thị.
-   - **Tìm kiếm trong đồ thị**: Học và luyện tập với các thuật toán tìm kiếm trong đồ thị như thuật toán A*.
+## 📞 Cách Thức Đăng Ký và Liên Hệ:
+- Đăng ký qua Zalo hoặc số điện thoại: 0961463407
 
-## 4. Rèn luyện kỹ năng giải quyết
-
-Phần này sẽ đi song song. Trong quá trình học sẽ luyện tập với những bài giải thuật ở các web lập trình hoặc sẽ làm những bài tập mà Hải tự ra hoặc sưu tầm [Tại đây](https://github.com/zukahai/algotithm-training?tab=readme-ov-file#algotithm-training)
-
-## 5. Phân tích và tối ưu hóa thuật toán:
-   - **Phân tích bài toán**: Học các đọc đề, phân tích bài toán, liệt kê những cách giải của bài toán đó.
-   - **Phân tích độ phức tạp**: Học cách phân tích độ phức tạp thời gian và không gian của thuật toán.
-   - **Tối ưu hóa thuật toán**: Luyện tập cải thiện hiệu suất của thuật toán bằng cách tối ưu hóa mã và sử dụng kỹ thuật tối ưu hóa.
+#cpp #laptrinh #laptrinhthuattoan #cplusplus #haizuka
