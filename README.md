@@ -1,4 +1,7 @@
-# 📣 THÔNG BÁO TUYỂN SINH LỚP HỌC THUẬT TOÁN 📣
+# 📣 THÔNG BÁO TUYỂN SINH LỚP HỌC THUẬT TOÁN 
+
+<p align="center">
+  <img src="./Khoá Học Thuật Toán T8-2024/00_initial/Thuật Toán.png" alt="Logo" width=100%">
 
 Trước hết, tôi xin gửi lời cảm ơn chân thành đến tất cả các bạn học viên đã tham gia khóa học C++ căn bản. Những đánh giá tích cực từ các bạn là động lực để tôi tiếp tục phát triển và mang đến những khóa học chất lượng hơn.
 
