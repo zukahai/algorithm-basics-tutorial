@@ -39,3 +39,15 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 
 - Bài tập: [05. Phương pháp đếm phân phối 2](./05_cấu_trúc_map/readme.md)
 
+- Code của mình trong buổi học: [Code buổi 5](./05_cấu_trúc_map/test/)
+
+- Bài giải mẫu: [Bài giải mẫu](./05_cấu_trúc_map/exs/)
+
+### Buổi 6: Phương pháp gán cờ (flag technique)
+
+- Kiến thức quan trọng: [Kiến thức buổi 6](./06_kỹ_thuật_gán_cờ/lt.md)
+
+- Bài tập: [06. Kỹ thuật gán cờ](https://oj.vnoi.info/contest/haizuka_06)
+
+- Code của mình trong buổi học: [Code buổi 6](./06_kỹ_thuật_gán_cờ/exs/)
+
