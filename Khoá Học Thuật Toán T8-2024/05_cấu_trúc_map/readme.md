@@ -69,7 +69,7 @@ Hãy tìm ra các học sinh vừa nằm trong đội tuyển tin vừa nằm tr
 
 ## Bài 3: Danh sách học sinh (phần 2)
 
-Trường học VKU có 2 đội tuyển học sinh giỏi tin, giỏi toán và giỏi hoá. Đội tuyển tin có n học sinh, đội tuyển toán có m học sinh, đội tuyển hoá có k học sinh. Mỗi học sinh sẽ mang một giá trị là mã sinh viên.
+Trường học VKU có 3 đội tuyển học sinh giỏi tin, giỏi toán và giỏi hoá. Đội tuyển tin có n học sinh, đội tuyển toán có m học sinh, đội tuyển hoá có k học sinh. Mỗi học sinh sẽ mang một giá trị là mã sinh viên.
 
 Hãy tìm ra các học sinh nằm trong cả 3 đội tuyển.
 
