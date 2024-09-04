@@ -18,6 +18,7 @@ Trước hết, tôi xin gửi lời cảm ơn chân thành đến tất cả c�
 ## 📚 Nội Dung Khóa Học:
 
 - Các kỹ thuật xử lí nâng cao về số học
+- Kỹ thuật duyệt ước số
 - Phương pháp gán cờ hiệu
 - Phương pháp  đếm phân phối
 - Tìm kiếm nhị phân
