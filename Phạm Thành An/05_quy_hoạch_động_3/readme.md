@@ -112,7 +112,7 @@ Có 3 cách xây hàng rào là:<br>
 
 
 <p align="center">
-  <img src="./b4.png" alt="image" width="65%">
+  <img src="./b4.png" alt="image" width="50%">
 
 **Ví dụ 2:**
 
