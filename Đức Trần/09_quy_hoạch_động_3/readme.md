@@ -100,7 +100,7 @@ Có 3 cách xây hàng rào là:<br>
 
 
 <p align="center">
-  <img src="./b4.png" alt="image" width="100%">
+  <img src="./b4.png" alt="image" width="65%">
 
 **Ví dụ 2:**
 
@@ -108,3 +108,39 @@ Có 3 cách xây hàng rào là:<br>
 |:-------|:--------|
 | 4 | 5 |
 
+**dp[k]: Số cách xây hàng rào có kích thước 2 x k**
+
+
+## Bài 5: Xây hàng rào 2
+
+Một hàng rào các kích thước **4** x **n** được xây từ các viên gạch. Mỗi viên gạch có kích thước **2** x **1**. Hãy đếm số cách xây hàng rào sao cho hàng rào không có lỗ trống nào.
+
+Kết quả có thể rất lớn, hãy in ra kết quả theo modulo 10<sup>9</sup> + 7.
+
+**Input:**
+
+- Dòng đầu tiên chứa số nguyên **n** (1 ≤ **n** ≤ 10<sup>6</sup>)
+
+**Output:**
+
+- Một số nguyên duy nhất là số cách xây hàng rào theo modulo 10<sup>9</sup> + 7.
+
+**Ví dụ:**
+
+**Ví dụ 1:**
+
+| Input | Output |
+|:-------|:--------|
+| 1 | 1 |
+
+**Ví dụ 2:**
+
+| Input | Output |
+|:-------|:--------|
+| 2 | 5 |
+
+**Ví dụ 3:**
+
+| Input | Output |
+|:-------|:--------|
+| 3 | 10 |
