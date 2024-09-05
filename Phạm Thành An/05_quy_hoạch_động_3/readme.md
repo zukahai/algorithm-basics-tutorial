@@ -120,8 +120,6 @@ Có 3 cách xây hàng rào là:<br>
 |:-------|:--------|
 | 4 | 5 |
 
-**dp[k]: Số cách xây hàng rào có kích thước 2 x k**
-
 
 ## Bài 5: Xây hàng rào 2
 
