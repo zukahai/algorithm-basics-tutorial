@@ -40,12 +40,24 @@ Một hang động rộng lớn được chia thành một lưới ô vuông kí
 
 | Input | Output |
 |:-------|:--------|
-| 3 3<br> 1 3 2<br> 2 4 3<br> 3 2 5 | 15 |
+| 3 3<br> 1 3 2<br> 2 4 3<br> 3 2 5 | 16 |
 
 **Giải thích:**
 
 Con chuột sẽ đi theo đường đi<br> 
-(1, 1) → (2, 1) → (2, 2) → (2, 3) → (3, 3)<br>Và nhận được tổng số kẹo là 15.
+(1, 1) → (1, 2) → (2, 2) → (2, 3) → (3, 3)<br>Và nhận được tổng số kẹo là 16.
+
+```
+3 3
+1 3 2
+2 4 3
+3 2 5
+
+0 0 0 0
+0 1 4 6
+0 3 8 11
+0 6 10 16
+```
 
 ## Bài 3: Tên trộm
 
@@ -149,4 +161,36 @@ Kết quả có thể rất lớn, hãy in ra kết quả theo modulo 10<sup>9</
 
 | Input | Output |
 |:-------|:--------|
-| 4 | 35 |
+
+
+## Bài 6: Bài toán đổi tiền
+
+Một ngân hàng có **n** loại tiền giấy với các mệnh giá khác nhau. Bạn cần đổi một số tiền **m** bằng cách sử dụng số tờ tiền ít nhất. Hãy xác định số tờ tiền cần thiết.
+
+**Dữ liệu**: Vào từ thiết bị nhập chuẩn:
+
+- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n** ≤ 100, 1 ≤ **m** ≤ 10^6),
+
+- Dòng thứ 2 chứa **n** số nguyên **a1**, **a2**, . . ., **an** (1 ≤ **ai** ≤ 10^6) - mệnh giá của các loại tiền.
+
+**Kết quả**: Số tờ tiền ít nhất để đổi số tiền là **m**
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Input | Output |
+|:-------|:--------|
+|4 11<br> 1 2 3 4 | 3 |
+
+**Ví dụ 2**:
+
+| Input | Output |
+|:-------|:--------|
+|4 24<br> 1 2 8 10 | 3  |
+
+**Ví dụ 3**:
+
+| Input | Output |
+|:-------|:--------|
+|2 100<br> 10 1 | 10 |
