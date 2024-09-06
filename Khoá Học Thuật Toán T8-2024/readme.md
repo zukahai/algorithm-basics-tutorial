@@ -51,3 +51,7 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 
 - Code của mình trong buổi học: [Code buổi 6](./06_kỹ_thuật_gán_cờ/exs/)
 
+### Buổi 7: Ôn tập kỹ thuật gán cờ
+
+- Chữa bài tập: [Chữa bài tập](./06_kỹ_thuật_gán_cờ/exs/)
+- Bài tập: [Bài tập](https://oj.vnoi.info/contest/haizuka_06)
