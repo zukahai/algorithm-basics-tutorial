@@ -182,5 +182,5 @@ Dãy con liên tiếp dài nhất sao cho dãy con đó là dãy cấp số cộ
 
 | Input | Output |
 |:-------|:--------|
-| 5<br> 1 2 4 7 10 | 1 2|
+| 5<br> 1 2 4 7 10 | 4 7 10|
 
