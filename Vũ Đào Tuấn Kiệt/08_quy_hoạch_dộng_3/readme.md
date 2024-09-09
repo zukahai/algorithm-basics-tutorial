@@ -25,7 +25,7 @@ Dãy con liên tiếp dài nhất sao cho dãy con đó toàn số chẵn hoặc
 
 | Input | Output |
 |:-------|:--------|
-| 8<br> 2 4 4 4 5 5 5 5| 5 5 5 5|
+| 8<br> 3 4 4 4 5 5 7 5| 5 5 7 5|
 
 **Ví dụ 3:**
 
