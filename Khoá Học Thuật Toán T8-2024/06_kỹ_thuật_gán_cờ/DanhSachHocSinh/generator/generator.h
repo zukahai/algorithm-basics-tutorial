@@ -18,12 +18,20 @@ void gen(int iTest, int testnum, string target_file)
     {
         a[i] = i + 1;
     }
-    random_shuffle(a.begin(), a.end());
+    
+    for (int i = 0; i < s; i++) {
+        int index1 = random(0, s - 1);
+        int index2 = random(0, s - 1);
+        
+        int tmp = a[index1];
+        a[index1] = a[index2];
+        a[index2] = tmp;
+    }
 
     int m = random(1, s - 1);
     int n = s - m;
 
-    if (iTest == testnum - 1)
+    if (iTest >= testnum - 1)
     {
         m = 100000;
         n = 100000;
@@ -49,9 +57,11 @@ void gen(int iTest, int testnum, string target_file)
             }
         }
     }
-    cout << m << " " << n << endl;
+    
+    cout <<  m << " " << n << endl;
     print_vector(b, cout);
     cout << endl;
     print_vector(c, cout);
+
     
 }

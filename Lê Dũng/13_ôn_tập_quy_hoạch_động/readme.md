@@ -1,0 +1,1 @@
+# Các bài QHD ở https://oj.vnoi.info/contest/haizuka_kiet/ranking/
