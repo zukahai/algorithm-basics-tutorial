@@ -47,7 +47,7 @@ void gen(int iTest, int testnum, string target_file)
         c[i] = a[i + m];
     }
 
-    if (random(0, 2) == 0)
+    if (random(0, 4) > 0)
     {
         for (int i = 0; i < m; i++)
         {
@@ -57,9 +57,24 @@ void gen(int iTest, int testnum, string target_file)
             }
         }
     }
+
+    unordered_map <int, int> B;
+
+    for (int i = 0; i < m; i++)
+    {
+        B[b[i]] ++;
+    }
     
-    cout <<  m << " " << n << endl;
-    print_vector(b, cout);
+    cout <<  B.size() << " " << n << endl;
+    
+    for (auto x : B)
+    {
+        if (B[x.first] > 0)
+        {
+            cout << x.first << " ";
+            B[x.first] = 0;
+        }
+    }
     cout << endl;
     print_vector(c, cout);
 
