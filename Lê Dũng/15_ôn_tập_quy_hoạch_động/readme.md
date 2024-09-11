@@ -30,6 +30,19 @@ Làm theo cách này sẽ áp dụng được bài sau*
 |:-------|:--------|
 | 5 <br> 1 1 1 1 1 | 5 |
 
+```
+dp[i]: Độ dài dãy con giống nhau liên tiếp dài nhất bắt đầu tại i
+
+dp[n] = 1
+
+For n - 1 -> 1:
+    if a[i] == a[i + 1]:
+        dp[i] = dp[i + 1] + 1
+    else:
+        dp[i] = 1
+
+```
+
 ## Bài 2: Dãy số giống nhau liên tiếp dài nhất (phần 2)
 
 Cho trước dãy số nguyên **a** gồm **n** phần tử. Bạn có quyền xoá nhiều nhất 1 phần tử trong dãy **a** (có thể xoá 1 phần tử hoặc không xoá). Hãy tìm dãy con liên tiếp dài nhất trong dãy **a** sao cho tất cả các phần tử trong dãy con đó giống nhau (có thể xoá 1 phần tử).
@@ -53,6 +66,17 @@ Cho trước dãy số nguyên **a** gồm **n** phần tử. Bạn có quyền 
 | 5 <br> 2 1 2 2 2 | 4 |
 
 **Giải thích:** Xoá phần tử thứ 2, ta được dãy con liên tiếp dài nhất là 2 2 2 2.
+
+```
+dp[i]: Kết thúc tại i
+dp2[i]: Bắt đầu từ i
+
+7
+3 3 5 3 3 3 
+
+dp[i - 1] + dp2[i + 1]
+
+```
 
 **Ví dụ 2**
 
@@ -102,7 +126,7 @@ Cho trước dãy số nguyên **a** gồm **n** phần tử. Bạn có thể xo
 
 ## Bài 4: Dãy tăng dần liên tiếp dài nhất
 
-Cho trước dãy số nguyên **a** gồm **n** phần tử. Hãy tìm dãy con liên tiếp dài nhất trong dãy **a** sao cho tất cả các phần tử trong dãy con đó tăng dần.
+Cho trước dãy số nguyên **a** gồm **n** phần tử. Bạn có quyền xoá nhiều nhất 1 phần tử trong dãy **a** (có thể xoá 1 phần tử hoặc không xoá). Hãy tìm dãy con liên tiếp dài nhất trong dãy **a** sao cho tất cả các phần tử trong dãy con đó tăng dần.
 
 **Đầu vào**
 
@@ -130,7 +154,7 @@ Cho trước dãy số nguyên **a** gồm **n** phần tử. Hãy tìm dãy con
 
 ## Bài 5: Dãy tăng dần liên tiếp dài nhất (phần 2)
 
-Cho trước dãy số nguyên **a** gồm **n** phần tử. Hãy tìm dãy con liên tiếp dài nhất trong dãy **a** sao cho tất cả các phần tử trong dãy con đó tăng dần. Đưa ra dãy con dài nhất có thể, nếu có nhiều dãy con cùng độ dài thì in ra dãy con có số nhỏ nhất.
+Cho trước dãy số nguyên **a** gồm **n** phần tử. Bạn có quyền xoá nhiều nhất 1 phần tử trong dãy **a** (có thể xoá 1 phần tử hoặc không xoá). Hãy tìm dãy con liên tiếp dài nhất trong dãy **a** sao cho tất cả các phần tử trong dãy con đó tăng dần. Đưa ra dãy con dài nhất có thể, nếu có nhiều dãy con cùng độ dài thì in ra dãy con có số nhỏ nhất.
 
 **Đầu vào**
 
