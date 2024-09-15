@@ -18,7 +18,7 @@ In ra tất cả các cách chọn 3 viên bị. Mỗi cách chọn in ra 3 số
 |:-------|:--------|
 |       | 1 1 1<br>1 1 2<br>1 1 3<br>1 2 1 <br>1 2 2<br>1 2 3<br>1 3 1<br>1 3 2<br>1 3 3<br>2 1 1<br>2 1 2<br>2 1 3<br>2 2 1<br>2 2 2<br>2 2 3<br>2 3 1<br>2 3 2<br>2 3 3<br>3 1 1<br>3 1 2<br>3 1 3<br>3 2 1<br>3 2 2<br>3 2 3<br>3 3 1<br>3 3 2<br>3 3 3|
 
-## Bài 1. Chọn bi (tiếp theo)
+## Bài 2. Chọn bi (tiếp theo)
 
 Có 3 loại bị 1, 2, 3. Mỗi loại bị có số lượng không giới hạn.
 
@@ -51,3 +51,33 @@ In ra tất cả các cách chọn **n** viên bị. Mỗi cách chọn in ra **
 | Input | Output |
 |:-------|:--------|
 | 3     | 1 1 1<br>1 1 2<br>1 1 3<br>1 2 1<br>1 2 2<br>1 2 3<br>1 3 1<br>1 3 2<br>1 3 3<br>2 1 1<br>2 1 2<br>2 1 3<br>2 2 1<br>2 2 2<br>2 2 3<br>2 3 1<br>2 3 2<br>2 3 3<br>3 1 1<br>3 1 2<br>3 1 3<br>3 2 1<br>3 2 2<br>3 2 3<br>3 3 1<br>3 3 2<br>3 3 3|
+
+```cpp
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+vector<int> a(10);
+int N;
+
+void dequy(int n) {
+    if (n == N) {
+        for (int i = 0; i < N; i++) {
+            cout << a[i] << " ";
+        }
+        cout << endl;
+        return;
+    }
+    for (int i = 1; i <= 3; i++) {
+        a[n] = i;
+        dequy(n + 1);
+    }
+}
+
+int main() {
+    cin >> N;
+    dequy(0);
+}
+
+```
