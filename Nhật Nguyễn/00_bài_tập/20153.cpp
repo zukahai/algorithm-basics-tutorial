@@ -23,12 +23,23 @@ int main() {
     s = toupper(s);
 
     // Vị trí của s trong p
-    int pos = p.find(s);
-    if (pos == string::npos) {
-        cout << "NO";
-    } else {
-        cout << pos;
+    for (int i = 0; i < p.size(); i++) {
+        if (p[i] == s[0]) {
+            bool found = true;
+            for (int j = 1; j < s.size(); j++) {
+                if (p[i + j] != s[j]) {
+                    found = false;
+                    break;
+                }
+            }
+            if (found) {
+                cout << i;
+                return 0;
+            }
+        }
     }
+
+    cout << "NO";
 
 
 }
