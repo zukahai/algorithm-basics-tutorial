@@ -1,0 +1,8 @@
+Tổng hợp các link
+
+- Link video recording: https://drive.google.com/drive/folders/1X6Ru0rwnJd661leK11Fh5ReOcoPGAoMK?usp=sharing
+
+- Link bài tập cơ bản: https://oj.vnoi.info/contest/haizuka_cpp
+
+- Link code thầy sử dụng trong buổi học: 
+
