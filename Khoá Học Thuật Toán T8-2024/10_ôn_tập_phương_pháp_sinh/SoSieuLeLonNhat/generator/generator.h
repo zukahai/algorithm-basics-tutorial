@@ -30,5 +30,14 @@ void gen(int iTest, int testnum, string target_file)
     if (len == 0) len = 1;
 
     s = random_string(1, "123456789") + random_string(len, "0123456789");
+    if (iTest == 8) {
+        cout << 50;
+        return;
+    }
+
+    if (iTest == 50) {
+        cout << "17500000000000000000000000000000000900000000000";
+        return;
+    }
     cout << s;
 }

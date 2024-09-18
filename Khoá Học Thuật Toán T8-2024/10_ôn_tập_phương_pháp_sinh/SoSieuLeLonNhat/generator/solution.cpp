@@ -22,7 +22,7 @@ int main()
                 return 0;
             }  else {
                 if (s[i - 1] != '1') {
-                    s[i - 1] = s[i - 1] - 1;
+                    s[i - 1] = s[i - 1] - 2;
                     for (int j = i; j < s.size(); j++)
                     {
                         s[j] = '9';
