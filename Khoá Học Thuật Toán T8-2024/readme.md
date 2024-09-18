@@ -55,3 +55,9 @@ Tổng hợp link video buổi học tại [đây](https://drive.google.com/driv
 
 - Chữa bài tập: [Chữa bài tập](./06_kỹ_thuật_gán_cờ/exs/)
 - Bài tập: [Bài tập](https://oj.vnoi.info/contest/haizuka_06)
+
+
+### Buổi 11: Các công thức số học
+
+- Lý thuyết: [Lý thuyết](./11_các_công_thức_số_học/readme.md)
+- Bài tập: [Bài tập](https://oj.vnoi.info/contest/haizuka_06)

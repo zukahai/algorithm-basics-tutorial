@@ -5,7 +5,7 @@ using namespace std;
 // Nếu x là ước số của n thì n/x cũng là ước số của n
 
 int main() {
-    long long n;
+    long long n; // 10^12
     cin >> n;
     vector<long long> uoc;
 
