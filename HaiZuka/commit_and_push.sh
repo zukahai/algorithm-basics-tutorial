@@ -1,5 +1,5 @@
 # Đổi thư mục làm việc tới thư mục chứa repo Git của bạn
-Set-Location -Path "G:\algorithm-mastery-in-30-days/Khoá Học Thuật Toán T8-2024/11_các_công_thức_số_học/"
+Set-Location -Path "G:\algorithm-mastery-in-30-days/Khoá Học Thuật Toán T8-2024/12_kỳ_thi_giữa_khoá/"
 # Set-Location -Path "G:\algorithm-mastery-in-30-days/Phạm Thành An/02_quy_hoạch_động_1/"
 
 # Lấy danh sách tất cả các tệp tin chưa được theo dõi từ git status
