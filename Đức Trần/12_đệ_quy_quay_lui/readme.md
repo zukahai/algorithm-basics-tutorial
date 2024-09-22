@@ -201,3 +201,30 @@ In ra tất cả các hoán vị của dãy số **a**. Mỗi hoán vị in ra *
 | Input | Output |
 |:-------|:--------|
 | 4<br>1 3 6 9| 1 3 6 9<br>1 3 9 6<br>1 6 3 9<br>1 6 9 3<br>1 9 3 6<br>1 9 6 3<br>3 1 6 9<br>3 1 9 6<br>3 6 1 9<br>3 6 9 1<br>3 9 1 6<br>3 9 6 1<br>6 1 3 9<br>6 1 9 3<br>6 3 1 9<br>6 3 9 1<br>6 9 1 3<br>6 9 3 1<br>9 1 3 6<br>9 1 6 3<br>9 3 1 6<br>9 3 6 1<br>9 6 1 3<br>9 6 3 1|
+
+## Dãy nhị phân độ dài n
+
+Cho số nguyên dương **n**. Hãy in ra tất cả các dãy nhị phân độ dài **n**. 2 dãy nhị phân gọi là khác nhau nếu có ít nhất một vị trí mà 2 dãy nhị phân khác nhau.
+
+**Input**
+
+Một số nguyên **n** (1 ≤ **n** ≤ 10).
+
+**Output**
+
+In ra tất cả các dãy nhị phân độ dài **n**. Mỗi dãy nhị phân in ra **n** số nguyên cách nhau bởi dấu cách. Các dãy nhị phân không cần phải theo thứ tự tăng dần.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 2     | 00<br>01<br>10<br>11|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+| 3     | 000<br>001<br>010<br>011<br>100<br>101<br>110<br>111|
+
