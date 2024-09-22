@@ -228,3 +228,31 @@ In ra tất cả các dãy nhị phân độ dài **n**. Mỗi dãy nhị phân 
 |:-------|:--------|
 | 3     | 000<br>001<br>010<br>011<br>100<br>101<br>110<br>111|
 
+## Phân tích số nguyên dương n
+
+Cho số nguyên dương **n**. Hãy in ra tất cả các cách phân tích số nguyên dương **n** thành tổng các số nguyên dương.
+
+**Input**
+
+Một số nguyên **n** (1 ≤ **n** ≤ 20).
+
+**Output**
+
+In ra tất cả các cách phân tích số nguyên dương **n** thành tổng các số nguyên dương. Mỗi cách phân tích in ra một dòng. Các số trong mỗi cách phân tích cách nhau bởi dấu cách. Các cách phân tích không cần phải theo thứ tự tăng dần.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 3     | 1 1 1<br>1 2<br>2 1<br>3|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+| 4     | 1 1 1 1<br>1 1 2<br>1 2 1<br>1 3<br>2 1 1<br>2 2<br>3 1<br>4|
+
+
+
