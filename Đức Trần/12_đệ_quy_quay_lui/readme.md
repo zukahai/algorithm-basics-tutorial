@@ -280,3 +280,29 @@ In ra tất cả các cách phân tích số nguyên dương **n** thành tổng
 |:-------|:--------|
 | 5     | 1 1 1 1 1<br>1 1 1 2<br>1 1 3<br>1 2 2<br>1 4<br>2 3<br>5|
 
+## Bài 10: Phân tích số nguyên dương n (tiếp theo)
+
+Cho số nguyên dương **n**. Hãy in ra tất cả các cách phân tích số nguyên dương **n** thành tổng các số fibonaci.
+
+**Input**
+
+Một số nguyên **n** (1 ≤ **n** ≤ 20).
+
+**Output**
+
+In ra tất cả các cách phân tích số nguyên dương **n** thành tổng các số fibonaci. Mỗi cách phân tích in ra một dòng. Các số trong mỗi cách phân tích cách nhau bởi dấu cách. Các cách phân tích không cần phải theo thứ tự tăng dần.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 3     | 1 1 1<br>1 2<br>2 1<br>3|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+|6      | 1 1 1 1 1 1<br>1 1 1 1 2<br>1 1 1 3<br>1 1 2 2<br>1 1 3 1<br>1 2 1 2<br>1 2 3<br>1 3 2 <br> 1 5<br>2 1 1 2 <br> 2 1 2 1<br>2 1 3<br>2 2 2<br>2 3 1<br>3 1 2<br>3 2 1<br>3 3<br>5 1<br>6|
+
