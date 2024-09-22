@@ -174,3 +174,31 @@ In ra tất cả các hoán vị của tập hợp {1, 2, 3, ..., **n**}. Mỗi 
 |:-------|:--------|
 | 4     | 1 2 3 4<br> 1 2 4 3<br> 1 3 2 4<br> 1 3 4 2<br> 1 4 2 3<br> 1 4 3 2<br> 2 1 3 4<br> 2 1 4 3<br> 2 3 1 4<br> 2 3 4 1<br> 2 4 1 3<br> 2 4 3 1<br> 3 1 2 4<br> 3 1 4 2<br> 3 2 1 4<br> 3 2 4 1<br> 3 4 1 2<br> 3 4 2 1<br> 4 1 2 3<br> 4 1 3 2<br> 4 2 1 3<br> 4 2 3 1<br> 4 3 1 2<br> 4 3 2 1|
 
+## Bài 6: Hoán vị dãy số
+
+Cho dãy số nguyên **a** gồm **n** phần tử khác nhau. Hãy in ra tất cả các hoán vị của dãy số **a**. 2 hoán vị gọi là khác nhau nếu có ít nhất một vị trí mà 2 hoán vị khác nhau.
+
+**Input**
+
+Dòng đầu tiên chứa số nguyên **n** (1 ≤ **n** ≤ 10).
+
+Dòng thứ 2 chứa **n** số nguyên **a1**, **a2**, ..., **an** (1 ≤ **ai** ≤ 10).
+
+**Output**
+
+In ra tất cả các hoán vị của dãy số **a**. Mỗi hoán vị in ra **n** số nguyên cách nhau bởi dấu cách. Các hoán vị không cần phải theo thứ tự tăng dần.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 3<br>2 4 6 | 2 4 6<br>2 6 4<br>4 2 6<br>4 6 2<br>6 4 2<br>6 2 4|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+| 4<br>1 3 6 9| 1 3 6 9<br>1 3 9 6<br>1 6 3 9<br>1 6 9 3<br>1 9 3 6<br>1 9 6 3<br>3 1 6 9<br>3 1 9 6<br>3 6 1 9<br>3 6 9 1<br>3 9 1 6<br>3 9 6 1<br>6 3 1 9<br>6 3 9 1<br>6 1 3 9<br>6 1 9 3<br>6 9 3 1<br>6 9 1 3<br>9 3 6 1<br>9 3 1 6<br>9 6 3 1<br>9 6 1 3<br>9 1 3 6<br>9 1 6 3|
+
