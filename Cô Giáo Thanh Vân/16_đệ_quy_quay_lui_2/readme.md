@@ -96,7 +96,7 @@ Gồm 2 số nguyên **n** và **k** (1 ≤ **k** ≤ **n** ≤ 10).
 
 **Output**
 
-In ra tất cả các cách chọn **k** phần tử từ tập hợp {1, 2, 3, ..., **n**}. Mỗi cách chọn in ra **k** số nguyên cách nhau bởi dấu cách. Các cách chọn không cần phải theo thứ tự tăng dần.
+In ra tất cả các cách chọn **k** phần tử từ tập hợp {1, 2, 3, ..., **n**}. Mỗi cách chọn in ra **k** số nguyên cách nhau bởi dấu cách. Các cách chọn phải theo thứ tự tăng dần.
 
 **Ví dụ**
 

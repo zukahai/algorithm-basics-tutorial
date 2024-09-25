@@ -1,7 +1,7 @@
 from math import *
 
 n = (int(input("Nhập số nguyên dương n: ")))
-b = [True] * n
+b = [True] * (n + 1)
 b[0] = b[1] = False
 
 for k in range(2, isqrt(n)+1):
