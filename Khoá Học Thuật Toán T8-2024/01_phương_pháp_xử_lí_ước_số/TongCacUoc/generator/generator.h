@@ -7,11 +7,38 @@ void gen(int iTest, int testnum, string target_file)
     ofstream cout(target_file);
     
     // Cout ra những input cần thiết
-    long long k = random((iTest - 1) * 2000000000, iTest * 2000000000);
-    if (random(1, 4) == 1) {
-        cout << k + 1;
-    } else {
-        long long h = sqrt(k);
-        cout << h * h + 1;
+
+    vector <int> lensub = {1, 3, 9};
+
+    string s = "";
+    int k = 1;
+
+    if (iTest * 100 < testnum * 20)
+    {
+        k = 0;
+        
     }
+    else if (iTest * 100 < testnum * 40)
+    {
+        k = 1;
+    } else {
+        // Sinh test ngẫu nhiên
+       k = 2;
+    }
+
+    int len = lensub[k] * (iTest * 1.0 / testnum);
+    if (len == 0) len = 1;
+
+    s = random_string(1, "123456789") + random_string(len - 1, "0123456789");
+
+    long long n = stoll(s);
+    if (n > 1e12) n = 10e12;
+
+    if (iTest >= testnum - 10)
+    {
+        n = 1e12 - random(1, 100);
+    }
+
+
+    cout << n;
 }
