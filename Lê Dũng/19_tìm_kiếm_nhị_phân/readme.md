@@ -4,6 +4,7 @@
 <summary>
 BÀI 101. Làm bánh (PANCAKES.CPP) 
 </summary>
+
 	
 Nhận định: Mỗi con gà sẽ có thời gian để trứng là t<sub>i</sub>. 
 
@@ -56,6 +57,7 @@ int main() {
 <summary>
 BÀI 102. SÓC VÀ HẠT DẺ (SQUIRR2.CPP)
 </summary>
+
 	
 Nhận định: Mỗi cây hạt dẻ có thời gian chờ hạt đầu tiên là t<sub>i</sub>. Tiếp đó cứ sau mỗi thời gian là **p<sub>i</sub>** thì cây sẽ cho ra thêm 1 hạt dẻ.
 
