@@ -1,9 +1,13 @@
 # Tìm Kiếm Nhị Phân
 
 <details>
+
 <summary>
-BÀI 101. Làm bánh (PANCAKES.CPP) 
+<b>
+BÀI 101. Làm bánh (PANCAKES.CPP)
+</b>
 </summary>
+
 
 <br>
 Nhận định: Mỗi con gà sẽ có thời gian để trứng là t<sub>i</sub>. 
@@ -55,7 +59,9 @@ int main() {
 
 <details>
 <summary>
+<b>
 BÀI 102. SÓC VÀ HẠT DẺ (SQUIRR2.CPP)
+</b>
 </summary>
 
 <br>
