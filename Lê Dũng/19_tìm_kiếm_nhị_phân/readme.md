@@ -5,7 +5,7 @@
 BÀI 101. Làm bánh (PANCAKES.CPP) 
 </summary>
 
-	
+<br>
 Nhận định: Mỗi con gà sẽ có thời gian để trứng là t<sub>i</sub>. 
 
 Sau thời gian là **T** thì con gà **i** sẽ để được phần trứng là **T/t<sub>i</sub>**.
@@ -58,7 +58,7 @@ int main() {
 BÀI 102. SÓC VÀ HẠT DẺ (SQUIRR2.CPP)
 </summary>
 
-	
+<br>
 Nhận định: Mỗi cây hạt dẻ có thời gian chờ hạt đầu tiên là t<sub>i</sub>. Tiếp đó cứ sau mỗi thời gian là **p<sub>i</sub>** thì cây sẽ cho ra thêm 1 hạt dẻ.
 
 Sau thời gian là **T** thì cây **i** sẽ cho ra được phần hạt dẻ là **(T - t<sub>i</sub>) / p<sub>i</sub>** + 1.
