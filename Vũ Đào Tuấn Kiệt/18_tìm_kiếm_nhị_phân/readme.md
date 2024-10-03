@@ -184,5 +184,3 @@ for q chạy từ 1 đến N:
 		Lưu ý: Xét riêng trường hợp a[i] = Sjk - a[j]
 
 ```
-
-```cpp
