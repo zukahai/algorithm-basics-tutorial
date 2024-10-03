@@ -184,3 +184,5 @@ for q chạy từ 1 đến N:
 		Lưu ý: Xét riêng trường hợp a[i] = Sjk - a[j]
 
 ```
+
+Bài này chúng ta sử dụng tìm kiếm nhị phần để đếm số lần xuất hiện của Sjk, tuy nhiên có thể dùng unordered_map để lưu trữ số lần xuất hiện của Sjk sẽ tốt nhất.
