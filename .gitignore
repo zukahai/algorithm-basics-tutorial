@@ -3,4 +3,5 @@ node_modules
 *.exe
 tempCodeRunnerFile.*
 package-lock.json
-package.json
+package.
+*.zip

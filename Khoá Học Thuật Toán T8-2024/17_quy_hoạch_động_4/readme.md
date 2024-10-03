@@ -25,6 +25,7 @@ Cách nhảy:<br>Các vị trí: 0 → 2 → 3 → 5 → 6. Tổng số lớn nh
 # Bài 2: Dãy con tăng dài nhất
 
 Cho dãy số a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>N</sub>. Hãy tìm dãy con tăng dài nhất của dãy số đó (các phần tử không nhất thiết phải liên tiếp nhau).
+Nếu có nhiều dãy con tăng cùng độ dài, hãy in ra dãy con tăng đầu tiên.
 
 **Đầu vào:**
 
@@ -34,15 +35,55 @@ Cho dãy số a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>N</sub>. Hãy tìm dãy c
 
 **Đầu ra:**
 
-- In ra độ dài của dãy con tăng dài nhất.
+- In ra dãy con tăng dài nhất của dãy số đó. Nếu có nhiều dãy con tăng cùng độ dài, hãy in ra dãy con tăng đầu tiên.
 
 **Ví dụ:**
+
+**Ví dụ 1:**
 
 | Input | Output |
 |:-------|:--------|
 | 10<br>4 6 1 3 2 3 9 7 8 3 |  1 2 3 7 8 |
 
-# Bài 3: Phần thưởng
+**Ví dụ 2:**
+
+| Input | Output |
+|:-------|:--------|
+| 3<br>9 2 1 | 9 |
+
+# Bài 3: Dãy con chính phương tăng dài nhất
+
+Cho dãy số a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>N</sub>. Hãy tìm dãy con chứa các số chính phương tăng dài nhất của dãy số đó (các phần tử không nhất thiết phải liên tiếp nhau). 
+
+Nếu có nhiều dãy con tăng cùng độ dài, hãy in ra dãy con tăng đầu tiên. Nếu không có số chính phương nào, hãy in ra -1.
+
+**Đầu vào:**
+
+- Dòng đầu tiên chứa số nguyên N (1 ≤ N ≤ 10<sup>4</sup>).
+
+- Dòng thứ 2 chứa N số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>N</sub> (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>).
+
+**Đầu ra:**
+
+- In ra dãy con chứa các số chính phương tăng dài nhất của dãy số đó.
+
+**Ví dụ:**
+
+**Ví dụ 1:**
+
+| Input | Output |
+|:-------|:--------|
+| 10<br>4 6 1 3 2 3 9 7 16 3 |  4 9 16|
+
+**Ví dụ 2:**
+
+| Input | Output |
+|:-------|:--------|
+| 3<br>9 2 7 | -1 |
+
+
+
+# Bài 4: Phần thưởng
 
 Một công ty tổ chức một chương trình khuyến mãi. Công ty sẽ tặng phần thưởng cho những khách hàng mua hàng trong một ngày. Công ty có **n** phần quà để tặng, mỗi phần quà có giá trị là một số nguyên dương. Công ty cho phép bạn chọn bất kỳ các món quà nhưng với điều kiện không chọn hai món quà liên tiếp. Hãy tìm cách chọn các món quà sao cho tổng giá trị của các món quà chọn được là lớn nhất.
 
@@ -66,15 +107,15 @@ Một công ty tổ chức một chương trình khuyến mãi. Công ty sẽ t�
 
 Có thể chọn các món quà  1, 9 và 4, tổng giá trị là 14.
 
-# Bài 4: Con chuột chũi
+# Bài 5: Con chuột chũi
 
 Một hang động rộng lớn được chia thành một lưới ô vuông kích thước **n** x **m**. Một con chuột bắt đầu từ ô (1, 1) và muốn đi đến ô (**n**, **m**). Con chuột có thể di chuyển sang bên phải hoặc xuống dưới mỗi lần. Mỗi ô có một số nguyên dương ghi trên đó, khi đi qua ô đó, con chuột sẽ nhận được số kẹo tương ứng. Hãy tìm cách để con chuột nhận được tổng số kẹo lớn nhất.
 
 **Input:**
 
-- Dòng đầu tiên chứa 2 số nguyên **n**, **m** (1 ≤ **n**, **m** ≤ 10<sup>4<sup>)
+- Dòng đầu tiên chứa 2 số nguyên **n**, **m** (1 ≤ **n**, **m** ≤ 10<sup>3<sup>)
 
-- **n** dòng tiếp theo, mỗi dòng chứa **m** số nguyên **a<sub>ij</sub>** (1 ≤ **a<sub>ij</sub>** ≤ 10<sup>9</sup>)
+- **n** dòng tiếp theo, mỗi dòng chứa **m** số nguyên **a<sub>ij</sub>** (-10<sup>9</sup> ≤ **a<sub>ij</sub>** ≤ 10<sup>9</sup>)
 
 **Output:**
 
@@ -84,22 +125,22 @@ Một hang động rộng lớn được chia thành một lưới ô vuông kí
 
 | Input | Output |
 |:-------|:--------|
-| 3 3<br> 1 3 2<br> 2 4 3<br> 3 2 5 | 15 |
+| 3 3<br> 1 0 2<br> 2 4 3<br> 3 2 5 | 15 |
 
 **Giải thích:**
 
 Con chuột sẽ đi theo đường đi<br> 
 (1, 1) → (2, 1) → (2, 2) → (2, 3) → (3, 3)<br>Và nhận được tổng số kẹo là 15.
 
-# Bài 5: Bài toán đổi tiền
+# Bài 6: Bài toán đổi tiền
 
-Một ngân hàng có **n** loại tiền giấy với các mệnh giá khác nhau. Bạn cần đổi một số tiền **m** bằng cách sử dụng số tờ tiền ít nhất. Hãy xác định số tờ tiền cần thiết.
+Một ngân hàng có **n** loại tiền giấy với các mệnh giá khác nhau. Bạn cần đổi một số tiền **m** bằng cách sử dụng số tờ tiền ít nhất. Hãy xác định số tờ tiền cần thiết. Nếu không thể đổi được số tiền **m** bằng các tờ tiền có sẵn, in ra -1.
 
 **Dữ liệu**: Vào từ thiết bị nhập chuẩn:
 
-- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n** ≤ 100, 1 ≤ **m** ≤ 10^6),
+- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n** ≤ 100, 1 ≤ **m** ≤ 10<sup>4<sub>),
 
-- Dòng thứ 2 chứa **n** số nguyên **a1**, **a2**, . . ., **an** (1 ≤ **ai** ≤ 10^6) - mệnh giá của các loại tiền.
+- Dòng thứ 2 chứa **n** số nguyên **a1**, **a2**, . . ., **an** (1 ≤ **ai** ≤ 10<sup>4<sub>) - mệnh giá của các loại tiền.
 
 **Kết quả**: Số tờ tiền ít nhất để đổi số tiền là **m**
 
@@ -122,3 +163,9 @@ Một ngân hàng có **n** loại tiền giấy với các mệnh giá khác nh
 | Input | Output |
 |:-------|:--------|
 |2 100<br> 10 1 | 10 |
+
+**Ví dụ 4**:
+
+| Input | Output |
+|:-------|:--------|
+|3 5<br> 2 4 6 | -1 |
