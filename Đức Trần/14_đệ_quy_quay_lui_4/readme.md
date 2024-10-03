@@ -28,7 +28,7 @@ Cho một dãy số nguyên **a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>**
 
 **Input**:
 
-- Dòng đầu tiên chứa một số nguyên **n** (1 ≤ **n** ≤ 10<sup>5</sup>),
+- Dòng đầu tiên chứa một số nguyên **n** (1 ≤ **n** ≤ 15),
 
 - Dòng thứ hai chứa **n** số nguyên **a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>** (1 ≤ **a<sub>i</sub>** ≤ 10<sup>9</sup>).
 
