@@ -231,3 +231,43 @@ Hải và Linh đều chơi tối ưu, tức là cả hai đều sẽ chơi sao 
 - Hải rút 5, **N** giảm còn 4. Linh rút 3, **N** giảm còn 1. Linh thắng.
 - Hải rút 7, **N** giảm còn 2. Linh rút 2, **N** giảm còn 0. Linh thắng.
 
+# Trò chơi rút số (6)
+
+Trong thời gian rảnh rỗi, Hải và Linh chơi một trò chơi rút số. Luật chơi như sau:
+
+- Ban đầu, sẽ có một số nguyên dương **N**.
+
+- Hai người chơi sẽ luân phiên rút một số nguyên dương **x**, trong đó **x** là một số nguyên dương và n - x là một ước số của n. Khi rút được số **x**, số **N** sẽ giảm đi **x**.
+
+- Người chơi nào rút về số 1 sẽ bị thua.
+
+Hải và Linh đều chơi tối ưu, tức là cả hai đều sẽ chơi sao cho có cơ hội thắng cao nhất. Hãy xác định người chiến thắng, biết rằng Hải sẽ chơi trước.
+
+**Dữ liệu**: Vào từ thiết bị nhập chuẩn gồm một số nguyên **N** (2 ≤ **N** ≤ 10<sup>5</sup>).
+
+**Kết quả**: Đưa ra thiết bị xuất chuẩn tên người chiến thắng: `Hai` hoặc `Linh`.
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Input | Output |
+|:-------|:--------|
+| 6     | Hải    |
+
+**Giải thích**:
+
+- N = 6, Hải rút 4 (đảm bảo 6 - 4 = 2 là ước số của 6). N = 2, Linh rút 1. Linh thua.
+
+**Ví dụ 2**:
+
+| Input | Output |
+|:-------|:--------|
+| 5    | Linh    |
+
+**Giải thích**:
+
+- Hải cần rút số x sao cho 5 - x là ước số của 5. Hải chỉ có thể rút 4, N = 1. Hải thua.
+
+
+
