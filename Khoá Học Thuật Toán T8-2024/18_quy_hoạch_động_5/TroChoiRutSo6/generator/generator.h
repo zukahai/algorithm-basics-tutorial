@@ -2,6 +2,16 @@
 #include "../lib/library.h"
 using namespace std;
 
+bool isPrime(int n)
+{
+    if (n < 2) return false;
+    for (int i = 2; i <= sqrt(n); i++)
+    {
+        if (n % i == 0) return false;
+    }
+    return true;
+}
+
 vector <int> listUoc(int n)
 {
     vector <int> res;
@@ -54,12 +64,14 @@ void gen(int iTest, int testnum, string target_file)
 
     s = random_string(1, "123456789") + random_string(len - 1, "0123456789");
 
-    long long n = stoll(s);
+    long long n = stoll(s) + 2;
 
-    if (iTest >= testnum - 10)
+    if (iTest >= testnum - 20)
     {
         n = 1e5- random(1, 100);
     }
+
+    n *= random(4, 5);
 
     vector <bool> dp(n + 1);
     dp[1] = true;
@@ -78,8 +90,19 @@ void gen(int iTest, int testnum, string target_file)
         }
     }
 
+    
+
     int m = random(0, 1);
+    int kk = random(1, 3);
     int index = n;
     while (index > 1 && dp[index] != m) index --;
+
+    if( random(0, 1)) {
+        cout << index;
+    } else {
+        index = n / kk + 2;
+        while (isPrime(index)) index--;
+        index *= kk;
     cout << index;
+    }
 }

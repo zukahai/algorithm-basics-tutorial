@@ -17,3 +17,9 @@ Cho số nguyên dương N, hãy tìm số siêu lẻ lớn thứ N.
 | Input | Output |
 |-------|--------|
 | 7    | 13 |
+
+## Subtask
+
+- **Subtask 1 (20 điểm)**: 1 ≤ **N** ≤ 10<sup>5</sup>.
+- **Subtask 2 (20 điểm)**: 1 ≤ **N** ≤ 10<sup>9</sup>.
+- **Subtask 3 (60 điểm)**: 1 ≤ **N** ≤ 10<sup>18</sup>.
