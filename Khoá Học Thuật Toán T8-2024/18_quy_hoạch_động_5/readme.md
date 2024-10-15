@@ -271,3 +271,39 @@ Hải và Linh đều chơi tối ưu, tức là cả hai đều sẽ chơi sao 
 
 
 
+# Trò chơi rút số (7)
+
+Trong thời gian rảnh rỗi, Hải và Linh chơi một trò chơi rút số. Luật chơi như sau:
+
+- Ban đầu, sẽ có một số nguyên dương **N**. Khi rút được số **x**, số **N** sẽ giảm đi **x**.
+
+- Hai người chơi sẽ luân phiên rút một số nguyên dương **x**, trong đó **x** là một chữ số của số **N** hiện tại, và **x** > 0. Ví dụ, nếu **N** = 1203 thì **x** có thể là 1, 2 hoặc 3.
+
+- Người chơi nào rút về số 0 sẽ thắng.
+
+Hải và Linh đều chơi tối ưu, tức là cả hai đều sẽ chơi sao cho có cơ hội thắng cao nhất. Hãy xác định người chiến thắng, biết rằng Hải sẽ chơi trước.
+
+**Dữ liệu**: Vào từ thiết bị nhập chuẩn gồm một số nguyên **N** (1 ≤ **N** ≤ 10<sup>6</sup>).
+
+**Kết quả**: Đưa ra thiết bị xuất chuẩn tên người chiến thắng: `Hai` hoặc `Linh`.
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Input | Output |
+|:-------|:--------|
+| 10   | Linh    |
+
+**Giải thích**:
+
+- Hải chỉ có thể rút 1, **N** giảm còn 9. Linh rút 9, **N** giảm còn 0. Linh thắng.
+
+**Ví dụ 2**:
+
+| Input | Output |
+|:-------|:--------|
+| 11   | Hải    |
+
+
+

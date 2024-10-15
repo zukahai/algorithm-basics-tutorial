@@ -1,19 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector <int> listUoc(int n)
+vector <int> listDight(int n)
 {
     vector <int> res;
-    for (int i = 1; i <= sqrt(n); i++)
+    while (n > 0)
     {
-        if (n % i == 0)
-        {
-            res.push_back(i);
-            if (i != n / i)
-            {
-                res.push_back(n / i);
-            }
-        }
+        if (n % 10 != 0)
+            res.push_back(n % 10);
+        n /= 10;
     }
     return res;
 }
@@ -27,15 +22,14 @@ int main()
     cin >> n;
 
     vector <bool> dp(n + 1);
-    dp[1] = true;
-    for (int i = 2; i <= n; i++)
+    dp[0] = false;
+    for (int i = 1; i <= n; i++)
     {
         dp[i] = false;
-        vector <int> uoc = listUoc(i);
+        vector <int> uoc = listDight(i);
         for (auto x: uoc)
         {
-            if (x == i) continue;
-            if (dp[x] == false)
+            if (dp[i - x] == false)
             {
                 dp[i] = true;
                 break;

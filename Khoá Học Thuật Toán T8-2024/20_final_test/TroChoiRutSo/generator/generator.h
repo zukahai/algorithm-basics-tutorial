@@ -2,29 +2,15 @@
 #include "../lib/library.h"
 using namespace std;
 
-bool isPrime(int n)
-{
-    if (n < 2) return false;
-    for (int i = 2; i <= sqrt(n); i++)
-    {
-        if (n % i == 0) return false;
-    }
-    return true;
-}
 
-vector <int> listUoc(int n)
+vector <int> listDight(int n)
 {
     vector <int> res;
-    for (int i = 1; i <= sqrt(n); i++)
+    while (n > 0)
     {
-        if (n % i == 0)
-        {
-            res.push_back(i);
-            if (i != n / i)
-            {
-                res.push_back(n / i);
-            }
-        }
+        if (n % 10 != 0)
+            res.push_back(n % 10);
+        n /= 10;
     }
     return res;
 }
@@ -41,7 +27,7 @@ void gen(int iTest, int testnum, string target_file)
         return;
     }
 
-    vector <int> lensub = {1, 2, 4};
+    vector <int> lensub = {1, 4, 5};
 
     string s = "";
     int k = 1;
@@ -68,21 +54,19 @@ void gen(int iTest, int testnum, string target_file)
 
     if (iTest >= testnum - 20)
     {
-        n = 1e5- random(1, 100);
+        n = 1e6- random(1, 100);
     }
 
-    n *= random(4, 5);
 
-    vector <bool> dp(n + 1);
-    dp[1] = true;
-    for (int i = 2; i <= n; i++)
+     vector <bool> dp(n + 1);
+    dp[0] = false;
+    for (int i = 1; i <= n; i++)
     {
         dp[i] = false;
-        vector <int> uoc = listUoc(i);
+        vector <int> uoc = listDight(i);
         for (auto x: uoc)
         {
-            if (x == i) continue;
-            if (dp[x] == false)
+            if (dp[i - x] == false)
             {
                 dp[i] = true;
                 break;
@@ -90,19 +74,11 @@ void gen(int iTest, int testnum, string target_file)
         }
     }
 
+
     
 
     int m = random(0, 1);
-    int kk = random(1, 3);
     int index = n;
     while (index > 1 && dp[index] != m) index --;
-
-    if( random(0, 1)) {
-        cout << index;
-    } else {
-        index = n / kk + 2;
-        while (isPrime(index)) index--;
-        index *= kk;
     cout << index;
-    }
 }

@@ -1,5 +1,5 @@
 # Đổi thư mục làm việc tới thư mục chứa repo Git của bạn
-Set-Location -Path "G:\algorithm-mastery-in-30-days/Khoá Học Thuật Toán T8-2024/10_ôn_tập_phương_pháp_sinh/"
+Set-Location -Path "G:\algorithm-mastery-in-30-days/Khoá Học Thuật Toán T8-2024/20_final_test"
 # Set-Location -Path "G:\algorithm-mastery-in-30-days/Phạm Thành An/02_quy_hoạch_động_1/"
 # Set-Location -Path "G:\algorithm-mastery-in-30-days/HaiZuka/"
 # Set-Location -Path "G:\algorithm-mastery-in-30-days/Olympic  VKU (không chuyên)/02_phương_pháp_duyệt_ước"
