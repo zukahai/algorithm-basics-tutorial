@@ -6,16 +6,16 @@ map <int, bool> mp;
 int solve(int n) {
     for (int i = 1; i <= sqrt(n); i++) {
         if (n % i == 0) {
-            mp[i] = 1;
-            mp[n / i] = 1;
+            mp[i] = true;
+            mp[n / i] = true;
         }
     }
 }
 
 int main()
 {
-    ifstream cin("input.txt");
-    ofstream cout("output.txt");
+    // ifstream cin("input.txt");
+    // ofstream cout("output.txt");
 
     int n, x;
     cin >> n;

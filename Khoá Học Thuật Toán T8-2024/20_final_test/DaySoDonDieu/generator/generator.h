@@ -8,7 +8,7 @@ void gen(int iTest, int testnum, string target_file)
     
     // Cout ra những input cần thiết
 
-    int n = iTest * 20;
+    int n = iTest * 2000;
     vector <int> a = random_vector(n, 1, n);
 
     
