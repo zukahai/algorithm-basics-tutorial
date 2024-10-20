@@ -5,11 +5,11 @@ bool bk[1001][1001];
 bool visited[1001];
 int n;
 
-void deQuy(int a, int b) {
+void deQuy(int a) {
     visited[a] = true;
     for (int v = 1; v <= n; v++) {
         if (bk[a][v] == true && visited[v] != true) {
-            deQuy(v, b);
+            deQuy(v);
         }
     }
 
@@ -28,10 +28,10 @@ int main() {
 
     int a, b;
     cin >> a >> b;
-    deQuy(a, b);
-    for (int i = 1; i <= n; i++) {
-        if (visited[i] == true) {
-            cout << i << " ";
-        }
+    deQuy(a);
+    if (visited[b] == true) {
+        cout << "YES";
+    } else {
+        cout << "NO";
     }
 }
