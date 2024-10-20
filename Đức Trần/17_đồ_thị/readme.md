@@ -80,3 +80,23 @@ Cho **n** thành phố và **m** con đường hai chiều giữa các thành ph
 | Input | Output |
 |:-------|:--------|
 | 5 3 <br> 5 1 <br> 4 1 <br> 2 3 <br> 4   | 3    |
+
+## Máy bay
+
+Đếm xem có bao nhiêu cụm, Mỗi cụm là những thành phố có thể đi đến với nhau.
+
+**Dữ liệu**:
+
+- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n**, **m** ≤ 1000).
+
+- **m** dòng tiếp theo, mỗi dòng chứa 2 số nguyên **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**).
+
+- Dòng cuối cùng chứa số nguyên **a** (1 ≤ **a** ≤ **n**).
+
+**Ví dụ**:
+
+| Input | Output |
+|:-------|:--------|
+| 5 3 <br> 5 1 <br> 4 1 <br> 2 3  | 2    |
+
+Có 2 cụm là (1, 4, 5) và (2, 3)
