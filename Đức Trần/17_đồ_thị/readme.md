@@ -58,3 +58,25 @@ int main() {
     }
 }
 ```
+
+## Du lịch
+
+Cho **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi con đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường bộ nối giữa thành phố **u** và thành phố **v**.
+
+Đếm xem có bao nhiêu thành phố có thể đi đến từ thành phố **a**.
+
+**Dữ liệu**:
+
+- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n**, **m** ≤ 1000).
+
+- **m** dòng tiếp theo, mỗi dòng chứa 2 số nguyên **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**).
+
+- Dòng cuối cùng chứa số nguyên **a** (1 ≤ **a** ≤ **n**).
+
+**Kết quả**: In ra số lượng thành phố có thể đi đến từ thành phố **a**.
+
+**Ví dụ**:
+
+| Input | Output |
+|:-------|:--------|
+| 5 3 <br> 5 1 <br> 4 1 <br> 2 3 <br> 4   | 3    |

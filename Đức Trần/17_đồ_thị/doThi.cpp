@@ -29,9 +29,9 @@ int main() {
     int a, b;
     cin >> a >> b;
     deQuy(a, b);
-    if (visited[b] == true) {
-        cout << "YES";
-    } else {
-        cout << "NO";
+    for (int i = 1; i <= n; i++) {
+        if (visited[i] == true) {
+            cout << i << " ";
+        }
     }
 }
