@@ -24,3 +24,4 @@ b = k.p.x = (k.p).x
 1 2 4 100 22 333 666 5 10 20 25
 
 
+![alt text](image.png)
