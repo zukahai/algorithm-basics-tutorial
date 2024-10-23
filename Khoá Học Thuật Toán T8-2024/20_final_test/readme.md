@@ -1,4 +1,4 @@
-# Chiêu mộ tân binh
+# Chiêu mô tân binh
 
 Thời xa xưa, đa phần mỗi tướng quân đều có một đội quân riêng, và việc chiêu mộ tân binh là một trong những việc quan trọng nhất của họ. Mỗi tướng quân đều muốn có được những tân binh tốt nhất, những người có khả năng chiến đấu tốt nhất, và đương nhiên, họ cũng muốn có được nhiều tân binh nhất có thể.
 
@@ -8,8 +8,8 @@ Tướng quân VKU đang có trong tay **n** binh lính, và muốn chiêu mộ 
 
 **Dữ liệu**: Vào từ thiết bị nhập chuẩn:
 
-- Dòng đầu tiên chứa một số nguyên **n** (1 ≤ **n** ≤ 10<sub>2</sub>),
-- Dòng thứ 2 chứa **n** số nguyên **a<sub>1</sub>, a<sub>2</sub>, . . ., a<sub>n</sub>** (1 ≤ **a<sub>i</sub>** ≤ 10<sub>9</sub>, **i** = 1 ÷ **n**).
+- Dòng đầu tiên chứa một số nguyên **n** (1 ≤ **n** ≤ 10<sup>2</sup>),
+- Dòng thứ 2 chứa **n** số nguyên **a<sub>1</sub>, a<sub>2</sub>, . . ., a<sub>n</sub>** (1 ≤ **a<sub>i</sub>** ≤ 10<sup>9</sup>, **i** = 1 ÷ **n**).
 
 **Kết quả**: Đưa ra thiết bị xuất chuẩn một số nguyên – số lượng binh lính lớn nhất có thể có được.
 
@@ -23,13 +23,12 @@ Tướng quân VKU đang có trong tay **n** binh lính, và muốn chiêu mộ 
 
 - Ban đầu tướng quân VKU có 3 binh lính với sức mạnh lần lượt là 6, 12 và 5.
 - Binh lính 6 có thể chiêu mộ thêm 3 bình lính chưa có đó là 1, 2 và 3. Đội quân hiện tại là 6, 12, 5, 1, 2, 3.
-- Binh lính 12 không thể chiêu mộ thêm ai.
-- Binh lính 5 có thể chiêu mộ thêm 1 binh lính là 5. Đội quân hiện tại là 6, 12, 5, 1, 2, 3, 5.
+- Binh lính 12 có thể chiêu mộ thêm 4, Đội quân hiện tại là 6, 12, 5, 1, 2, 3, 4.
 - Tất cả 7 binh lính đều không thể chiêu mộ thêm ai nữa.
 
 ## Substack
 
-- 40% số test có 1 ≤ **a[i]** ≤ 10<sub>4</sub>,
+- 40% số test có 1 ≤ **a[i]** ≤ 10<sup>4</sup>,
 - 60% số test còn lại không có giới hạn gì thêm.
 
 # Trò chơi rút số
