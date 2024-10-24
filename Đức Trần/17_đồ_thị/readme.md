@@ -99,4 +99,6 @@ Cho **n** thành phố và **m** con đường hai chiều giữa các thành ph
 |:-------|:--------|
 | 5 3 <br> 5 1 <br> 4 1 <br> 2 3  | 2    |
 
+![alt text](image.png)
+
 Có 2 cụm là (1, 4, 5) và (2, 3)
