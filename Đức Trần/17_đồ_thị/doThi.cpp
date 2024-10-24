@@ -12,7 +12,6 @@ void deQuy(int a) {
             deQuy(v);
         }
     }
-
 }
 
 int main() {
