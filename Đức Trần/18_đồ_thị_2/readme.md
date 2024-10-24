@@ -54,3 +54,27 @@ Tìm đường đi ngắn nhất từ thành phố **a** đến thành phố **b
 3 -> 4 -> 6
 
 ![alt text](image.png)
+
+## Vòng quanh thế giới
+
+Cho **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi còn đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường nối giữa thành phố **u** và thành phố **v**.
+
+Hãy xác định xem có thể đi qua tất cả các thành phố từ thành phố, mỗi thành phố chỉ được đi qua 1 lần.
+
+**Dữ liệu**:
+
+- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n**, **m** ≤ 1000).
+
+- **m** dòng tiếp theo, mỗi dòng chứa 2 số nguyên **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**).
+
+- Dòng cuối cùng chứa số nguyên **a** (1 ≤ **a** ≤ **n**).
+
+**Kết quả**: In ra "YES" nếu có thể đi qua tất cả các thành phố từ thành phố **a**, ngược lại in ra "NO".
+
+**Ví dụ**:
+
+| Input | Output |
+|:-------|:--------|
+| 6 7 <br> 2 1 <br> 2 3 <br> 1 6 <br> 4 5 <br> 3 4 <br> 6 4 <br> 1 5 <br> | YES    |
+
+![alt text](image.png)
