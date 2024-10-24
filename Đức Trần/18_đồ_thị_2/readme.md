@@ -1,3 +1,5 @@
+## Số lượng đường đi
+
 Cho **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi còn đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường nối giữa thành phố **u** và thành phố **v**.
 
 Anh Đức muốn đi từ thành phố **a** đến thành phố **b** sao cho không có thành phố nào trùng lặp trên đường đi. Hãy giúp anh Đức xác định xem có bao nhiêu cách để anh Đức đi từ thành phố **a** đến thành phố **b**.
