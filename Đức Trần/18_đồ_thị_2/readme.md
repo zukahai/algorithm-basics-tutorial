@@ -51,6 +51,6 @@ Tìm đường đi ngắn nhất từ thành phố **a** đến thành phố **b
 
 Đường đi ngắn nhất từ 3 đến 6 là 2.
 
-![alt text](image.png)
-
 3 -> 4 -> 6
+
+![alt text](image.png)
