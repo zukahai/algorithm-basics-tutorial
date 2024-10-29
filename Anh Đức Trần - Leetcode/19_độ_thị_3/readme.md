@@ -36,3 +36,26 @@ Trong số các cách đi trên, có 1 cách đi qua nhiều thành phố nhất
 
 Như vậy số lượng thành phố nhiều nhất mà anh Đức có thể đi qua là 6.
 
+# Đường đi ngắn nhất 2
+
+Cho **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi còn đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường nối giữa thành phố **u** và thành phố **v**. Khoảng cách giữa 2 phố là **d**.
+
+Tìm đường đi ngắn nhất từ thành phố **a** đến thành phố **b**.
+
+**Dữ liệu**:
+
+- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n**, **m** ≤ 1000).
+
+- **m** dòng tiếp theo, mỗi dòng chứa 3 số nguyên **u**, **v** và **d** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**, 1 ≤ **d** ≤ 1000).
+
+- Dòng cuối cùng chứa 2 số nguyên **a** và **b** (1 ≤ **a**, **b** ≤ **n**).
+
+**Kết quả**: In ra khoảng cách ngắn nhất từ thành phố **a** đến thành phố **b**.
+
+**Ví dụ**:
+
+![alt text](image-1.png)
+
+| Input | Output |
+|:-------|:--------|
+| 7 8 <br> 4 6 5 <br> 6 1 10 <br> 6 3 1 <br> 6 5 13 <br> 5 7 4 <br> 7 2 3 <br> 3 2 2 <br> 5 1 2 <br> 6 5 | 10    |
