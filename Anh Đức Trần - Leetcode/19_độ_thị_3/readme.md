@@ -15,8 +15,10 @@ Anh Đức xuất phát từ thành phố **a** và muốn đi một tìm một 
 **Kết quả**: In ra số lượng thành phố nhiều nhất mà anh Đức có thể đi qua.
 
 **Ví dụ**:
-
-![alt text](image.png)
+ <!-- 50% width image -->
+<p  align = "center" >
+    <img  src = "image.png"  width = "60%" >
+</p>
 
 | Input | Output |
 |:-------|:--------|
