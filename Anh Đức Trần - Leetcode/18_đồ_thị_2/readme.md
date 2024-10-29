@@ -75,6 +75,6 @@ Hãy xác định xem có thể đi qua tất cả các thành phố từ thành
 
 | Input | Output |
 |:-------|:--------|
-| 6 7 <br> 2 1 <br> 2 3 <br> 1 6 <br> 4 5 <br> 3 4 <br> 6 4 <br> 1 5 <br> | YES    |
+| 6 7 <br> 2 1 <br> 2 3 <br> 1 6 <br> 4 5 <br> 3 4 <br> 6 4 <br> 1 <br> | YES    |
 
 ![alt text](image.png)
