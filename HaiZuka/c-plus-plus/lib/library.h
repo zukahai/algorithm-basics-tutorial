@@ -8,6 +8,14 @@ void print_vector (vector<T> a, ofstream &cout) {
     }
 }
 
+struct Subtask
+{
+    int percent;
+    int lenN;
+    int lenAi;
+};
+
+
 template <typename T>
 void print_matrix (vector<vector<T>> a, ofstream &cout) {
     for (int i = 0; i < a.size(); i++) {
@@ -20,15 +28,15 @@ void print_matrix (vector<vector<T>> a, ofstream &cout) {
 
 
 long long random();
-long long random(int n);
 long long random(long long l, long long r);
-vector<int> random_vector(int n, int x);
-vector<int> random_vector(int n, int l, int r);
 vector<long long> random_vector(int n, long long l, long long r);
 vector<long long> random_vector(int n, long long x);
 string random_string(int n, string charset);
 string random_string(int n);
 string random_string(int n, int type);
+long long random_len(int len);
+vector<long long> random_vector(vector<Subtask> subtasks, int iTest, int testnum);
+
 
 /**
  * Generates a random long long number.
@@ -46,16 +54,6 @@ long long random()
     return ans;
 }
 
-/**
- * Generates a random long long number within the range [0, n).
- * 
- * @param n The upper bound (exclusive) for the generated random number.
- * @return The generated random number.
- */
-long long random(int n)
-{
-    return random() % n;
-}
 
 /**
  * Generates a random long long number within the range [l, r].
@@ -69,40 +67,7 @@ long long random(long long l, long long r)
     return l + random() % (r - l + 1);
 }
 
-/**
- * Generates a vector of random integers within the range [0, x).
- * 
- * @param n The size of the vector.
- * @param x The upper bound (exclusive) for the generated random integers.
- * @return The generated vector of random integers.
- */
-vector<int> random_vector(int n, int x)
-{
-    vector<int> a(n);
-    for (int i = 0; i < n; i++)
-    {
-        a[i] = random(x);
-    }
-    return a;
-}
 
-/**
- * Generates a vector of random integers within the range [l, r].
- * 
- * @param n The size of the vector.
- * @param l The lower bound (inclusive) for the generated random integers.
- * @param r The upper bound (inclusive) for the generated random integers.
- * @return The generated vector of random integers.
- */
-vector<int> random_vector(int n, int l, int r)
-{
-    vector<int> a(n);
-    for (int i = 0; i < n; i++)
-    {
-        a[i] = random(l, r);
-    }
-    return a;
-}
 
 /**
  * Generates a vector of random long long numbers within the range [l, r].
@@ -118,23 +83,6 @@ vector<long long> random_vector(int n, long long l, long long r)
     for (int i = 0; i < n; i++)
     {
         a[i] = random(l, r);
-    }
-    return a;
-}
-
-/**
- * Generates a vector of random long long numbers within the range [0, x).
- * 
- * @param n The size of the vector.
- * @param x The upper bound (exclusive) for the generated random numbers.
- * @return The generated vector of random long long numbers.
- */
-vector <long long> random_vector(int n, long long x)
-{
-    vector <long long> a(n);
-    for(int i = 0; i < n; i++)
-    {
-        a[i] = random(x);
     }
     return a;
 }
@@ -204,7 +152,69 @@ string random_string(int n, int type)
             charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             break;
         default:
-            charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+ =-[]{};':,.<>?";
+            charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            break;
     }
-    return random_string(n, charset);
+}
+
+
+long long random_len(int len) {
+    long long ans = 0;
+    for (int i = 0; i < len; i++) {
+        ans = ans * 10 + rand() % 10;
+    }
+    return ans;
+}
+
+vector<long long> random_vector(vector<Subtask> subtasks, int iTest, int testnum) {
+    int sumPercent = 0;
+    for (int i = 0; i < subtasks.size(); i++) {
+        sumPercent += subtasks[i].percent;
+    }
+
+    for (int i = 0; i < subtasks.size(); i++) {
+        subtasks[i].percent = subtasks[i].percent * 100 / sumPercent;
+    }
+
+    for (int i = 1; i < subtasks.size(); i++) {
+        subtasks[i].percent += subtasks[i - 1].percent;
+    }
+
+    Subtask st = subtasks[0];
+    for (int i = 0; i < subtasks.size(); i++) {
+        if (iTest <= testnum * subtasks[i].percent / 100.0) {
+            st = subtasks[i];
+            break;
+        }
+    }
+    vector<long long> a;
+    int n = random_len(st.lenN);
+    for (int i = 0; i < n; i++) {
+        a.push_back(random_len(st.lenAi));
+    }
+    return a;
+}
+
+long long random(vector<Subtask> subtasks, int iTest, int testnum) {
+    int sumPercent = 0;
+    for (int i = 0; i < subtasks.size(); i++) {
+        sumPercent += subtasks[i].percent;
+    }
+
+    for (int i = 0; i < subtasks.size(); i++) {
+        subtasks[i].percent = subtasks[i].percent * 100 / sumPercent;
+    }
+
+    for (int i = 1; i < subtasks.size(); i++) {
+        subtasks[i].percent += subtasks[i - 1].percent;
+    }
+
+    Subtask st = subtasks[0];
+    for (int i = 0; i < subtasks.size(); i++) {
+        if (iTest <= testnum * subtasks[i].percent / 100.0) {
+            st = subtasks[i];
+            break;
+        }
+    }
+    return random_len(st.lenN);
 }

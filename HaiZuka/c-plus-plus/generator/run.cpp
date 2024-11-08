@@ -1,11 +1,11 @@
 #include "../lib/create.h"
 #include "generator.h"
 
-int main()
+main()
 {
     srand(24022007);
     int start = 1;
-    int testnum = 20;
+    int testnum = 10;
     string prob_name = "testcase";
 
     create_all_and_compile(prob_name, start, testnum);
