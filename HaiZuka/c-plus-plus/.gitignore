@@ -34,5 +34,4 @@ output.txt
 
 # Executables
 *.exe
-*.out
 *.app

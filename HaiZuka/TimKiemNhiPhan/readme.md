@@ -34,4 +34,52 @@ Cho một dãy số nguyên **a** đã **sắp xếp tăng dần** gồm n phầ
 **Đầu vào**:
 
 - Dòng đầu tiên chứa 2 số nguyên n (1 ≤ n ≤ 10<sup>5</sup>)
+- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (|a<sub>i</sub>| ≤ 10<sup>9</sup>)
+- Dòng thứ ba chứa số nguyên q (1 ≤ q ≤ 10<sup>5</sup>) - số lượng truy vấn
+- Mỗi dòng trong q dòng tiếp theo chứa một số nguyên x (|x| ≤ 10<sup>9</sup>) - số cần tìm trong dãy a
+
+**Đầu ra**:
+
+- In ra q dòng, mỗi dòng chứa 2 số nguyên là vị trí của phần tử cuối cùng nhỏ hơn **x** và phần tử đầu tiên lớn hơn **x** trong dãy **a**. Nếu không tồn tại phần tử nào nhỏ hơn **x** -1, nếu không tồn tại phần tử nào lớn hơn **x** in ra -1.
+
+**Ví dụ**:
+
+| Input | Output |
+|:---|:---|
+| 5 <br> 2 3 5 7 9 <br> 4 <br> 4 <br> 7 <br> 20 <br> 2| 2 3 <br> 3 5 <br> 5 -1 <br> -1 2 |
+
+## Cửa hàng bán bút
+
+Một cửa hàng bán bút vừa khai trương, đang có chương trình khuyến mãi.
+Cứ mua **a** bút, khách hàng sẽ được tặng **b** bút. Một khách hàng muốn có đủ **n** bút, hỏi cần phải mua ít nhất bao nhiêu bút để có đủ **n** bút.
+
+**Đầu vào**:
+
+- Dòng đầu tiên chứa 3 số nguyên a, b, n (1 ≤ a, b, n ≤ 10<sup>9</sup>)
+
+**Đầu ra**:
+
+- In ra số bút ít nhất cần mua để có đủ **n** bút.
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Input | Output |
+|:---|:---|
+| 3 2 10 | 6 |
+
+**Giải thích**:
+
+Mua 6 bút, sẽ được tặng 4 bút, tổng cộng có 10 bút.
+
+**Ví dụ 2**:
+
+| Input | Output |
+|:---|:---|
+| 2 1 10 | 7 |
+
+**Giải thích**:
+
+Mua 6 bút, sẽ được tặng 3 bút, tổng cộng có 9 bút. Mua thêm 1 bút nữa, tổng cộng có 10 bút.
 
