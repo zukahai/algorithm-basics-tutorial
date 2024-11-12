@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<long long> LayUoc(long long n){
-    vector<long long> res;
-    for(long long i = 1; i <= sqrt(n);i++){
+vector<int> LayUoc(int n){
+    vector<int> res;
+    for(int i = 1; i <= sqrt(n);i++){
         if (n%i==0){
             res.push_back(n/i);
             res.push_back(i);
@@ -13,13 +13,13 @@ vector<long long> LayUoc(long long n){
 }
 
 int main(){
-    long long k;
+    int k;
     cin >> k;
     vector<string> dp(k+4);
     dp[1]="Win";
-    for(long long i = 2; i <= k; i++){
+    for(int i = 2; i <= k; i++){
         dp[i]="Lose";
-        vector<long long> csrut = LayUoc(i);
+        vector<int> csrut = LayUoc(i);
         for (auto x:csrut){
             if (x != i){
                 if (dp[x]=="Lose"){
