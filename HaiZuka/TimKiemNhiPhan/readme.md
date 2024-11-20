@@ -83,3 +83,44 @@ Mua 6 bút, sẽ được tặng 4 bút, tổng cộng có 10 bút.
 
 Mua 6 bút, sẽ được tặng 3 bút, tổng cộng có 9 bút. Mua thêm 1 bút nữa, tổng cộng có 10 bút.
 
+## Tìm đỉnh trong dãy số
+
+Cho một mảng số nguyên **a** gồm n phần tử. Một phần tử được gọi là đỉnh nếu nó lớn hơn hoặc bằng các phần tử liền kề với nó. Hãy tìm một đỉnh bất kỳ trong mảng.
+
+**Đầu vào**:
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>5</sup>)
+- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (|a<sub>i</sub>| ≤ 10<sup>9</sup>)
+
+**Đầu ra**:
+- In ra vị trí của một đỉnh bất kỳ trong mảng (vị trí tính từ 1)
+
+**Ví dụ**:
+
+| Input | Output |
+|:---|:---|
+| 5 <br> 1 3 2 4 5 | 2 |
+
+**Giải thích**:
+- Trong mảng có các đỉnh ở vị trí 2 (giá trị 3) và vị trí 5 (giá trị 5)
+- Ta có thể in ra bất kỳ vị trí nào trong số đó, ở đây ta chọn in ra vị trí 2
+
+## Tìm số thiếu nhỏ nhất
+
+Cho một mảng số nguyên **a** gồm n phần tử đã được sắp xếp tăng dần. Hãy tìm số nguyên dương nhỏ nhất không xuất hiện trong mảng.
+
+**Đầu vào**:
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>5</sup>)
+- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (|a<sub>i</sub>| ≤ 10<sup>9</sup>)
+
+**Đầu ra**:
+- In ra số nguyên dương nhỏ nhất không xuất hiện trong mảng
+
+**Ví dụ**:
+
+| Input | Output |
+|:---|:---|
+| 5 <br> 1 2 3 5 6 | 4 |
+
+**Giải thích**:
+- Các số nguyên dương xuất hiện trong mảng là: 1, 2, 3, 5, 6
+- Số nguyên dương nhỏ nhất không xuất hiện trong mảng là 4
