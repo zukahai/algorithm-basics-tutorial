@@ -20,6 +20,8 @@ Tìm hai chỉ số i và j, sao cho
 j - i là lớn nhất, và a[i] = a[j]
 Nếu có nhiều cặp j - i lớn nhất thì in ra cặp đầu tiên
 
+(1 <= n <= 10<sup>6</sup>, |a[i]| <= 10<sup>18</sup>)
+
 Ví dụ 1:
 5
 1 2 3 3 2
