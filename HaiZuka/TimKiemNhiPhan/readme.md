@@ -1,4 +1,4 @@
-## Vị trí của phần tử
+## Bài 1: Vị trí của phần tử
 
 Cho một dãy số nguyên a **đã sắp xếp tăng dần** gồm n phần tử và một số nguyên x. Hãy viết chương trình tìm vị trí đầu tiên của phần tử x trong dãy a. Nếu x không tồn tại trong dãy a, in ra -1.
 
@@ -27,7 +27,7 @@ Cho một dãy số nguyên a **đã sắp xếp tăng dần** gồm n phần t�
 - Trong truy vấn thứ hai, số 4 không tồn tại trong dãy a
 - Trong truy vấn thứ ba, số 7 xuất hiện ở vị trí thứ 5 trong dãy a
 
-## Phần tử lớn hơn và nhỏ hơn
+## Bài 2: Phần tử lớn hơn và nhỏ hơn
 
 Cho một dãy số nguyên **a** đã **sắp xếp tăng dần** gồm n phần tử và một số nguyên **x**. Hãy viết chương trình tìm vị trí của phần tử cuối cùng nhỏ hơn **x** và phần tử đầu tiên lớn hơn **x** trong dãy **a**. 
 
@@ -48,7 +48,7 @@ Cho một dãy số nguyên **a** đã **sắp xếp tăng dần** gồm n phầ
 |:---|:---|
 | 5 <br> 2 3 5 7 9 <br> 4 <br> 4 <br> 7 <br> 20 <br> 2| 2 3 <br> 3 5 <br> 5 -1 <br> -1 2 |
 
-## Cửa hàng bán bút
+## Bài 3: Cửa hàng bán bút
 
 Một cửa hàng bán bút vừa khai trương, đang có chương trình khuyến mãi.
 Cứ mua **a** bút, khách hàng sẽ được tặng **b** bút. Một khách hàng muốn có đủ **n** bút, hỏi cần phải mua ít nhất bao nhiêu bút để có đủ **n** bút.
@@ -83,44 +83,38 @@ Mua 6 bút, sẽ được tặng 4 bút, tổng cộng có 10 bút.
 
 Mua 6 bút, sẽ được tặng 3 bút, tổng cộng có 9 bút. Mua thêm 1 bút nữa, tổng cộng có 10 bút.
 
-## Tìm đỉnh trong dãy số
+## Bài 4: Số dãy ghế tối thiểu
 
-Cho một mảng số nguyên **a** gồm n phần tử. Một phần tử được gọi là đỉnh nếu nó lớn hơn hoặc bằng các phần tử liền kề với nó. Hãy tìm một đỉnh bất kỳ trong mảng.
+Một rạp chiếu phim có kết cấu rất độc lạ. Có **m** dãy ghế. Dãy ghế thứ 1 có 1 ghế ngồi, dãy ghế thứ 2 có 2 ghế ngồi, ..., dãy ghế thứ **m** có **m** ghế ngồi.
+
+Chủ rạp phim muốn tính toán cần xây ít nhất bao nhiêu dãy ghế để có đủ **n** ghế ngồi.
 
 **Đầu vào**:
-- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>5</sup>)
-- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (|a<sub>i</sub>| ≤ 10<sup>9</sup>)
+
+- Dòng đầu tiên chứa  số nguyên n (1 ≤ n ≤ 10<sup>18</sup>)
 
 **Đầu ra**:
-- In ra vị trí của một đỉnh bất kỳ trong mảng (vị trí tính từ 1)
+
+- In ra số dãy ghế ít nhất cần xây.
 
 **Ví dụ**:
 
-| Input | Output |
-|:---|:---|
-| 5 <br> 1 3 2 4 5 | 2 |
-
-**Giải thích**:
-- Trong mảng có các đỉnh ở vị trí 2 (giá trị 3) và vị trí 5 (giá trị 5)
-- Ta có thể in ra bất kỳ vị trí nào trong số đó, ở đây ta chọn in ra vị trí 2
-
-## Tìm số thiếu nhỏ nhất
-
-Cho một mảng số nguyên **a** gồm n phần tử đã được sắp xếp tăng dần. Hãy tìm số nguyên dương nhỏ nhất không xuất hiện trong mảng.
-
-**Đầu vào**:
-- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>5</sup>)
-- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (|a<sub>i</sub>| ≤ 10<sup>9</sup>)
-
-**Đầu ra**:
-- In ra số nguyên dương nhỏ nhất không xuất hiện trong mảng
-
-**Ví dụ**:
+**Ví dụ 1**:
 
 | Input | Output |
 |:---|:---|
-| 5 <br> 1 2 3 5 6 | 4 |
+| 10 | 4 |
 
 **Giải thích**:
-- Các số nguyên dương xuất hiện trong mảng là: 1, 2, 3, 5, 6
-- Số nguyên dương nhỏ nhất không xuất hiện trong mảng là 4
+
+Cần xây 4 dãy ghế: dãy 1 (1 ghế), dãy 2 (2 ghế), dãy 3 (3 ghế), dãy 4 (4 ghế). Tổng cộng có 10 ghế.
+
+**Ví dụ 2**:
+
+| Input | Output |
+|:---|:---|
+| 5 | 3 |
+
+**Giải thích**:
+
+Cần xây 3 dãy ghế: dãy 1 (1 ghế), dãy 2 (2 ghế), dãy 3 (3 ghế). Tổng cộng có 6 ghế.
