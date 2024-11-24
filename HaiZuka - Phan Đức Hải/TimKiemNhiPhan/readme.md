@@ -118,3 +118,43 @@ Cần xây 4 dãy ghế: dãy 1 (1 ghế), dãy 2 (2 ghế), dãy 3 (3 ghế), d
 **Giải thích**:
 
 Cần xây 3 dãy ghế: dãy 1 (1 ghế), dãy 2 (2 ghế), dãy 3 (3 ghế). Tổng cộng có 6 ghế.
+
+## Những con gà mái
+
+Một trang trại có **n** con gà mái, mỗi còn gà sẽ có thời gian để trứng là a<sub>i</sub>. Nghĩa là sau một khoảng thời gian là a<sub>i</sub> thì con gà sẽ đẻ một quả trứng. Giả sử trong đề rằng con gà mái sẽ đẻ trứng liên tục không ngừng nghỉ.
+
+Hỏi sau ít nhất bao lâu thì trang trại sẽ có đủ **m** quả trứng.
+
+**Đầu vào**:
+
+- Dòng đầu tiên chứa 2 số nguyên n, m (1 ≤ n ≤ 10<sup>5</sup>, 1 ≤ m ≤ 10<sup>18</sup>)
+
+- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>)
+
+**Đầu ra**:
+
+- In ra thời gian ít nhất cần phải chờ để có đủ **m** quả trứng.
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Input | Output |
+|:---|:---|
+| 3 7 <br> 1 2 3 | 4 |
+
+**Giải thích**:
+
+- Sau 4 giây
+    - Gà mái thứ nhất sẽ đẻ 4 quả trứng.
+    - Gà mái thứ hai sẽ đẻ 2 quả trứng.
+    - Gà mái thứ ba sẽ đẻ 1 quả trứng.
+
+**Ví dụ 2**:
+
+| Input | Output |
+|:---|:---|
+| 3 10 <br> 10 5 8 | 25 |
+
+
+
