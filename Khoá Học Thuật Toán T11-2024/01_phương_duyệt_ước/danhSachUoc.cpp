@@ -11,6 +11,5 @@ int main() {
             dem++;
         }
     }
-
     cout << dem;
 }
