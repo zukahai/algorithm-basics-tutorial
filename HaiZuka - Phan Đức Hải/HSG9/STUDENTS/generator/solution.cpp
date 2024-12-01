@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-    ifstream cin("STUDENTS.INP");
-    ofstream cout("STUDENTS.OUT");
+    // ifstream cin("STUDENTS.INP");
+    // ofstream cout("STUDENTS.OUT");
+
+    ifstream cin("input.txt");
+    ofstream cout("output.txt");
 
 
     map<int, vector<int>> mp;
@@ -13,25 +16,21 @@ int main()
     vector<int> a(n);
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        mp[a[i]].push_back(i);
     }
 
-    vector<int> res;
-    
-    while(k > 0) {
-        for (map<int, vector<int>>::reverse_iterator it = mp.rbegin(); it != mp.rend(); it++) {
-            for (int i = 0; i < it->second.size(); i++) {
-                if (k == 0) break;
-                res.push_back(it->second[i]);
-                k--;
+    k = n - k;
+    while(k--) {
+        int maxIndex = a.size() - 1;
+        for (int i = 1; i < a.size() - 1; i++) {
+            if (a[i] < a[i + 1]) {
+                maxIndex = i;
+                break;
             }
-            if (k == 0) break;
         }
+        a.erase(a.begin() + maxIndex);
     }
 
-    sort(res.begin(), res.end());
-
-    for (int i = 0; i < res.size(); i++) {
-        cout << a[res[i]];
+    for (int i = 0; i < a.size(); i++) {
+        cout << a[i];
     }
 }
