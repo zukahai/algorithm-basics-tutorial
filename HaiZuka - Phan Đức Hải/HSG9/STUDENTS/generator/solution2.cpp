@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    // ifstream cin("STUDENTS.INP");
-    // ofstream cout("STUDENTS.OUT");
+    ifstream cin("STUDENTS.INP");
+    ofstream cout("STUDENTS.OUT");
 
 
     map<int, vector<int>> mp;

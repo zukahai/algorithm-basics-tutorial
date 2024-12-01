@@ -9,8 +9,6 @@ int main()
     ifstream cin("input.txt");
     ofstream cout("output.txt");
 
-
-    map<int, vector<int>> mp;
     int n, k;
     cin >> n >> k;
     vector<int> a(n);

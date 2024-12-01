@@ -6,8 +6,8 @@ using namespace std;
 
 vector<Subtask> subtasks = {
     {percent: 20, lenN: 2, lenAi: 3}, //20% test có n <= 10^2, mỗi ai <= 10^3
-    {percent: 20, lenN: 3, lenAi: 6}, //30% test có n <= 10^4, mỗi ai <= 10^6
-    {percent: 20, lenN: 4, lenAi: 18}, //50% test có n <= 10^6, mỗi ai <= 10^18
+    {percent: 30, lenN: 3, lenAi: 6}, //30% test có n <= 10^4, mỗi ai <= 10^6
+    {percent: 50, lenN: 4, lenAi: 18}, //50% test có n <= 10^6, mỗi ai <= 10^18
 };
 
 
@@ -26,11 +26,12 @@ void gen(int iTest, int testnum, string target_file)
 
     int n = random(subtasks, iTest, testnum);
     vector<int> vec;
-    int k = 2;
+    int k = random(3, n);
     if (iTest <= 10) {
         k = 2;
-    } else {
-        k = random(2, n);
+    } else if (iTest <= 25){
+        n = random(1, 10);
+        k = random(1, n);
     } 
 
     for (int i = 0; i < n; i++) {
