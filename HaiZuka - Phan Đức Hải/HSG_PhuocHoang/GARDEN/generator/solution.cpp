@@ -30,8 +30,10 @@ long long getM2(long long n) {
 
 int main()
 {
-    ifstream cin("GARDEN.INP");
-    ofstream cout("GARDEN.OUT");
+    // ifstream cin("GARDEN.INP");
+    // ofstream cout("GARDEN.OUT");
+     ifstream cin("input.txt");
+    ofstream cout("output.txt");
     // Bài giải của bạn ở dưới đây
     
     long long n;

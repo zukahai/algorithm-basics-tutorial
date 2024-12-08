@@ -24,9 +24,11 @@ int binarySearch(vector <int> &a, int l, int r, int x)
 
 int main()
 {
-    ifstream cin("FANDOM.INP");
-    ofstream cout("FANDOM.OUT");
+    // ifstream cin("FANDOM.INP");
+    // ofstream cout("FANDOM.OUT");
     // Bài giải của bạn ở dưới đây
+     ifstream cin("input.txt");
+    ofstream cout("output.txt");
 
     // sang nguyen to
     vector <int> prime(100001, 1);

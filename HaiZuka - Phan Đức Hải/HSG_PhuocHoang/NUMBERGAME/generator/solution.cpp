@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-    ifstream cin("NUMBERGAME.INP");
-    ofstream cout("NUMBERGAME.OUT");
+    // ifstream cin("NUMBERGAME.INP");
+    // ofstream cout("NUMBERGAME.OUT");
+
+     ifstream cin("input.txt");
+    ofstream cout("output.txt");
 
     int n;
     cin >> n;

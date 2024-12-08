@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-    ifstream cin("BUTTONS.INP");
-    ofstream cout("BUTTONS.OUT");
+    // ifstream cin("BUTTONS.INP");
+    // ofstream cout("BUTTONS.OUT");
+
+    ifstream cin("input.txt");
+    ofstream cout("output.txt");
     
     string s;
     cin >> s;
