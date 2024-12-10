@@ -195,3 +195,32 @@ In ra tất cả các cách phân tích số nguyên dương **n** thành tổng
 | Input | Output |
 |:-------|:--------|
 | 5     | 1 + 1 + 1 + 1 + 1<br>1 + 1 + 1 + 2<br>1 + 1 + 3<br>1 + 2 + 2<br>1 + 4<br>2 + 3<br>5|
+
+## Bài 8: Tổ hợp trong dãy
+
+Cho dãy số nguyên dương **a1, a2, ..., an** và số nguyên dương **k**. Hãy in ra tất cả các cách chọn **k** phần tử từ dãy số đã cho. 2 cách chọn gọi là khác nhau nếu có các phần tử khác nhau.
+
+**Input**
+
+Dòng đầu tiên chứa 2 số nguyên **n** và **k** (1 ≤ **k** ≤ **n** ≤ 10).
+
+Dòng thứ 2 chứa **n** số nguyên **a1, a2, ..., an** (1 ≤ **ai** ≤ 10<sup>9<sub>).
+
+**Output**
+
+In ra tất cả các cách chọn **k** phần tử từ dãy số đã cho. Mỗi cách chọn in ra **k** số nguyên cách nhau bởi dấu cách. Các cách chọn không cần phải theo thứ tự tăng dần.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 3 2  <br> 4 7 10 | 4 7<br>4 10<br>7 10|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+| 4 3  <br> 1 2 2 4 | 1 2 2<br>1 2 4<br>1 2 4<br>2 2 4|
+
