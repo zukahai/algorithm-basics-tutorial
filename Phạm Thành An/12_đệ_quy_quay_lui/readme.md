@@ -188,10 +188,10 @@ In ra tất cả các cách phân tích số nguyên dương **n** thành tổng
 
 | Input | Output |
 |:-------|:--------|
-| 3     | 1 1 1<br>1 2<br>3|
+| 3     | 1 + 1 + 1<br>1 2<br>3|
 
 **Ví dụ 2**
 
 | Input | Output |
 |:-------|:--------|
-| 5     | 1 1 1 1 1<br>1 1 1 2<br>1 1 3<br>1 2 2<br>1 4<br>2 3<br>5|
+| 5     | 1 + 1 + 1 + 1 + 1<br>1 + 1 + 1 + 2<br>1 + 1 + 3<br>1 + 2 + 2<br>1 + 4<br>2 + 3<br>5|
