@@ -6,6 +6,9 @@ int main()
     ifstream cin("input.txt");
     ofstream cout("output.txt");
 
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
     int n;
     cin >> n;
     vector<long long> a(n);
