@@ -10,14 +10,18 @@ int main()
     int n, m;
     cin >> n >> m;
     vector<int> a(n), b(m);
-    for (int &x : a) cin >> x;
-    for (int &x : b) cin >> x;
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    for (int i = 0; i < m; i++)
+        cin >> b[i];
 
     unordered_map<int, int> cnt;
-    for (int x : a) cnt[x]++;
+    for (int i = 0; i < n; i++) 
+        cnt[a[i]]++;
 
     int res = 0;
-    for (int x : b) res += cnt[x];
+    for (int i = 0; i < m; i++) 
+        res += cnt[b[i]] > 0 ? 1 : 0;
 
     cout << res;
     
