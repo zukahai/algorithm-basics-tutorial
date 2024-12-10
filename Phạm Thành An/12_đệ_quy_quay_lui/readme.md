@@ -188,7 +188,7 @@ In ra tất cả các cách phân tích số nguyên dương **n** thành tổng
 
 | Input | Output |
 |:-------|:--------|
-| 3     | 1 + 1 + 1<br>1 2<br>3|
+| 3     | 1 + 1 + 1<br>1 + 2<br>3|
 
 **Ví dụ 2**
 
