@@ -2,15 +2,25 @@
 
 using namespace std;
 
-int deQuy(int n) {
-    if (n == 0) 
-        return 0;
-    return n + deQuy(n - 1);
+int n;
+int x[100];
+
+void deQuy(int index) {
+    for (int i = 1; i <= 3; i++) {
+        x[index] = i;
+        if (index == n) {
+            for (int j = 1; j <= n; j++) {
+                cout << x[j] << " ";
+            }
+            cout << endl;
+        } else {
+            deQuy(index + 1);
+        }
+    }
 }
 
 int main() {
-    int n;
     cin >> n;
-    cout << deQuy(n);
+    deQuy(1);
     return 0;
 }
