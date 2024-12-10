@@ -169,3 +169,29 @@ In ra tất cả các cách phân tích số nguyên dương **n** thành tổng
 | Input | Output |
 |:-------|:--------|
 | 4     | 1 1 1 1<br>1 1 2<br>1 2 1<br>1 3<br>2 1 1<br>2 2<br>3 1<br>4|
+
+## Bài 7: Phân tích số nguyên dương n (tiếp theo)
+
+Cho số nguyên dương **n**. Hãy in ra tất cả các cách phân tích số nguyên dương **n** thành tổng các số nguyên dương sao cho các số nguyên dương này là dãy không giảm.
+
+**Input**
+
+Một số nguyên **n** (1 ≤ **n** ≤ 20).
+
+**Output**
+
+In ra tất cả các cách phân tích số nguyên dương **n** thành tổng các số nguyên dương sao cho các số nguyên dương này là dãy tăng dần. Mỗi cách phân tích in ra một dòng. Các số trong mỗi cách phân tích cách nhau bởi dấu cách. Các cách phân tích phải theo thứ tự không giảm.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 3     | 1 1 1<br>1 2<br>3|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+| 5     | 1 1 1 1 1<br>1 1 1 2<br>1 1 3<br>1 2 2<br>1 4<br>2 3<br>5|
