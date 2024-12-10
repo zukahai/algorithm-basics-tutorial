@@ -117,3 +117,29 @@ In ra tất cả các cách chọn **k** phần tử từ tập hợp {1, 2, 3, 
 | Input | Output |
 |:-------|:--------|
 | 5 2   | 1 2<br>1 3<br>1 4<br>1 5<br>2 3<br>2 4<br>2 5<br>3 4<br>3 5<br>4 5|
+
+## Bài 5: Dãy nhị phân độ dài n
+
+Cho số nguyên dương **n**. Hãy in ra tất cả các dãy nhị phân độ dài **n**. 2 dãy nhị phân gọi là khác nhau nếu có ít nhất một vị trí mà 2 dãy nhị phân khác nhau.
+
+**Input**
+
+Một số nguyên **n** (1 ≤ **n** ≤ 10).
+
+**Output**
+
+In ra tất cả các dãy nhị phân độ dài **n**. Mỗi dãy nhị phân in ra **n** số nguyên cách nhau bởi dấu cách. Các dãy nhị phân không cần phải theo thứ tự tăng dần.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 2     | 00<br>01<br>10<br>11|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+| 3     | 000<br>001<br>010<br>011<br>100<br>101<br>110<br>111
