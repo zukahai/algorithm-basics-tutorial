@@ -85,3 +85,35 @@ In ra tất cả các cách chọn **n** viên bị sao cho các viên bị có 
 | Input | Output |
 |:-------|:--------|
 | 3     | 1 1 1<br>1 1 2<br>1 1 3<br>1 2 2<br>1 2 3<br>1 3 3<br>2 2 2<br>2 2 3<br>2 3 3<br>3 3 3|
+
+## Bài 4: Tổ hợp
+
+Cho số nguyên dương **n** và **k**. Hãy in ra tất cả các cách chọn **k** phần tử từ tập hợp {1, 2, 3, ..., **n**}. 2 cách chọn gọi là khác nhau nếu có các phần tử khác nhau.
+
+**Input**
+
+Gồm 2 số nguyên **n** và **k** (1 ≤ **k** ≤ **n** ≤ 10).
+
+**Output**
+
+In ra tất cả các cách chọn **k** phần tử từ tập hợp {1, 2, 3, ..., **n**}. Mỗi cách chọn in ra **k** số nguyên cách nhau bởi dấu cách. Các cách chọn không cần phải theo thứ tự tăng dần.
+
+**Ví dụ**
+
+**Ví dụ 1**
+
+| Input | Output |
+|:-------|:--------|
+| 3 2   | 1 2<br>1 3<br>2 3|
+
+**Ví dụ 2**
+
+| Input | Output |
+|:-------|:--------|
+| 4 3   | 1 2 3<br>1 2 4<br>1 3 4<br>2 3 4|
+
+**Ví dụ 3**
+
+| Input | Output |
+|:-------|:--------|
+| 5 2   | 1 2<br>1 3<br>1 4<br>1 5<br>2 3<br>2 4<br>2 5<br>3 4<br>3 5<br>4 5|
