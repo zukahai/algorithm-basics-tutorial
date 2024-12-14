@@ -223,4 +223,3 @@ In ra tất cả các cách chọn **k** phần tử từ dãy số đã cho. M�
 | Input | Output |
 |:-------|:--------|
 | 4 3  <br> 1 2 2 4 | 1 2 2<br>1 2 4<br>2 2 4|
-
