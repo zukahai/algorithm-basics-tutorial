@@ -1,6 +1,6 @@
 # Đệ quy quay lui
 
-# Chuỗi ngoặc đúng
+## Bài 1: Chuỗi ngoặc đúng
 
 Một chuỗi **s** được gọi là chuỗi ngoặc đúng nếu
 
@@ -34,7 +34,7 @@ Cho trước một số **n**. Hãy liệt kê tất cả các chuỗi ngoặc �
 |:-------|:--------|
 | 2     | (())<br>()()   |
 
-# Số chuỗi con khác nhau
+## Bài 2: Số chuỗi con khác nhau
 
 Cho một xâu ký tự **s**. Bạn có thể tách xâu **s** thành các xâu con. Hãy tìm cách tách sao cho số lượng xâu con khác nhau là lớn nhất.
 
