@@ -119,7 +119,7 @@ Cần xây 4 dãy ghế: dãy 1 (1 ghế), dãy 2 (2 ghế), dãy 3 (3 ghế), d
 
 Cần xây 3 dãy ghế: dãy 1 (1 ghế), dãy 2 (2 ghế), dãy 3 (3 ghế). Tổng cộng có 6 ghế.
 
-## Những con gà mái
+## Bài 5: Những con gà mái
 
 Một trang trại có **n** con gà mái, mỗi còn gà sẽ có thời gian để trứng là a<sub>i</sub>. Nghĩa là sau một khoảng thời gian là a<sub>i</sub> thì con gà sẽ đẻ một quả trứng. Giả sử trong đề rằng con gà mái sẽ đẻ trứng liên tục không ngừng nghỉ.
 
@@ -156,5 +156,33 @@ Hỏi sau ít nhất bao lâu thì trang trại sẽ có đủ **m** quả trứ
 |:---|:---|
 | 3 10 <br> 10 5 8 | 25 |
 
+
+## Bài 6: Phần tử xuất hiện
+
+Cho một dãy số nguyên a sắp xếp không giảm gồm n phần tử và một số nguyên x. Hãy viết chương trình **Bằng phương pháp tìm kiếm nhị phân** tìm xem số x có xuất hiện trong dãy a không. Nếu có in ra YES, ngược lại in ra NO.
+
+**Đầu vào**:
+
+- Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 10<sup>5</sup>) và số nguyên x (|x| ≤ 10<sup>9</sup>)
+
+- Dòng thứ hai chứa n số nguyên a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (|a<sub>i</sub>| ≤ 10<sup>9</sup>)
+
+**Đầu ra**:
+
+- In ra YES nếu x xuất hiện trong dãy a, ngược lại in ra NO.
+
+**Ví dụ**:
+
+**Ví dụ 1**:
+
+| Input | Output |
+|:---|:---|
+| 5 3 <br> 1 7 3 9 5 | YES |
+
+**Ví dụ 2**:
+
+| Input | Output |
+|:---|:---|
+| 5 6 <br> 6 2 3 4 5 | NO |
 
 
