@@ -20,12 +20,12 @@
 Bài toán có thể giải bằng lập trình động (Dynamic Programming). Chúng ta sẽ sử dụng bảng DP để lưu số cách phân phát thỏa mãn điều kiện.
 
 1. **Bảng DP:**
-   - \( dp[i][j] \): Số cách phân phát \( j \) gói quà cho \( i \) học sinh sao cho các số lượng quà giảm dần.
+   - \( dp[i][j] \): Số cách phân phát \( i \) gói quà cho \( j \) học sinh sao cho các số lượng quà giảm dần.
 
 2. **Công thức chuyển:**
-   - Với học sinh thứ \( i \) nhận \( k \) gói quà (\( k \leq j \)):
+   - Với học sinh thứ \( j \) nhận \( k \) gói quà (\( k \leq i \)):
      \[
-     dp[i][j] = \sum_{k=0}^{\min(j, m/n + 1)} dp[i-1][j-k]
+     dp[i][j] = \sum_{k=0}^{\min(i, m/n + 1)} dp[i-k][j-1]
      \]
    - Điều kiện bổ sung: \( k \leq \) số quà của học sinh trước đó (để đảm bảo dãy giảm dần).
 
@@ -34,4 +34,4 @@ Bài toán có thể giải bằng lập trình động (Dynamic Programming). C
    - Các giá trị khác của \( dp[0][j] \) là \( 0 \).
 
 4. **Kết quả cuối cùng:**
-   - Giá trị \( dp[n][m] \) là số cách phân phát quà hợp lệ.
+   - Giá trị \( dp[m][n] \) là số cách phân phát quà hợp lệ.
