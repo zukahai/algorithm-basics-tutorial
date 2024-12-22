@@ -17,7 +17,7 @@
 ---
 
 ## **Ý tưởng giải**
-Bài toán có thể giải bằng lập trình động (Dynamic Programming). Chúng ta sẽ sử dụng bảng DP để lưu số cách phân phát thỏa mãn điều kiện.
+Bài toán có thể giải bằng lập trình động. sử dụng bảng DP để lưu số cách phâ
 
 1. **Bảng DP:**
    - \( dp[i][j] \): Số cách phân phát \( i \) gói quà cho \( j \) học sinh sao cho các số lượng quà giảm dần.
