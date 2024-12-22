@@ -20,9 +20,11 @@
 Bài toán có thể giải bằng lập trình động. sử dụng bảng DP để lưu số cách phâ
 
 1. **Bảng DP:**
+
    - \( dp[i][j] \): Số cách phân phát \( i \) gói quà cho \( j \) học sinh sao cho các số lượng quà giảm dần.
 
 2. **Công thức chuyển:**
+
    - Với học sinh thứ \( j \) nhận \( k \) gói quà (\( k \leq i \)):
      \[
      dp[i][j] = \sum_{k=0}^{\min(i, m/n + 1)} dp[i-k][j-1]
