@@ -89,5 +89,6 @@ Hải xuất phát từ đỉnh a, và muốn đi du lịch nhiều thành phố
 |:-------|:--------|
 | 6 7 <br> 2 3 <br> 4 3 <br> 5 1 <br> 5 4 <br> 2 1 <br> 6 1 <br> 4 6<br> 4   | 5    |
 
+
 ![alt text](image2.png)
 
