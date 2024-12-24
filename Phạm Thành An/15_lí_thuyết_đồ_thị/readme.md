@@ -1,4 +1,4 @@
-## Đường đi
+## Bài 1: Đường đi
 
 Cho **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi còn đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường nối giữa thành phố **u** và thành phố **v**.
 
@@ -21,7 +21,7 @@ Nếu có in ra "YES", ngược lại in ra "NO".
 
 ![alt text](image.png)
 
-## Du lịch
+## Bài 2: Du lịch
 
 Cho **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi con đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường bộ nối giữa thành phố **u** và thành phố **v**.
 
