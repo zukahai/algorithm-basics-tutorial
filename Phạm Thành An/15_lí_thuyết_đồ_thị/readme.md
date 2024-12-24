@@ -47,15 +47,15 @@ Cho **n** thành phố và **m** con đường hai chiều giữa các thành ph
 
 ## Bài 3: Máy bay
 
-Đếm xem có bao nhiêu cụm, Mỗi cụm là những thành phố có thể đi đến với nhau.
+Có **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi con đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường bộ nối giữa thành phố **u** và thành phố **v**.
+
+Hải là người thích di chuyển bằng cách đi bộ bằng nhưng con đường. Tuy nhiên có những thành phố Hải không thể đi bộ tới được thì Hải sẽ đi bằng máy bay. Hãy đếm xem Hải cần đi ít nhất bao nhiêu chuyến máy bay để có thể đi tới tất cả các thành phố.
 
 **Dữ liệu**:
 
 - Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n**, **m** ≤ 1000).
 
 - **m** dòng tiếp theo, mỗi dòng chứa 2 số nguyên **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**).
-
-- Dòng cuối cùng chứa số nguyên **a** (1 ≤ **a** ≤ **n**).
 
 **Ví dụ**:
 
