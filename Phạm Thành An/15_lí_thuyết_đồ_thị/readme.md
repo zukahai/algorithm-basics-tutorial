@@ -66,3 +66,28 @@ Hải là người thích di chuyển bằng cách đi bộ bằng nhưng con đ
 ![alt text](image.png)
 
 Có 2 cụm là (1, 4, 5) và (2, 3)
+
+## Bài 4: Đương đi dài nhất
+
+Có **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi con đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường bộ nối giữa thành phố **u** và thành phố **v**.
+
+Hải xuất phát từ đỉnh a, và muốn đi du lịch nhiều thành phố nhất có thể. Hãy tìm đường đi dài nhất mà Hải có thể đi sao cho không đi qua thành phố nào nhiều hơn 1 lần.
+
+**Dữ liệu**:
+
+- Dòng đầu tiên chứa 2 số nguyên **n** và **m** (1 ≤ **n**, **m** ≤ 100).
+
+- **m** dòng tiếp theo, mỗi dòng chứa 2 số nguyên **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**).
+
+- Dòng cuối cùng chứa số nguyên **a** (1 ≤ **a** ≤ **n**).
+
+**Kết quả**: In ra số lượng thành phố có thể đi đến từ thành phố **a**.
+
+**Ví dụ**:
+
+| Input | Output |
+|:-------|:--------|
+| 6 7 <br> 2 3 <br> 4 3 <br> 5 1 <br> 5 4 <br> 2 1 <br> 6 1 <br> 4 6<br> 4   | 5    |
+
+![alt text](image2.png)
+
