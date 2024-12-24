@@ -67,7 +67,7 @@ Hải là người thích di chuyển bằng cách đi bộ bằng nhưng con đ
 
 Có 2 cụm là (1, 4, 5) và (2, 3)
 
-## Bài 4: Đương đi dài nhất
+## Bài 4: Đường đi dài nhất
 
 Có **n** thành phố và **m** con đường hai chiều giữa các thành phố. Mỗi con đường gồm 2 số **u** và **v** (1 ≤ **u**, **v** ≤ **n, u** ≠ **v**) cho biết có con đường bộ nối giữa thành phố **u** và thành phố **v**.
 
