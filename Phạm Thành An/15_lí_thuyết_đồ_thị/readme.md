@@ -18,3 +18,5 @@ Nếu có in ra "YES", ngược lại in ra "NO".
 | Input | Output |
 |:-------|:--------|
 | 5 3 <br> 5 1 <br> 4 1 <br> 2 3 <br> 4 5   | YES    |
+
+![alt text](image.png)
