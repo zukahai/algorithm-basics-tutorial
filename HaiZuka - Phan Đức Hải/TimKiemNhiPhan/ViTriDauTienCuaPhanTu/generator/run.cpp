@@ -4,7 +4,7 @@
 main()
 {
     srand(24022007);
-    int start = 1;
+    int start = 50;
     int testnum = 50;
     string prob_name = "ViTriDauTienCuaPhanTu";
 

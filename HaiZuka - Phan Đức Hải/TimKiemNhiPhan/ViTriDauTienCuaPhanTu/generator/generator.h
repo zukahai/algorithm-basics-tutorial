@@ -16,6 +16,22 @@ void gen(int iTest, int testnum, string target_file)
     ofstream cout(target_file);
     // Cout ra những đầu vào cần thiết ở phía dưới
 
+    if (iTest == testnum) {
+        cout << 100000 << endl;
+        int k = 100000 / 2  - 3;
+        for (int i = 0; i < k; i++) {
+            cout << 1 << " ";
+        }
+        for (int i = 0; 100000 - k; i++) {
+            cout << 2 << " ";
+        }
+        cout << endl;
+        cout << 10000 << endl;
+        for (int i = 0; i < 10000; i++) {
+            cout << 2 << endl;
+        }
+        return;
+    }
     vector<long long> a = random_vector(subtasks, iTest, testnum);
     for (int i = 0; i < a.size(); i++) {
         if (random(0, 5) == 0) {
