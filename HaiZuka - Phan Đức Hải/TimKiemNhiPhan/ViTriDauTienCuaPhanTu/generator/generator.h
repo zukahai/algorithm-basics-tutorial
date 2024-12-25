@@ -22,12 +22,26 @@ void gen(int iTest, int testnum, string target_file)
         for (int i = 0; i < k; i++) {
             cout << 1 << " ";
         }
-        for (int i = 0; 100000 - k; i++) {
+        for (int i = 0; i < 100000 - k; i++) {
             cout << 2 << " ";
         }
         cout << endl;
-        cout << 10000 << endl;
-        for (int i = 0; i < 10000; i++) {
+        cout << 100000 << endl;
+        for (int i = 0; i < 100000; i++) {
+            cout << 2 << endl;
+        }
+        return;
+    }
+    if (iTest == testnum - 1) {
+        cout << 100000 << endl;
+        int k = 100000 / 2  - 3;
+       
+        for (int i = 0; i < 100000 ; i++) {
+            cout << 2 << " ";
+        }
+        cout << endl;
+        cout << 100000 << endl;
+        for (int i = 0; i < 100000; i++) {
             cout << 2 << endl;
         }
         return;
