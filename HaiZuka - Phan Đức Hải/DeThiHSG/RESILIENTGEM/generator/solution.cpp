@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int mulDigits(int n) {
+    int res = 1;
+    while (n > 0) {
+        res *= n % 10;
+        n /= 10;
+    }
+    return res;
+}
+
+int main()
+{
+    ifstream cin("input.txt");
+    ofstream cout("output.txt");
+    // Bài giải của bạn ở dưới đây
+    
+    int n;
+    cin >> n;
+    vector<int> dp(n + 1, 1);
+    for (int i = 10; i <= n; i++) {
+        dp[i] = dp[mulDigits(i)] + 1;
+    }
+
+    int res = 1, maxVal = 1;
+
+    for (int i = 1; i <= n; i++) {
+        if (dp[i] >= maxVal) {
+            maxVal = dp[i];
+            res = i;
+        }
+    }
+
+    cout << dp[n] << endl;
+    cout << res << " " << maxVal << endl;
+ 
+}
