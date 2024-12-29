@@ -23,3 +23,27 @@ while (l <= r) {
         l = m + 1
 }
 
+12
+1 2 2 2 3 3 3 3 3 3 4 4
+
+3
+[1, 12]
+m = 6, a[6] = 3
+
+l = 1, r = n
+res = -1
+while (l <= r) {
+    m = (l + r) / 2
+    Nếu a[m] == x {
+        res = m
+        l = m + 1
+    }
+    Nếu a[m] > x {
+        r = m - 1
+    }
+    Nếu a[m] < x {
+        l = m + 1
+    }
+}
+
+In ra res

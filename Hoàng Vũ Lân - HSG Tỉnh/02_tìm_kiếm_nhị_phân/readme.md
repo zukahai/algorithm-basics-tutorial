@@ -14,8 +14,7 @@ Dữ liệu: Vào từ thiết bị nhập chuẩn:
 
 Kết quả: Đưa ra thiết bị xuất chuẩn, dòng thứ i chứa vị trí cuối cùng của x trong dãy a, hoặc -1 nếu không có.
 
-
 | Input | Output |
 |:-------|:--------|
-|12 <br>1 2 2 2 3 3 3 3 3 3 4 4<br>3<br>1<br>3<br>5 | 1 <br> 9 <br>-1 |
+|12 <br>1 2 2 2 3 3 3 3 3 3 4 4<br>3<br>1<br>3<br>5 | 1 <br> 10 <br>-1 |
 
