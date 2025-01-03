@@ -84,3 +84,33 @@ Cho một dãy số nguyên **a**, và một số nguyên S, hãy tìm số ph�
 |:-------|:--------|
 | 5  <br> 100  <br> 1 2 3 4 5 | -1 |
 
+# Bài 4: Hai phần tử chênh lệch nhỏ nhất
+
+## Đề bài
+
+Cho một dãy số nguyên **a**, hãy tìm 2 phần tử a[i] và a[j] sao cho |a[i] - a[j]| là nhỏ nhất.
+
+**Input**
+
+- Dòng đầu tiên chứa số nguyên **n** (2 ≤ n ≤ 10^5)
+
+- Dòng thứ 2 chứa **n** số nguyên **a1, a2, . . ., an** (-10^9 ≤ ai ≤ 10^9)
+
+**Output**
+
+- In ra giá trị nhỏ nhất của |a[i] - a[j]|
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 5  <br> 1 6 3 7 5 | 1 |
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 5  <br> 11 2 4 7 19 | 2 |
+
+
+
