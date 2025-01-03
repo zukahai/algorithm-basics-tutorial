@@ -54,3 +54,33 @@ Cho một dãy số nguyên **a**, Hãy tìm 3 số a[i], a[j] và a[k] (i ≠ j
 | 5  <br> 4 -7 3 10 -5 | 350 |
 
 
+# Bài 3: Số phần tử ít nhất
+
+## Đề bài
+
+Cho một dãy số nguyên **a**, và một số nguyên S, hãy tìm số phần tử ít nhất trong dãy sao cho tổng của các phần tử đó lớn hơn hoặc bằng S.
+
+**Input**
+
+- Dòng đầu tiên chứa số nguyên **n** (1 ≤ n ≤ 10^5)
+
+- Dòng thứ 2 chứa số nguyên **S** (-10^9 ≤ S ≤ 10^9)
+
+- Dòng thứ 3 chứa **n** số nguyên **a1, a2, . . ., an** (-10^9 ≤ ai ≤ 10^9)
+
+**Output**
+
+- In ra số phần tử ít nhất trong dãy sao cho tổng của các phần tử đó lớn hơn hoặc bằng S. Nếu không tồn tại in ra -1.
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 5  <br> 10  <br> 1 6 3 7 5 | 2 |
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 5  <br> 100  <br> 1 2 3 4 5 | -1 |
+
