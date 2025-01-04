@@ -1,4 +1,4 @@
-# Dãy số liên tiếp
+## Bài 1: Dãy số liên tiếp
 
 Cho một dãy số a gồm n phần tử.
 Mỗi lần biến đổi, bạn có quyền tăng một phần tử bất kỳ của dãy lên 1 đơn vị.
