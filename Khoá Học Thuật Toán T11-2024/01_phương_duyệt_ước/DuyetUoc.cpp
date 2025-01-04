@@ -6,7 +6,8 @@ int main() {
     long long n;
     cin >> n;
     int dem = 0;
-    for (int x = 1; x <= sqrt(n); x++) {
+    double sqrt_n = sqrt(n);
+    for (int x = 1; x <= sqrt_n; x++) {
         if (n % x == 0) { // x la uoc cua n, n/x cung la uoc cua n
             dem += 1; // dem cho uoc x
 

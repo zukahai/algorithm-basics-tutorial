@@ -59,3 +59,4 @@ Hãy chia dãy số a thành k dãy con sao cho tổng lớn nhất của các d
 - Chia dãy số thành 3 dãy con: [2, 1], [5], [4, 2]. Tổng lớn nhất của các dãy con là 6.
 
 
+
