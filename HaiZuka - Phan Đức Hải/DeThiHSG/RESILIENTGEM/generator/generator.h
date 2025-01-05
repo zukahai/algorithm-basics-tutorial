@@ -15,6 +15,11 @@ void gen(int iTest, int testnum, string target_file)
     ofstream cout(target_file);
     // Cout ra những đầu vào cần thiết ở phía dưới
 
+    if (iTest <= 10) {
+        cout << iTest << endl;
+        return;
+    }
+
     if (iTest == testnum) {
         cout << 10000000 << endl;
         return;

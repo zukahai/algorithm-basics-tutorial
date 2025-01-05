@@ -17,7 +17,14 @@ int main()
     
     int n;
     cin >> n;
+
+    if (n <= 9) {
+        cout << 0 << endl;
+        return 0;
+    }
+
     vector<int> dp(n + 1, 1);
+    dp[0] = 0;
     for (int i = 10; i <= n; i++) {
         dp[i] = dp[mulDigits(i)] + 1;
     }
