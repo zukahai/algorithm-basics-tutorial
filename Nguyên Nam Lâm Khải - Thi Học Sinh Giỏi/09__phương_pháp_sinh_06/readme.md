@@ -1,3 +1,30 @@
+## Kiểm tra số đối xứng
+
+### Đề bài
+
+Viết chương trình kiểm tra xem một số nguyên dương n có phải là số đối xứng hay không.
+
+**Input**
+
+- Số nguyên dương n (1 ≤ n ≤ 10^12)
+
+**Output**
+
+- In ra "YES" nếu n là số đối xứng, ngược lại in ra "NO"
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 12321 | YES |
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 12345 | NO |
+
+
 ## Số đối xứng
 
 Số đối xứng là số mà đọc từ trái sang phải hoặc từ phải sang trái đều giống nhau. Ví dụ: 121, 12321, 1234321, 1221, 123321, ...
