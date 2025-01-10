@@ -1,3 +1,5 @@
+## Bài 1: Biến đổi dãy
+
 Cho một dãy a gồm N số nguyên.
 
 Mỗi số trong dãy có thể biến đổi thành 1 số nguyên lớn hơn nó.
@@ -23,3 +25,7 @@ Kiểm tra xem có thể biến đổi dãy a thành dãy b hay không?
 | Input | Output |
 |:---|:---|
 | 3 <br> 2 2 3 <br> 3 1 4 | NO |
+
+| Input | Output |
+|:---|:---|
+| 3 <br> 1 2 3 <br> 3 2 1 | NO |
