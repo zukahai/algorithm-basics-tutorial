@@ -30,3 +30,23 @@ Có 3 dãy con:
 | Input | Output |
 |:-------|:--------|
 | 7 <br> 1 -2 2 -3 3 4 -4 | 6 |
+
+# Dãy con chia hết cho k
+
+Cho dãy số nguyên a1, a2, ..., an. Hãy đếm số lượng dãy con liên tiếp của dãy đã cho sao cho tổng các phần tử trong dãy con này chia hết cho k.
+
+**Input**
+
+Dòng đầu tiên chứa 2 số nguyên n và k (1 ≤ n ≤ 10^5, 1 ≤ k ≤ 10^9).
+
+Dòng thứ hai chứa n số nguyên a1, a2, ..., an (1 ≤ ai ≤ 10^9).
+
+**Output**
+
+In ra một số nguyên duy nhất là số lượng dãy con thỏa mãn
+
+**Ví dụ**
+
+| Input | Output |
+|:-------|:--------|
+| 5 3 <br> 1 1 2 3 2 | 4 |
