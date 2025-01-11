@@ -1,4 +1,4 @@
-# Dãy con có tổng bằng 0
+## Bài 1: Dãy con có tổng bằng 0
 
 Cho dãy số nguyên a1, a2, ..., an. Hãy đếm số lượng dãy con liên tiếp của dãy đã cho sao cho tổng các phần tử trong dãy con này bằng 0.
 
@@ -31,7 +31,7 @@ Có 3 dãy con:
 |:-------|:--------|
 | 7 <br> 1 -2 2 -3 3 4 -4 | 6 |
 
-# Dãy con chia hết cho k
+## Bài 2: Dãy con chia hết cho k
 
 Cho dãy số nguyên a1, a2, ..., an. Hãy đếm số lượng dãy con liên tiếp của dãy đã cho sao cho tổng các phần tử trong dãy con này chia hết cho k.
 
