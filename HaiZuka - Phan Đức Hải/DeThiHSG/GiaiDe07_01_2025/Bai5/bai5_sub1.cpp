@@ -4,35 +4,30 @@ using namespace std;
 
 int main() {
     int n;
+    cin >> n;
     string s;
-    cin >> n >> s;
+    cin >> s;
     int res = 0;
+
     for (int i = 0; i < n; i++) {
         if (s[i] == 'P') {
-            int d2 = 0;
-            for (int j = i + 1; j < n; j++) {
-                if (s[j] == 'P') {
-                    break;
-                }
-                if (s[j] == '*') {
-                    d2 = j - i;
-                }
+            int j = i;
+            while (j < n && s[j] != '*') {
+                j++;
             }
-            int d1 = 0;
-            for (int j = i - 1; j >= 0; j--) {
-                if (s[j] == 'P') {
-                    break;
-                }
-                if (s[j] == '*') {
-                    d1 = i - j;
-                }
+            if (j < n) {
+                res = max(res, (j - i));
             }
-            int min = d1 < d2 ? d1 : d2;
-            int max = d1 > d2 ? d1 : d2;
-            int d = 2 * min + max;
-            res = d > res ? d : res;
-            i += d2;
+            j = i;
+            while (j >= 0 && s[j] != '*') {
+                j--;
+            }
+            if (j >= 0) {
+                res = max(res, (i - j));
+            }
+            
         }
     }
+
     cout << res;
 }
