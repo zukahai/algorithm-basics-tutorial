@@ -15,7 +15,11 @@ bool isPrime(long long x) {
 }
 
 int main() {
-    vector<int> a = {2, 3, 5, 7};
+    vector<int> a;
+    a.push_back(2);
+    a.push_back(3);
+    a.push_back(5);
+    a.push_back(7);
     int index = 0;
     long long n;
     cin >> n;
