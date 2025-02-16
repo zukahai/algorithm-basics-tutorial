@@ -31,4 +31,10 @@ Nếu có nhiều đáp án, hãy chọn dãy con đồng chất có chỉ số 
 
 | Input | Output |
 |:--|:--|
-| 5 <br> 4 -2 3 -4 5 | 4 |
+| 5 <br> 0 -2 3 -4 5 | -2 |
+
+**Ví dụ 4:**
+
+| Input | Output |
+|:--|:--|
+| 5 <br> 0 0 0 0 0 | -1 |
