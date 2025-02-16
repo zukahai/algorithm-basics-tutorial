@@ -3,7 +3,7 @@
 Cho dãy số nguyên a1, a2, ..., an. Một dãy con liên tiếp của dãy số đã cho là một dãy số ai, ai+1, ..., aj với 1 ≤ i ≤ j ≤ n. Một dãy con đồng chất của dãy số đã cho là một dãy con liên tiếp mà tất cả các phần tử trong dãy con đó đều là số âm hoặc đều là số dương.
 
 Hãy tìm dãy con đồng chất dài nhất của dãy số đã cho.
-Nếu có nhiều đáp án, hãy chọn dãy con đồng chất có chỉ số bắt đầu nhỏ nhất.
+Nếu có nhiều đáp án, hãy chọn dãy con đồng chất có chỉ số bắt đầu nhỏ nhất. Nếu không có dãy con đồng chất nào, hãy in ra một số nguyên -1.
 
 **Dữ liệu:**
 
