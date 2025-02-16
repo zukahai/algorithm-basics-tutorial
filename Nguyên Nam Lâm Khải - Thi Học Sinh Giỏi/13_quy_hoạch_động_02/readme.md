@@ -25,7 +25,7 @@ Nếu có nhiều đáp án, hãy chọn dãy con đồng chất có chỉ số 
 
 | Input | Output |
 |:--|:--|
-| 6 <br> 1 2 -3 -4 -2 3 | 1 2 -3 -4 -2 3 |
+| 6 <br> 1 2 -3 -4 -2 3 | -3 -4 -2 |
 
 **Ví dụ 3:**
 
