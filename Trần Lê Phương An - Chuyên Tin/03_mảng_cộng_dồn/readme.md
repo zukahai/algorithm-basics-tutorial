@@ -1,4 +1,4 @@
-Bài 1: Đếm số dãy con bằng 0
+## Bài 1: Đếm số dãy con bằng 0
 
 Cho dãy số nguyên a1, a2, ..., an. Hãy đếm số lượng dãy con liên tiếp của dãy đã cho sao cho tổng các phần tử trong dãy con này bằng 0.
 
