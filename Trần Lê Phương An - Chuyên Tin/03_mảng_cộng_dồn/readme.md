@@ -6,7 +6,7 @@ Cho dãy số nguyên a1, a2, ..., an. Hãy đếm số lượng dãy con liên 
 - Dòng đầu tiên chứa một số nguyên n (1 ≤ n ≤ 10^5).
 - Dòng thứ hai chứa n số nguyên a1, a2, ..., an (-10^9 ≤ ai ≤ 10^9).
 
-**Output: **
+**Output:**
 - In ra một số nguyên duy nhất là số lượng dãy con thỏa mãn
 
 **Ví dụ:**
