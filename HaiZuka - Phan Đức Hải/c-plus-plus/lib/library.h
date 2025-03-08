@@ -155,6 +155,7 @@ string random_string(int n, int type)
             charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             break;
     }
+    return random_string(n, charset);
 }
 
 
