@@ -4,14 +4,6 @@ Tham gia tổ chức [Lập trình thi đấu](https://oj.vnoi.info/organization
 
 https://oj.vnoi.info/organization/haizuka
 
-# Tham gia làm bài tập khoá C++ cho người mới bắt đầu
-
-Tham gia làm bài tập khoá học [C++ cho người mới bắt đầu](https://oj.vnoi.info/contest/haizuka_cpp)
-
-https://oj.vnoi.info/contest/haizuka_cpp
-
-Mã truy cập: `HaiZuka Academy CPP0302`
-
 # Tham gia làm bài tập khoá thuật toán
 
 Tham gia làm bài tập khoá học [Thuật toán cơ bản](https://oj.vnoi.info/contest/haizuka_algorithm_02)
