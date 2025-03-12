@@ -1,0 +1,55 @@
+#include<bits/stdc++.h>
+#include "../lib/library.h"
+
+#define int long long
+using namespace std;
+
+vector<Subtask> subtasks = {
+    {percent: 50, lenN: 3, lenAi: 6}, //30% test có n <= 10^4, mỗi ai <= 10^6
+    {percent: 50, lenN: 6, lenAi: 9}, //50% test có n <= 10^6, mỗi ai <= 10^18
+};
+
+
+void gen(int iTest, int testnum, string target_file)
+{
+    ofstream cout(target_file);
+    // Cout ra những đầu vào cần thiết ở phía dưới
+
+    if (iTest == testnum - 1) {
+        cout << "1000000 500000" << endl;
+        for (int i = 0; i < 1000000; i++) 
+            cout << i << " ";
+        return;
+    }
+
+    if (iTest == testnum - 2) {
+        cout << "1000000 500000" << endl;
+        for (int i = 0; i < 1000000; i++) 
+            cout << 100000 - i << " ";
+        return;
+    }
+    if (iTest == testnum) {
+        cout << "1000000 500000" << endl;
+        for (int i = 0; i < 1000000; i++) 
+            cout << 1000000000 << " ";
+        return;
+    }
+
+    vector<int> a = random_vector(subtasks, iTest, testnum);
+    int n = a.size();
+    int k = random(n/5, n/3);
+    k = (k == 0) ? 1 : k;
+    int c = 0;
+    for (int i = 1; i < n; i++) {
+        if (c < k + 1) {
+            a[i] = a[i - 1] + random(1, 10);
+            c++;
+        }
+        else a[i] = a[i - 1] - random(1, 10);
+    }
+    cout << n << " " << k << endl;
+    for (int i = 0; i < n; i++) 
+            cout << a[i] << " ";
+
+    
+}
