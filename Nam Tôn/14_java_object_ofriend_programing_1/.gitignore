@@ -1,0 +1,13 @@
+/.metadata/
+bin/
+gen/
+target/
+.settings/
+.classpath
+.project
+.factorypath
+.cache/
+.recommenders/
+.externalToolBuilders/
+.apt_generated/
+.apt_src/
