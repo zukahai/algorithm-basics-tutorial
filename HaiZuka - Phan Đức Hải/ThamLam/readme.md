@@ -202,3 +202,65 @@ Chỉ cần di chuyển 2 container, đã có đủ số lượng hàng hóa là
 
 - 50% số test có n ≤ 1000.
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
+
+# Xoá K chữ số trong số nguyên dương để được số lớn nhất
+
+Cho một số nguyên dương n và một số nguyên dương k. Bạn cần xoá đúng k chữ số trong n sao cho số còn lại là lớn nhất có thể (không thay đổi thứ tự của các chữ số, chỉ được xoá). Hãy in ra số còn lại.
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n (1 ≤ n ≤ 10<sup>100</sup>).
+- Dòng thứ hai là số nguyên dương k (1 ≤ k < số chữ số của N).
+
+**Đầu ra**
+
+In ra số còn lại sau khi xoá k chữ số trong n.
+
+**Ví dụ 1**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 92744<br>3 | 97 |
+
+**Ví dụ 2**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 28491<br>3 | 91 |
+
+** Giới hạn**
+
+- 50% số test có n ≤ 10<sup>6</sup>.
+- 50% còn lại số test có n ≤ 10<sup>100</sup>.
+
+# Xoá K chữ số trong số nguyên dương để được số nhỏ nhất
+
+Cho một số nguyên dương n và một số nguyên dương k. Bạn cần xoá đúng k chữ số trong n sao cho số còn lại là nhỏ nhất có thể (không thay đổi thứ tự của các chữ số, chỉ được xoá). Hãy in ra số còn lại.
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n (1 ≤ n ≤ 10<sup>100</sup>).
+
+- Dòng thứ hai là số nguyên dương k (1 ≤ k < số chữ số của N).
+
+**Đầu ra**
+
+In ra số còn lại sau khi xoá k chữ số trong n. Lưu ý là số còn lại không được có chữ số 0 ở đầu.
+
+**Ví dụ 1**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 28491<br>3 | 21 |
+
+**Ví dụ 2**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 92744<br>3 | 24 |
+
+*Ví dụ 3*
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 910710<br>3 | 10 |
