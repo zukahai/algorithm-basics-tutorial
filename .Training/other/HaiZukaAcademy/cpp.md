@@ -4,7 +4,7 @@ Tham gia tổ chức [Lập trình thi đấu](https://oj.vnoi.info/organization
 
 https://oj.vnoi.info/organization/haizuka
 
-# Tham gia làm bài tập khoá C++ cho người mới bắt đầu
+# Tham gia làm bài tập khoá căn bản cho người mới bắt đầu
 
 Tham gia làm bài tập khoá học [C++ cho người mới bắt đầu](https://oj.vnoi.info/contest/haizuka_cpp)
 
