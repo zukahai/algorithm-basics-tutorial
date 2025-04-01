@@ -26,7 +26,7 @@ Cho dãy số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub>. Hãy c
 - 50% số test có n ≤ 1000.
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
 
-
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl001)
 
 # Chọn 2 số để tích lớn nhất
 
@@ -58,6 +58,8 @@ In ra tích của cách chọn 2 số nguyên sao cho tích của chúng là l�
 
 - 50% số test có n ≤ 1000.
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl002)
 
 # Chọn 3 số để tích lớn nhất
 
@@ -91,6 +93,8 @@ In ra tích của cách chọn 3 số nguyên sao cho tích của chúng là l�
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
 
 
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl003)
+
 # Chọn 4 số để tích lớn nhất
 
 Cho dãy số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub>. Hãy chọn 4 số nguyên trong dãy sao cho tích của chúng là lớn nhất.
@@ -123,6 +127,8 @@ In ra tích của cách chọn 4 số nguyên sao cho tích của chúng là l�
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
 
 
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl004)
+
 # Chọn 5 số để tích lớn nhất
 
 Cho dãy số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub>. Hãy chọn 5 số nguyên trong dãy sao cho tích của chúng là lớn nhất.
@@ -149,6 +155,8 @@ In ra tích của cách chọn 4 số nguyên sao cho tích của chúng là l�
 - 50% số test có n ≤ 100.
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
 
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl005)
+
 # Mua hàng siêu thị
 
 Trong một siêu thị có n mặt hàng, mỗi mặt hàng có giá là a<sub>i</sub>. Bạn có m tiền. Hãy chọn ra nhiều mặt hàng nhất có thể mà không vượt quá số tiền m. Hãy in ra số mặt hàng bạn có thể mua được.
@@ -173,6 +181,8 @@ In ra số mặt hàng bạn có thể mua được.
 - 50% số test có n ≤ 1000.
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
 
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl006)
 
 # Vận chuyển hàng hóa
 
@@ -203,6 +213,8 @@ Chỉ cần di chuyển 2 container, đã có đủ số lượng hàng hóa là
 - 50% số test có n ≤ 1000.
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
 
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl007)
+
 # Xoá K chữ số trong số nguyên dương để được số lớn nhất
 
 Cho một số nguyên dương n và một số nguyên dương k. Bạn cần xoá đúng k chữ số trong n sao cho số còn lại là lớn nhất có thể (không thay đổi thứ tự của các chữ số, chỉ được xoá). Hãy in ra số còn lại.
@@ -232,6 +244,8 @@ In ra số còn lại sau khi xoá k chữ số trong n.
 
 - 50% số test có n ≤ 10<sup>6</sup>.
 - 50% còn lại số test có n ≤ 10<sup>100</sup>.
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl008)
 
 # Xoá K chữ số trong số nguyên dương để được số nhỏ nhất
 
@@ -264,3 +278,5 @@ In ra số còn lại sau khi xoá k chữ số trong n. Lưu ý là số còn l
 |**Đầu vào** | **Đầu ra** |
 |:--|:--|
 | 910710<br>3 | 10 |
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl009)
