@@ -198,3 +198,179 @@ Cho một số tự nhiên **n**. Bạn có thể xáo trộn các chữ số c�
 Nếu là học viên có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_digit007)
 
 
+# Xoá ít chữ số nhất để thành số chia hết cho 5
+
+Cho một số tự nhiên **n**. Hãy xóa ít chữ số nhất để số còn lại chia hết cho 5. (Không được sắp xếp lại các chữ số, không được xoá hết các chữ số).
+
+Nếu không thể xóa được chữ số nào để số còn lại chia hết cho 5 thì in ra -1.
+
+**Đầu vào:**
+
+- Số tự nhiên **n** (0 ≤ n ≤ 10<sup>100000</sup>).
+
+**Đầu ra:**
+
+- Số chữ số ít nhất cần xóa để số còn lại chia hết cho 5.
+- Nếu không thể xóa được chữ số nào để số còn lại chia hết cho 5 thì in ra -1.
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 345902 | 34590|
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 123 | -1 |
+
+# Sắp xếp để tạo số lớn nhất chia hết cho 5
+
+Cho một số tự nhiên **n**. Hãy sắp xếp các chữ số của số **n** để tạo ra số lớn nhất chia hết cho 5.
+
+Nếu không thể tạo ra số nào chia hết cho 5 thì in ra -1.
+
+**Đầu vào:**
+
+- Số tự nhiên **n** (0 ≤ n ≤ 10<sup>100000</sup>).
+
+**Đầu ra:**
+
+- Số lớn nhất chia hết cho 5 có thể tạo ra từ số **n**.
+- Nếu không thể tạo ra số nào chia hết cho 5 thì in ra -1.
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 345902 | 954320 |
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 12359 | 93215 |
+
+**Ví dụ 3:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 123 | -1 |
+
+# Sắp xếp để tạo số nhỏ nhất chia hết cho 5
+
+Cho một số tự nhiên **n**. Hãy sắp xếp các chữ số của số **n** để tạo ra số nhỏ nhất chia hết cho 5. Không được sắp xếp số 0 ở đầu.
+
+Nếu không thể tạo ra số nào chia hết cho 5 thì in ra -1.
+
+**Đầu vào:**
+
+- Số tự nhiên **n** (0 ≤ n ≤ 10<sup>100000</sup>).
+
+**Đầu ra:**
+
+- Số nhỏ nhất chia hết cho 5 có thể tạo ra từ số **n**.
+- Nếu không thể tạo ra số nào chia hết cho 5 thì in ra -1.
+- Không có những số 0 vô nghĩa ở đầu.
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 345902 | 203495 |
+
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 123 | -1 |
+
+# Kiểm tra số chia hết cho 3
+
+Cho một số tự nhiên **n**. Hãy kiểm tra xem số **n** có chia hết cho 3 hay không.
+
+**Đầu vào:**
+
+- Số tự nhiên **n** (0 ≤ n ≤ 10<sup>100000</sup>).
+
+**Đầu ra:**
+
+- In ra "YES" nếu số **n** chia hết cho 3, ngược lại in ra "NO".
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 12 | YES |
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 10 | NO |
+
+# Chèn 1 chữ số để tạo số chia hết cho 3 bé nhất
+
+Cho một số tự nhiên **n**. Bạn được phép chèn đúng 1 chữ số vào số **n** để tạo ra số chia hết cho 3 bé nhất có thể.
+
+*Lưu ý:* Bạn không được sắp xếp lại các chữ số của số **n**.
+
+**Đầu vào:**
+
+- Số tự nhiên **n** (1 ≤ n ≤ 10<sup>100000</sup>).
+
+**Đầu ra:**
+
+- Số bé nhất chia hết cho 3 có thể tạo ra từ số **n** bằng cách chèn đúng 1 chữ số vào số **n**.
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 13 | 123 |
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 10 | 102 |
+
+
+**Ví dụ 3:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 15 | 15 |
+
+# Chèn 1 chữ số để tạo số chia hết cho 3 lớn nhất
+
+Cho một số tự nhiên **n**. Bạn được phép chèn đúng 1 chữ số vào số **n** để tạo ra số chia hết cho 3 lớn nhất có thể.
+
+**Lưu ý:* Bạn không được sắp xếp lại các chữ số của số **n**.
+
+**Đầu vào:**
+
+- Số tự nhiên **n** (1 ≤ n ≤ 10<sup>100000</sup>).
+
+**Đầu ra:**
+
+- Số lớn nhất chia hết cho 3 có thể tạo ra từ số **n** bằng cách chèn đúng 1 chữ số vào số **n**.
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 13 | 813 |
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 92 | 972 |
+
+
+
+
+
