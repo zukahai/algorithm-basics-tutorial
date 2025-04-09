@@ -1,12 +1,24 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+long long mod = 1000000007;
 
-int convert(string s) {
-    int sum = 0;
-    for (int i = 0; i < s.size(); i++)
-        sum = sum * 10 + (s[i] - '0');
-    return sum;
+unordered_map <long long, long long> cache;
+
+
+long long fibo(long long n) {
+    if (n == 1 || n == 2)
+        return 1;
+    if (cache.find(n) != cache.end())
+        return cache[n];
+    long long k = n / 2;
+    if (n % 2 == 0) {
+        cache[n] = (fibo(k) * (fibo(k - 1) + fibo(k + 1))) % mod;
+        return cache[n];
+    } else {
+        cache[n] = (fibo(k) * fibo(k) +  fibo(k + 1) * fibo(k + 1)) % mod ;
+        return cache[n];
+    }
 }
 
 int main() {
@@ -20,25 +32,7 @@ int main() {
     #endif
 
     // Chương trình chính
-    string s;
-    getline(cin, s);
-    s = s + ' ';
-    string p = "";
-    long long sum = 0;
-    int ch = 1;
-    for (int i = 0; i < s.size(); i++) {
-        if (s[i] >= '0' && s[i] <= '9') {
-            p = p + s[i];
-        } else {
-            sum += convert(p) * ch;
-            p = "";
-            if (s[i] == '+')
-                ch = 1;
-            else
-                ch = -1;
-
-        }
-    }
-    cout << sum;
-   
+    long long n;
+    cin >> n;
+    cout << fibo(n);
 }
