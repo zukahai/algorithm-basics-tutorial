@@ -1,25 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-long long mod = 1000000007;
-
-unordered_map <long long, long long> cache;
-
-
-long long fibo(long long n) {
-    if (n == 1 || n == 2)
-        return 1;
-    if (cache.find(n) != cache.end())
-        return cache[n];
-    long long k = n / 2;
-    if (n % 2 == 0) {
-        cache[n] = (fibo(k) * (fibo(k - 1) + fibo(k + 1))) % mod;
-        return cache[n];
-    } else {
-        cache[n] = (fibo(k) * fibo(k) +  fibo(k + 1) * fibo(k + 1)) % mod ;
-        return cache[n];
-    }
-}
 
 int main() {
     // Nhập xuất nhanh
@@ -32,7 +13,22 @@ int main() {
     #endif
 
     // Chương trình chính
-    long long n;
+    int n, q;
     cin >> n;
-    cout << fibo(n);
+    vector<int> a(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> a[i];
+    }
+
+    cin >> q;
+    while(q--) {
+        int l, r;
+        cin >> l >> r;
+        long long sum = 0;
+        for (int i = l; i <= r; i++) {
+            sum += a[i];
+        }
+        cout << sum << endl;
+    }
+
 }

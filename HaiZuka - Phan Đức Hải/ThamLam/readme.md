@@ -157,6 +157,38 @@ In ra tích của cách chọn 4 số nguyên sao cho tích của chúng là l�
 
 Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl005)
 
+# Trò chơi bập bênh
+
+Trò bập bênh là một trò chơi dân gian rất phổ biến ở Việt Nam. Trò chơi này có thể có nhiều người chơi, mỗi người chơi đứng trên một bập bênh và cố gắng đẩy bập bênh của mình cao hơn so với bập bênh của người khác.
+
+Nếu 2 bên của bập bênh có tổng cân nặng bằng nhau, bập bênh sẽ cân bằng và không di chuyển. 
+
+Có 4 người tham gia trò chơi bập bênh, mỗi người đứng trên một bập bênh. Cân nặng của họ có cân nặng lần lượt là **A**, **B**, **C**, **D**. Hãy xác định xem có cách nào xếp 4 người chơi sao cho bập bênh ở trạng thái cân bằng không.
+
+**Đầu vào**
+
+- 4 số nguyên **A**, **B**, **C**, **D** (1 ≤ **A** ≤ **B** ≤ **C** ≤ **D** ≤ 100): cân nặng của 4 người chơi.
+
+**Đầu ra**
+
+- In ra "YES" nếu có cách xếp sao cho bập bênh cân bằng, ngược lại in ra "NO".
+
+**Ví dụ 1**
+
+| Đầu vào | Đầu ra |
+|:--- | :--- |
+| 1 2 3 4 | YES |
+
+Có thể xếp như sau: 1 và 4 ở một bên, 2 và 3 ở một bên.
+
+**Ví dụ 2**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 1 2 3 5 | NO |
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_cpp01_03)
+
 # Mua hàng siêu thị
 
 Trong một siêu thị có n mặt hàng, mỗi mặt hàng có giá là a<sub>i</sub>. Bạn có m tiền. Hãy chọn ra nhiều mặt hàng nhất có thể mà không vượt quá số tiền m. Hãy in ra số mặt hàng bạn có thể mua được.
@@ -280,3 +312,35 @@ In ra số còn lại sau khi xoá k chữ số trong n. Lưu ý là số còn l
 | 910710<br>3 | 10 |
 
 Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl009)
+
+# Chọn K số để tích lớn nhất
+
+Cho dãy số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub>. Hãy chọn K số nguyên trong dãy sao cho tích của chúng là lớn nhất.
+
+***Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n và k (2 ≤ k ≤ n ≤ 10<sup>6</sup>).
+
+- Dòng thứ hai là n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (-10<sup>9</sup> ≤ a<sub>i</sub> ≤ 10<sup>9</sup>).
+
+**Đầu ra**
+
+Do tích của K số nguyên có thể rất lớn, nên bạn chỉ cần in ra tổng của K số nguyên đó.
+
+**Ví dụ:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 12 7<br>-10 -5 -4 -3 -1 1 1 2 3 3 4 4 | -11 |
+
+7 số được chọn để tích lớn nhất là: -10 -5 -4 -3 3 4 4
+
+Tổng của 7 số này là: -10 + -5 + -4 + -3 + 3 + 4 + 4 = -11
+
+
+**Giới hạn**
+
+- 50% số test có n ≤ 1000.
+- 50% còn lại số test có n ≤ 10<sup>6</sup>.
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl010)
