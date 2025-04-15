@@ -13,22 +13,25 @@ int main() {
     #endif
 
     // Chương trình chính
-    int n, q;
-    cin >> n;
-    vector<int> a(n + 1);
-    for (int i = 1; i <= n; i++) {
+    
+    int n;
+    long long k;
+    cin >> n >> k;
+    vector <int> a(n + 1);
+    vector <long long> prefix(n + 1);
+    for (int i = 1; i <= n; i++) 
         cin >> a[i];
-    }
+    prefix[0] = 0;
+    for(int i = 1; i <= n; i++)
+        prefix[i] = prefix[i - 1] + a[i];
+    
+    unordered_map <long long, int> cnt;
 
-    cin >> q;
-    while(q--) {
-        int l, r;
-        cin >> l >> r;
-        long long sum = 0;
-        for (int i = l; i <= r; i++) {
-            sum += a[i];
-        }
-        cout << sum << endl;
+    long long res = 0;
+    for (int i = 0; i <= n; i++) {
+        res += cnt[prefix[i] - k];
+        cnt[prefix[i]] ++;
     }
-
+    cout << res;
+    
 }
