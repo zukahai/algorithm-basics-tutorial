@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int prefix[100007][11];
+
 int main() {
     // Nhập xuất nhanh
     ios_base::sync_with_stdio(0);
@@ -13,25 +15,42 @@ int main() {
     #endif
 
     // Chương trình chính
-    
     int n;
-    long long k;
-    cin >> n >> k;
+    cin >> n;
     vector <int> a(n + 1);
-    vector <long long> prefix(n + 1);
-    for (int i = 1; i <= n; i++) 
+    for (int i = 1; i <= n; i++)
         cin >> a[i];
-    prefix[0] = 0;
-    for(int i = 1; i <= n; i++)
-        prefix[i] = prefix[i - 1] + a[i];
-    
-    unordered_map <long long, int> cnt;
 
-    long long res = 0;
-    for (int i = 0; i <= n; i++) {
-        res += cnt[prefix[i] - k];
-        cnt[prefix[i]] ++;
+    for (int x = 0; x <= 10; x++)
+        prefix[0][x] = 0;
+
+    for (int i = 1; i <= n; i++) {
+        for (int x = 0; x <= 10; x++)
+            prefix[i][x] = prefix[i - 1][x];
+        prefix[i][a[i]] ++;
     }
-    cout << res;
+
+    // for (int x = 0; x <= 10; x++) {
+    //     cout << x << " : ";
+    //     for (int i = 0; i <= n; i++) {
+    //         cout << prefix[i][x] << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    int q, l, r;
+    cin >> q;
+    while(q--) {
+        cin >> l >> r;
+        int maxCnt = 0, res = 0;
+        for (int x = 0; x <= 10; x++) {
+            int cntX = prefix[r][x] - prefix[l - 1][x];
+            if (cntX >= maxCnt) {
+                maxCnt = cntX;
+                res = x;
+            }
+        }
+        cout << res << endl;
+    }
     
 }
