@@ -10,6 +10,7 @@ vector<int> a(5); // Khai báo vector có 5 phần tử, mặc định là 0
 vector<int> a(5, 1); // Khai báo vector có 5 phần tử, mặc định là 1
 vector<int> a = {1, 2, 3}; // Khai báo vector có 3 phần tử, lần lượt là 1, 2, 3
 vector<int> a = {1, 2, 3, 4, 5}; // Khai báo vector có 5 phần tử, lần lượt là 1, 2, 3, 4, 5
+```
 
 ## 2. Hàm size()
 
@@ -219,7 +220,7 @@ using namespace std;
 
 int main() {
     vector<int> a = {1, 2, 3, 4, 5};
-    iterator it = find(a.begin(), a.end(), 3); // Tìm kiếm phần tử 3 trong vector
+    vector<int>::iterator it = find(a.begin(), a.end(), 3); // Tìm kiếm phần tử 3 trong vector
    
     if (it != a.end()) {
         cout << "Tim thay phan tu: " << *it; // In ra Tim thay phan tu: 3
@@ -228,6 +229,7 @@ int main() {
     }
     return 0;
 }
+```
 
 ## 12. Hàm max_element()
 Hàm max_element() dùng để tìm phần tử lớn nhất trong vector.
@@ -241,7 +243,7 @@ using namespace std;
 
 int main() {
     vector<int> a = {1, 2, 3, 4, 5};
-    iterator it = max_element(a.begin(), a.end()); // Tìm phần tử lớn nhất trong vector
+    vector<int>::iterator it = max_element(a.begin(), a.end()); // Tìm phần tử lớn nhất trong vector
    
     cout << "Phan tu lon nhat: " << *it; // In ra Phan tu lon nhat: 5
     return 0;
@@ -263,7 +265,7 @@ using namespace std;
 
 int main() {
     vector<int> a = {1, 2, 3, 4, 5};
-    iterator it = min_element(a.begin(), a.end()); // Tìm phần tử nhỏ nhất trong vector
+    vector<int>::iterator it = min_element(a.begin(), a.end()); // Tìm phần tử nhỏ nhất trong vector
    
     cout << "Phan tu nho nhat: " << *it; // In ra Phan tu nho nhat: 1
     return 0;

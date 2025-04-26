@@ -197,4 +197,64 @@ Cho một số tự nhiên **n**. Bạn có thể xáo trộn các chữ số c�
 
 Nếu là học viên có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_digit007)
 
+# Kiểm tra số amstrong
+
+Số amstrong là số mà tổng các chữ số của nó lũy thừa với số chữ số của nó bằng chính nó. 
+
+- Ví dụ: 153 = 1<sup>3</sup> + 5<sup>3</sup> + 3<sup>3</sup>.
+- Ví dụ: 9474 = 9<sup>4</sup> + 4<sup>4</sup> + 7<sup>4</sup> + 4<sup>4</sup>.
+
+Cho một số tự nhiên **n**. Hãy kiểm tra xem số **n** có phải là số amstrong hay không. Nếu có thì in ra "YES", ngược lại in ra "NO".
+
+**Đầu vào:**
+
+- Số tự nhiên **n** (0 ≤ n ≤ 10<sup>9</sup>).
+
+**Đầu ra:**
+
+- In ra "YES" nếu số **n** là số amstrong, ngược lại in ra "NO".
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 153 | YES |
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+|1234 | NO |
+
+Nếu là học viên có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_digit008)
+
+
+# Kiểm tra số MH
+
+Số MH là số mà tổng các chữ số của nó luỹ thừa với vị trí của nó bằng chính nó.
+
+- Ví dụ: 2427 = 2<sup>1</sup> + 4<sup>2</sup> + 2<sup>3</sup> + 7<sup>4</sup>.
+
+Cho một số tự nhiên **n**. Hãy kiểm tra xem số **n** có phải là số MH hay không. Nếu có thì in ra "YES", ngược lại in ra "NO".
+
+**Đầu vào:**
+- Số tự nhiên **n** (0 ≤ n ≤ 10<sup>9</sup>).
+
+**Đầu ra:**
+- In ra "YES" nếu số **n** là số MH, ngược lại in ra "NO".
+
+**Ví dụ 1:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 2427 | YES |
+
+**Ví dụ 2:**
+
+| Đầu vào | Đầu ra |
+| :--- | :--- |
+| 1234 | NO |
+
+Nếu là học viên có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_digit009)
+
 
