@@ -209,3 +209,125 @@ Cho dãy b, hãy khôi phục lại dãy a ban đầu
 |Đầu vào|Đầu ra|
 |:---|:---|
 |5<br> 5 3 1 2 4|1 2 3 4 5|
+
+# Kệ sách của Quang Tân
+
+Quang Tân là một sinh viên đam vê công nghệ, ngoài những giờ ngồi học tập, anh ấy còn thích đọc sách. Anh ấy có một kệ sách với **m** tầng, mỗi tầng có số ô sách là **n**. Mỗi ô sách có thể chứa một số quyển sách nhất định theo cùng một thể loại. Ô sách ở tầng thứ **i** và ô sách thứ **j** có số lượng sách là **a[i][j]**.
+
+Quang Tân đang lập ra một kế hoạch trong 1 tháng sẽ được hết số sách trong 1 ô sách. Để dễ dàng thực hiện thử thách này, anh ấy muốn sắp xếp các ô sách theo thứ tự không giảm theo số lượng sách trong mỗi ô, theo thứ tự từ trên xuống dưới và từ trái sang phải.
+
+**Đầu vào:**
+
+- Dòng đầu tiên là số nguyên dương **m** và **n** (1 ≤ m, n ≤ 1000), là kích thước của kệ sách.
+- Trong **m** dòng tiếp theo, mỗi dòng chứa **n** số nguyên dương **a<sub>i</sub>** (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>), là số lượng sách trong mỗi ô sách.
+
+**Đầu ra:**
+
+- In ra kệ sách đã được sắp xếp theo thứ tự không giảm. 
+
+**Ví dụ:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|3 4<br>6 10 7 1<br>3 12 11 9<br>5 2 4 8|1 2 3 4<br>5 6 7 8<br>9 10 11 12|
+
+# Sắp xếp lại kệ sách
+
+Trong phần trước, Quang Tân đã sắp xếp kệ sách của mình theo thứ tự không giảm. Tuy nhiên, sau một thời gian sử dụng, anh ấy nhận ra có một số ô sách đã bị hỏng và không thể chứa sách được nữa. Anh ấy muốn sắp xếp lại kệ sách của mình theo thứ tự không giảm, nhưng chỉ sắp xếp những ô sách còn nguyên vẹn. **a[i][j]** là số lượng sách trong ô sách ở tầng thứ **i** và ô sách thứ **j**. Nếu ô sách bị hỏng thì **a[i][j] = -1**.
+
+**Đầu vào:**
+
+- Dòng đầu tiên là số nguyên dương **m** và **n** (1 ≤ m, n ≤ 1000), là kích thước của kệ sách.
+- Trong **m** dòng tiếp theo, mỗi dòng chứa **n** số nguyên **a<sub>i</sub>** (a<sub>i</sub> = -1 nếu ô sách bị hỏng, 1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>), là số lượng sách trong mỗi ô sách.
+**Đầu ra:**
+- In ra kệ sách đã được sắp xếp theo thứ tự không giảm, chỉ sắp xếp những ô sách còn nguyên vẹn. Các ô sách bị hỏng sẽ được giữ nguyên vị trí.
+
+**Ví dụ:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|3 4<br>6 10 -1 1<br>3 9 7 -1<br>5 2 4 8|1 2 -1 3<br>4 5 6 -1<br>7 8 9 10|
+
+# Ngày sinh của Gia Kiệt
+
+Gia kiệt là một học sinh chăm chỉ trong lớp thuật toán của thầy Hải. Ngày sinh của Gia Kiệt là ngày 28 tháng 9 năm 2008 nên cậu rất thích những con số được tạo thành từ những số 2, 8, 9. 
+
+Cho một danh sách các số nguyên dương **a** gồm **n** phần tử. Hãy sắp xếp những số mà Gia Kiệt thích lên đầu danh sách theo thứ tự tăng dần. Các số còn lại sẽ sắp xếp ở cuối theo thứ tự giảm dần.
+
+**Đầu vào:**
+
+- Dòng đầu tiên là số nguyên dương **n** (1 ≤ n ≤ 10<sup>5</sup>)
+- Dòng thứ hai là **n** số nguyên dương **a<sub>i</sub>** (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>)
+
+**Đầu ra:**
+
+- In ra danh sách các số đã được sắp xếp theo yêu cầu.
+
+**Ví dụ:**
+|Đầu vào|Đầu ra|
+|:---|:---|
+|8<br> 2 8 89 22 123 826 92 9 |2 8 9 22 89 92 826 123|
+
+# Mục tiêu của Hải Thành
+
+Hải Thành là một học viên vừa tham gia lớp về thuật toán của thầy Hải. Trong lớp học. Sau khi trao đổi thì thầy Hải biết được Hải Thành có mục tiệu học thuật toán để tham gia các cuộc lập trình thi đấu. Cậu luôn muốn mỗi ngày sẽ có thể học thêm một số kiến thức mới, phát triển hơn so với ngày hôm qua.
+
+Hải Thành rất có thiện cảm với những con số như mục tiêu của cậu, những con số có những chữ số tăng dần, chữ số sau sẽ lớn hơn các chữ số trước đó, ví dụ như 123, 2567, 139, 126789,... là những số mà tăng dần mà Hải Thành thích.
+
+Cho một danh sách các số nguyên dương **a** gồm **n** phần tử. Hãy tìm số lớn nhất trong danh sách mà có các chữ số tăng dần. Nếu không có thì in ra -1.
+
+**Đầu vào:**
+
+- Dòng đầu tiên là số nguyên dương **n** (1 ≤ n ≤ 10<sup>5</sup>)
+- Dòng thứ hai là **n** số nguyên dương **a<sub>i</sub>** (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>)
+
+**Đầu ra:**
+
+- In ra số lớn nhất trong danh sách mà có các chữ số tăng dần. Nếu không có thì in ra -1.
+
+**Ví dụ 1:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|5<br> 123 2567 139 123451 4569|4569|
+
+**Ví dụ 2:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|5<br> 121 222 3139 623451 7569|-1|
+
+# Rạp chiếu phim Thế Dũng
+
+Thế Dũng là một học sinh đam mê thuật toán, công nghệ và thích xem phim. Sau nhiều năm cố gắng, cậu đã có thể mở một rạp chiếu phim nhỏ. Hiện đang có **n** suất chiếu phim trong ngày, mỗi suất chiếu sẽ bắt đầu vào lúc **a<sub>i</sub>** và kết thúc lúc **b<sub>i</sub>**. (a<sub>i</sub> < b<sub>i</sub>)
+
+Hai suất phim có thể không bị trùng nhau nếu nhưng suất phim trước kết thúc trước suất phim sau bắt đầu. Ví dụ: suất phim 1 bắt đầu lúc 10 đến 15, suất phim 2 bắt đầu lúc 16 đến 20 thì hai suất phim này không bị trùng nhau. Còn nếu suất phim 1 bắt đầu lúc 10 đến 15, suất phim 2 bắt đầu lúc 15 đến 20 thì hai suất phim này bị trùng nhau ở thời điểm 15.
+
+Thế Dũng cần kiểm tra xem **n** suất chiếu phim có bị trùng nhau hay không. Nếu không suất chiếu nào bị trùng nhau thì in ra "YES", nếu có suất chiếu nào bị trùng nhau thì in ra "NO".
+
+**Đầu vào:**
+
+- Dòng đầu tiên là số nguyên dương **n** (1 ≤ n ≤ 10<sup>5</sup>)
+- Dòng thứ hai là **n** cặp số nguyên dương **a<sub>i</sub> b<sub>i</sub>** (1 ≤ a<sub>i</sub> < b<sub>i</sub> ≤ 10<sup>9</sup>), là thời gian bắt đầu và kết thúc của mỗi suất chiếu phim.
+
+**Đầu ra:**
+
+- In ra "YES" nếu không suất chiếu nào bị trùng nhau, in ra "NO" nếu có suất chiếu nào bị trùng nhau.
+
+**Ví dụ 1:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|3<br> 22 25<br>10 15<br> 16 20<br>|YES|
+
+**Giải thích:**
+Trong ví dụ này, các suất chiếu phim là:
+- Suất 1: 10 đến 15
+- Suất 2: 16 đến 20
+- Suất 3: 22 đến 25
+
+**Ví dụ 2:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|3<br> 22 25<br>10 15<br> 15 20<br>|NO|

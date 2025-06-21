@@ -63,3 +63,22 @@ Ví dụ **M = 4, N = 5**:
 |Đầu vào|Đầu ra|
 |:---|:---|
 |4 5|1 2 3 4 5<br>14 15 16 17 6<br>13 20 19 18 7<br>12 11 10 9 8|
+
+# Số chính phương nhỏ nhất chia hết các số trong dãy
+
+Cho một dãy số nguyên dương, hay tìm một số chính phương nhỏ nhất chia hết cho tất cả các số trong dãy. Kết quả có thể rất lớn, hãy chỉ ra kết quả modulo 10<sup>9</sup> + 7.
+
+**Đầu vào**:
+
+- Dòng đầu tiên là số nguyên dương **N** (1 ≤ N ≤ 10<sup>5</sup>)
+- Dòng thứ hai là **N** số nguyên dương **A<sub>i</sub>** (1 ≤ A<sub>i</sub> ≤ 10<sup>9</sup>)
+
+**Đầu ra**:
+
+- Một số nguyên dương là số chính phương nhỏ nhất chia hết cho tất cả các số trong dãy, modulo 10<sup>9</sup> + 7.
+
+**Ví dụ**:
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|4<br> 5 4 12 10|900|

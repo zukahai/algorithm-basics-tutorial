@@ -344,3 +344,318 @@ Tổng của 7 số này là: -10 + -5 + -4 + -3 + 3 + 4 + 4 = -11
 - 50% còn lại số test có n ≤ 10<sup>6</sup>.
 
 Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl010)
+
+# Chọn 2 số khác nhau để tổng lớn nhất
+
+Cho dãy số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub>. Hãy chọn 3 số nguyên **khác nhau** trong dãy sao cho tổng của chúng là lớn nhất.
+
+Đề bài đảm bảo rằng luôn có 2 số khác nhau trong dãy.
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n (2 ≤ n ≤ 10<sup>6</sup>).
+- Dòng thứ hai là n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>).
+
+**Đầu ra**
+
+In ra tổng của cách chọn 2 số nguyên khác nhau sao cho tổng của chúng là lớn nhất.
+
+**Ví dụ**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 5<br>1 5 5 4 3 | 10 |
+
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl011)
+
+# Tiếp tế quân nhu
+
+Trong dịp 30 tháng 4. Một cựu chiến binh đã tổ chức một buổi tiệc lớn. Ông đã mời rất nhiều bạn bè đến tham dự. Trong lúc vui vẻ, ông kể về những kỷ niệm của mình trong thời kỳ kháng chiến chống Mỹ. Ông đã kể về những chuyến đi tiếp tế quân nhu cho các đồng đội của mình, và cũng có một bài toán thú vị về việc tiếp tế quân nhu mà ông đã gặp phải trong thời kỳ kháng chiến chống Mỹ. Trên quãng đường từ 1 đến n, có những trạm xăng, ông có thể dừng lại để đổ xăng. Với lượng xăng là **x**, ông có thể đi được **x** km. Có **m** trạm xăng, mỗi trạm xăng ở vị trí **p**<sub>i</sub>, luôn có trạm xăng ở vị trí 1. 
+
+Ông có thể cần đổ xăng rất nhiều lần. Gọi **K** là số xăng lớn nhất mà ông phải đổ. Hãy tìm giá trị nhỏ nhất của **K**.
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n (1 ≤ n ≤ 10<sup>9</sup>) và m (1 ≤ m ≤ 10<sup>6</sup>).
+- Dòng thứ hai là m số nguyên dương p<sub>0</sub>, p<sub>1</sub>, ..., p<sub>m-1</sub> (1 ≤ p<sub>i</sub> ≤ n). Không có 2 số nào giống nhau.
+
+**Đầu ra**
+
+In ra giá trị nhỏ nhất của K.
+
+**Ví dụ 1**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 10 4<br>1 2 5 9 | 4 |
+
+**Giải thích:**
+
+- Ở trạm xăng 1, ông đổ 4 lít, có thể đi được đến 5.
+- Ở trạm xăng 5, ông đổ 4 lít, có thể đi được đến 9.
+- Ở trạm xăng 9, ông đổ 1 lít, có thể đi được đến 10.
+
+4 lít là số xăng lớn nhất mà ông phải đổ.
+
+**Ví dụ 2**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 10<br>4<br>1 2 5 8 | 3 |
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl012)
+
+# Sửa chữa đường hành quân
+
+Một chiếc xe quân sự đang đi trên một con đường. Chiếc xe này có thể leo được lên những con dốc có độ dốc không quá **x**.
+Con đường này có n đoạn, mỗi đoạn có độ cao là **a**<sub>i</sub>. Nếu a[i] > a[i+1], thì xe sẽ di chuyển xuống dốc thoải mái. Nếu a[i] < a[i+1], thì xe sẽ di chuyển lên dốc, độ dốc là a[i+1] - a[i]. Nếu độ dốc lớn hơn **x**, thì xe không thể đi được. Để xem có thể di chuyển được cũng như tránh ngập lụt, người ta đã sẽ nâng cao độ cao của một số đoạn được. 
+
+Tính tổng độ cao tối thiểu mà người ta cần nâng cao để chiếc xe có thể đi được từ đầu đến cuối con đường. Biết rằng ban đầu xe luôn ở đoạn đường đầu tiên.
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n (1 ≤ n ≤ 10<sup>6</sup>) và x (1 ≤ x ≤ 10<sup>9</sup>).
+- Dòng thứ hai là n số nguyên dương a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>).
+
+**Đầu ra**
+
+In ra tổng độ cao tối thiểu mà người ta cần nâng cao để chiếc xe có thể đi được từ đầu đến cuối con đường.
+
+**Ví dụ 1:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 5 2<br>1 2 1 6 5 | 3|
+
+**Giải thích:**
+
+Vì xe không thể leo từ 1 lên 6 được. Cần nâng đoạn được thứ 3 lên 3 đơn vị, độ cao sau khi nâng là 1, 2, 4, 6, 5.
+
+**Ví dụ 2:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 5 2<br>1 4 1 6 7 | 4|
+
+Cần nâng đoạn được thứ 3 lên 3 đơn vị, nâng đoạn 1 lên 1 đơn vị. Dãy độ cao sau khi nâng là 2, 4, 4, 6, 7.
+
+**Ví dụ 3:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 5 2<br>1 1 2 4 7 | 2|
+
+Cần nâng đoạn được thứ 3 và 4 lên 1 đơn vị. Dãy độ cao sau khi nâng là 1, 1, 3, 5, 7.
+
+**Ví dụ 4:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 5 5<br>1 6 1 6 7 | 0|
+
+**Giải thích:**
+- Xe có thể đi được từ đầu đến cuối con đường mà không cần nâng đoạn nào cả.
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl013)
+
+# Số may mắn và số xui xẻo
+
+Người ta gọi một số xui xẻo khi trong số đó có chữ số 0. Ngược lại, nó được gọi là số may mắn khi trong số đó không có chữ số 0.
+
+Nhập vào một số nguyên dương **x**. Hãy tìm số tự nhiên **x** nhỏ nhất sao cho
+**n + x** là số may mắn
+
+**Đầu vào**
+
+- Một số nguyên dương n (0 ≤ n ≤ 10<sup>18</sup>).
+
+**Đầu ra**
+- In ra số tự nhiên x nhỏ nhất sao cho n + x là số may mắn.
+
+**Ví dụ 1:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 900 | 11 |
+
+900 + 11 = 911 không phải là số may mắn
+
+**Ví dụ 2:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 208 | 3 |
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl014)
+
+# Cắt giấy xếp hạc
+
+Để xếp được một con hạc giấy, người ta cần có 1 tờ giấy hình vuông kích thước **k** x **k**.
+Người ta có một tờ giấy hình chữ nhật kích thước **n** x **m**.
+Bạn có thể cắt giấy thành các tờ hình vuông kích thước **k** x **k**. Hãy tính xem người ta có thể xếp được tối đa bao nhiêu con hạc giấy.
+
+*Lưu ý: những phần giấy thừa không ghép lại được với nhau*
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n và m (1 ≤ n, m ≤ 10<sup>9</sup>).
+- Dòng thứ hai là số nguyên dương k (1 ≤ k ≤ 10<sup>9</sup>).
+
+**Đầu ra**
+
+- Một số nguyên dương là số lượng tối đa các tờ giấy hình vuông kích thước **k** x **k** có thể cắt ra từ tờ giấy hình chữ nhật kích thước **n** x **m**.   
+
+**Ví dụ:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 7 4<br>2 | 6 |
+
+**Giải thích:**
+
+Hình chữ nhật kích thước 7 x 4 có thể cắt được 6 tờ giấy hình vuông kích thước 2 x 2.
+
+![alt text](image.png)
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl015)
+
+# Trò chơi bắn súng
+
+Trong một trò chơi bắn súng, theo hình thức 100 người sẽ chia thành 25 đội, mỗi đội 4 người. Khi một người bị bắn, họ sẽ bị loại khỏi trò chơi, đội nào bị loại hết thì đội đó sẽ không còn người chơi nào nữa. Nếu một đội có tất cả người bị bắn, thì đội đó sẽ bị loại. Chỉ cần 1 người trong đội còn sống thì đội đó vẫn được xem như còn sống.
+
+Tại một thời điểm, ban tổ chức chỉ biết được rằng hiện đang có **n** người còn sống trong trò chơi, nhưng không biết được là có bao nhiêu đội còn sống.
+
+Ban tổ chức muốn biết tối đa và tối thiểu số đội còn sống trong trò chơi. Hãy giúp ban tổ chức tính toán.
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n (1 ≤ n ≤ 100</sup>).
+
+**Đầu ra**
+
+- In ra 2 số nguyên dương là số đội còn sống tối thiểu và tối đa trong trò chơi.
+
+**Ví dụ 1:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 3 | 1 3 |
+**Giải thích:**
+
+Hiện có 3 người còn sống, tối thiểu có 1 đội còn sống (đội đó có cả cả người). Tôi đa có 3 đội còn sống (mỗi đội có 1 người).
+
+**Ví dụ 2:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 11 | 4 11 |
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl016)
+
+# Số may mắn nhỏ nhất
+
+Một số là số may mắn nếu nó chỉ chứa các chữ số 4 và 7.
+
+Cho một số nguyên dương n. Hãy tìm số may mắn nhỏ nhất lớn hơn hoặc bằng n.
+
+**Đầu vào**
+
+- Một số nguyên dương n (1 ≤ n ≤ 10<sup>18</sup>).
+
+**Đầu ra**
+- In ra số may mắn nhỏ nhất lớn hơn hoặc bằng n.
+
+**Ví dụ 1:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 32 | 44 |
+
+**Ví dụ 2:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 69 | 74 |
+
+**Ví dụ 3:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 97 | 444 |
+
+**Giới hạn**
+- 50% số test có n ≤ 10<sup>6</sup>.
+- 50% còn lại số test có n ≤ 10<sup>18</sup>.
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl017)
+
+# Số may mắn lớn nhất
+
+Một số là số may mắn nếu nó chỉ chứa các chữ số 4 và 7.
+
+Cho một số nguyên dương n. Hãy tìm số may mắn lớn nhất nhỏ hơn hoặc bằng n.
+
+**Đầu vào**
+
+- Một số nguyên dương n (4 ≤ n ≤ 10<sup>18</sup>).
+
+**Đầu ra**
+- In ra số may mắn lớn nhất nhỏ hơn hoặc bằng n.
+
+**Ví dụ 1:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 52 | 47 |
+
+**Ví dụ 2:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 91 | 77 |
+
+**Ví dụ 3:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 123 | 77 |
+
+**Giới hạn**
+- 50% số test có n ≤ 10<sup>6</sup>.
+- 50% còn lại số test có n ≤ 10<sup>18</sup>.
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl018)
+
+# Búp bê Matryoshka
+
+Ở đất nước Nga có một loại búp bê truyền thống rất đẹp, được gọi là Matryoshka. Búp bê này có hình dạng như sau: búp bê lớn nhất bên ngoài, bên trong có một búp bê nhỏ hơn, và cứ thế cho đến khi búp bê nhỏ nhất không còn búp bê nào bên trong nữa.
+
+Trong một cuộc thi, người ta đã đưa ra một bài toán thú vị về búp bê Matryoshka. Người ta cho **N** búp bê Matryoshka, mỗi búp bê có kích thước là **a**<sub>i</sub>. Bạn hãy tạo thành một dãy búp bê Matryoshka có số lớp lớn nhất có thể. Số lớp chính là số búp bê có thể xếp vào nhau. Một búp bê có thể xếp vào trong một búp bê khác nếu kích thước của nó nhỏ hơn kích thước của búp bê đó.
+
+**Đầu vào**
+
+- Dòng đầu tiên là số nguyên dương n (1 ≤ n ≤ 10<sup>6</sup>).
+- Dòng thứ hai là n số nguyên dương a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>).
+
+**Đầu ra**
+
+In ra số lớp lớn nhất có thể tạo thành từ các búp bê Matryoshka.
+
+**Ví dụ 1:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 5<br>3 3 5 4 4 | 3 |
+
+**Giải thích:**
+
+- Búp bê nhiều lớp nhất có thể xếp sẽ có 3 lớp: Búp bê 3 sẽ xếp vào búp bê 4, búp bê 4 sẽ xếp vào búp bê 5. Lúc này 3 búp bên 3, 4, 5 sẽ tạo thành một dãy búp bê Matryoshka có số lớp lớn nhất là 3.
+
+**Ví dụ 2:**
+
+|**Đầu vào** | **Đầu ra** |
+|:--|:--|
+| 5<br>1 2 3 4 5 | 5 |
+
+Nếu là học viên, có thể nộp bài [Tại đây](https://oj.vnoi.info/problem/haizuka_tl019)
