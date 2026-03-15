@@ -160,4 +160,25 @@ Có 2 số trong dãy b xuất hiện trong dãy a là 1 và 3.
 - Có 70% số test có n, m ≤ 1000.
 - Có 30% số test khác có n, m ≤ 10<sup>6</sup>.
 
+# Tổng chia hết cho K
 
+Cho một dãy số nguyên, hãy tìm xem có bao nhiêu cặp số a<sub>i</sub>, a<sub>j</sub> sao cho a<sub>i</sub> + a<sub>j</sub> chia hết cho K. (i < j)
+
+**Đầu vào**
+
+Dòng đầu tiên chứa 2 số nguyên n và K (1 ≤ n ≤ 10<sup>6</sup>, 1 ≤ K ≤ 10<sup>9</sup>).
+
+Dòng thứ hai chứa n số nguyên a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n-1</sub> (0 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>).
+
+**Đầu ra**
+
+In ra số lượng cặp số thoã mãn.
+
+**Ví dụ**
+
+| Input | Output |
+| :--- | :--- |
+| 7 10 <br> 1 2 3 7 8 9 19 | 4 |
+
+Có 4 cặp số thoã màn đó là
+(1, 9), (2, 8), (3, 7), (1, 19)

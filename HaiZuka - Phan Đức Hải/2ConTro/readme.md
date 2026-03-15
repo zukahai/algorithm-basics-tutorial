@@ -153,3 +153,28 @@ Giải thích:
 |:---|:---|
 |abc| -1|
 
+# Kiểm tra chuỗi đối xứng
+
+Mỗi chuỗi đối xứng là một chuỗi mà khi đảo ngược lại thì vẫn giống như chuỗi ban đầu. Ví dụ: "abcba", "abba" là các chuỗi đối xứng, trong khi "abcde", "abbb" không phải là các chuỗi đối xứng.
+
+Cho một chuỗi S, hãy kiểm tra xem S có phải là chuỗi đối xứng hay không.
+
+**Đầu vào**:
+
+- Một chuỗi S gồm n ký tự (1 ≤ |S| ≤ 10<sup>6</sup>).
+
+**Đầu ra**:
+
+- Nếu S là chuỗi đối xứng thì in ra "YES", ngược lại in ra "NO".
+
+**Ví dụ 1**:
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|abcba| YES|
+
+**Ví dụ 2**:
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|abcde| NO|

@@ -6,7 +6,7 @@ main()
     srand(24022007);
     int start = 1;
     int testnum = 50;
-    string prob_name = "SoHoanHaoTu1DenN";
+    string prob_name = "CAU4";
 
     create_all_and_compile(prob_name, start, testnum);
     for(int i = start; i <= testnum; i ++)

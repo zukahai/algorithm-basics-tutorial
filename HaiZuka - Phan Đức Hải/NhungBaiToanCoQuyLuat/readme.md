@@ -82,3 +82,45 @@ Cho một dãy số nguyên dương, hay tìm một số chính phương nhỏ n
 |Đầu vào|Đầu ra|
 |:---|:---|
 |4<br> 5 4 12 10|900|
+
+# Bộ 3 số Pythagoras
+
+Cho một số nguyên dương **N**, hãy đếm bộ 3 số a, b, c sap cho
+
+- 1 ≤ a < b < c ≤ N
+- a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
+
+**Đầu vào**:
+
+Một số nguyên dương **N** (1 ≤ N ≤ 10<sup>8</sup>)
+
+**Đầu ra**:
+
+Một số nguyên dương là số lượng bộ 3 số thỏa mãn điều kiện trên.
+
+**Ví dụ 1:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|10|2|
+
+Giải thích: Các bộ 3 số Pythagoras thỏa mãn điều kiện là (3, 4, 5) và (6, 8, 10).
+
+**Ví dụ 2:**
+
+|Đầu vào|Đầu ra|
+|:---|:---|
+|13|3|
+
+Giải thích: Các bộ 3 số Pythagoras thỏa mãn điều kiện là (3, 4, 5), (6, 8, 10) và (5, 12, 13).
+
+**Giới hạn:**
+
+- 20% số điểm tương ứng: 1 ≤ N ≤ 10<sup>2</sup>
+- 30% số điểm tương ứng: 1 ≤ N ≤ 10<sup>4</sup>
+- 50% số điểm tương ứng: 1 ≤ N ≤ 10<sup>8</sup>
+
+---
+
+**Nếu bạn cần hỗ trợ, hãy liên hệ:**
+- Zalo Phan Đức Hải: [0961463407](https://zalo.me/0961463407)

@@ -1,0 +1,21 @@
+h1 {
+    color: #007bff;
+}
+
+a {
+    color: #0eeefa;
+}
+
+#modau, #tambiet, a {
+    color: rgb(85, 96, 248);
+    background-color: #0eeefa;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100px;
+    height: 200%;
+}
